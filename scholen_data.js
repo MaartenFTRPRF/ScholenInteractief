@@ -7,7 +7,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Noordlaan 51",
     "lat": 51.0330663,
-    "lon": 4.0949041
+    "lon": 4.0949041,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514756840",
@@ -17,7 +18,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Beekstraat 21",
     "lat": 50.81994,
-    "lon": 3.285
+    "lon": 3.285,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514839783",
@@ -27,7 +29,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hoogstraat 10",
     "lat": 50.8440408,
-    "lon": 3.6022438
+    "lon": 3.6022438,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6993834429",
@@ -36,8 +39,9 @@ var scholenData = [
     "Plaats": "GENK",
     "Type": "Klant",
     "Adres": "Collegelaan 1",
-    "lat": 50.9766605,
-    "lon": 5.5158769
+    "lat": 50.9745671,
+    "lon": 5.5180285,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "15435223255",
@@ -47,7 +51,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Nieuwstraat 91",
     "lat": 51.2210253,
-    "lon": 4.1303471
+    "lon": 4.1303471,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "12604898765",
@@ -57,7 +62,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Sainte-Adresseplein 12",
     "lat": 50.8381741,
-    "lon": 4.30526
+    "lon": 4.30526,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "11469681609",
@@ -67,7 +73,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Albertlaan 44",
     "lat": 50.8294368,
-    "lon": 4.5037033
+    "lon": 4.5037033,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "10456122358",
@@ -77,7 +84,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Mariastraat 7",
     "lat": 51.2057504,
-    "lon": 3.2237097
+    "lon": 3.2237097,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926058",
@@ -87,7 +95,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Breedstraat 152",
     "lat": 51.1645233,
-    "lon": 4.1664116
+    "lon": 4.1664116,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881997",
@@ -97,7 +106,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Polenplein 23",
     "lat": 50.9454077,
-    "lon": 3.1260184
+    "lon": 3.1260184,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819533",
@@ -107,7 +117,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Gravin Elisabethlaan 30",
     "lat": 51.402913,
-    "lon": 4.7547837
+    "lon": 4.7547837,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514756855",
@@ -117,7 +128,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Industrieweg 230",
     "lat": 51.0879501,
-    "lon": 3.670084
+    "lon": 3.670084,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514757072",
@@ -127,7 +139,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Spinneschoolstraat 10",
     "lat": 51.0651821,
-    "lon": 3.103641
+    "lon": 3.103641,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514839792",
@@ -137,7 +150,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Europalaan 10",
     "lat": 51.035978,
-    "lon": 5.7269363
+    "lon": 5.7269363,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881780",
@@ -147,7 +161,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gloriantlaan 60",
     "lat": 51.2257515,
-    "lon": 4.3848427
+    "lon": 4.3848427,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840049",
@@ -157,7 +172,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Veemarkt 56",
     "lat": 51.0299835,
-    "lon": 4.4847162
+    "lon": 4.4847162,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881733",
@@ -167,7 +183,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Zilverenberg 1",
     "lat": 51.0552911,
-    "lon": 3.7324035
+    "lon": 3.7324035,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881749",
@@ -177,7 +194,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Statiestraat 37",
     "lat": 50.871752,
-    "lon": 4.1717451
+    "lon": 4.1717451,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514903230",
@@ -187,7 +205,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Schaluin 28",
     "lat": 50.9896127,
-    "lon": 4.8401242
+    "lon": 4.8401242,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778104",
@@ -197,7 +216,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hasseltweg 383",
     "lat": 50.9551393,
-    "lon": 5.4267511
+    "lon": 5.4267511,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514839786",
@@ -207,7 +227,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Kasteellaan 18",
     "lat": 51.2984948,
-    "lon": 4.6901536
+    "lon": 4.6901536,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903028",
@@ -217,7 +238,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Dokter Jacobsstraat 67",
     "lat": 50.8339107,
-    "lon": 4.3026006
+    "lon": 4.3026006,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514797780",
@@ -227,7 +249,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Schapenstraat 39",
     "lat": 50.8149198,
-    "lon": 4.1673083
+    "lon": 4.1673083,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514819537",
@@ -237,7 +260,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Waversesteenweg 96",
     "lat": 50.7707499,
-    "lon": 4.5422541
+    "lon": 4.5422541,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514757077",
@@ -247,7 +271,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Melaan 16",
     "lat": 51.0287689,
-    "lon": 4.4745921
+    "lon": 4.4745921,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926299",
@@ -257,7 +282,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Graaf Karel de Goedelaan 7",
     "lat": 50.8248765,
-    "lon": 3.2481351
+    "lon": 3.2481351,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514757061",
@@ -267,7 +293,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gouverneur Verwilghensingel 3",
     "lat": 50.9371326,
-    "lon": 5.351645
+    "lon": 5.351645,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514778073",
@@ -277,7 +304,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Oude Molenstraat 13",
     "lat": 51.3038126,
-    "lon": 4.6885499
+    "lon": 4.6885499,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926041",
@@ -287,7 +315,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Bredabaan 25",
     "lat": 51.2727721,
-    "lon": 4.4699757
+    "lon": 4.4699757,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797757",
@@ -297,7 +326,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Industrielaan 31",
     "lat": 50.8255855,
-    "lon": 4.3107179
+    "lon": 4.3107179,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514903000",
@@ -307,7 +337,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Papiermolenstraat 103",
     "lat": 50.7685805,
-    "lon": 3.8691616
+    "lon": 3.8691616,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881520",
@@ -317,7 +348,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hasseltse dreef 115",
     "lat": 50.9185177,
-    "lon": 5.2491937
+    "lon": 5.2491937,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514902999",
@@ -327,7 +359,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Kempische steenweg 400",
     "lat": 50.9517646,
-    "lon": 5.3463538
+    "lon": 5.3463538,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514777845",
@@ -337,7 +370,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Martelaarslaan 13",
     "lat": 51.0460227,
-    "lon": 3.7121957
+    "lon": 3.7121957,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902759",
@@ -347,7 +381,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "de Bavaylei 116",
     "lat": 50.9351156,
-    "lon": 4.441966
+    "lon": 4.441966,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778064",
@@ -357,7 +392,8 @@ var scholenData = [
     "Type": "",
     "Adres": "KLUISSTRAAT 1",
     "lat": 50.7343009,
-    "lon": 4.2460291
+    "lon": 4.2460291,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514839767",
@@ -367,7 +403,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Voskenslaan 60",
     "lat": 51.0328388,
-    "lon": 3.7059818
+    "lon": 3.7059818,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926288",
@@ -377,7 +414,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Meerlaan 25",
     "lat": 50.8641218,
-    "lon": 3.8088307
+    "lon": 3.8088307,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778070",
@@ -387,7 +425,19 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Wollemarkt 36",
     "lat": 51.0298933,
-    "lon": 4.480261
+    "lon": 4.480261,
+    "Provincie": "Antwerpen"
+  },
+  {
+    "Record-ID": "6514902996",
+    "Naam onderneming": "Go! Atheneum Voskenslaan",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Gent",
+    "Type": "",
+    "Adres": "Voskenslaan 60",
+    "lat": 51.0328388,
+    "lon": 3.7059818,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514903026",
@@ -397,7 +447,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gilainstraat 70",
     "lat": 50.8102251,
-    "lon": 4.9359924
+    "lon": 4.9359924,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514839776",
@@ -407,7 +458,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Emiel Blangenoisstraat 2",
     "lat": 51.2572722,
-    "lon": 4.5041806
+    "lon": 4.5041806,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881729",
@@ -417,7 +469,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Redingenstraat 88",
     "lat": 50.8728889,
-    "lon": 4.6944883
+    "lon": 4.6944883,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "197906442442",
@@ -427,7 +480,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Pastoor Dergentlaan 47",
     "lat": 50.9889896,
-    "lon": 4.8364877
+    "lon": 4.8364877,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862580",
@@ -436,8 +490,9 @@ var scholenData = [
     "Plaats": "HERZELE",
     "Type": "",
     "Adres": "De Tramzate 9",
-    "lat": 50.8953073,
-    "lon": 3.8851744
+    "lat": 50.8923997,
+    "lon": 3.8888081,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797788",
@@ -447,7 +502,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Tiensevest 62",
     "lat": 50.8787871,
-    "lon": 4.7147149
+    "lon": 4.7147149,
+    "Provincie": "Vlaams-Brabant"
+  },
+  {
+    "Record-ID": "6514778300",
+    "Naam onderneming": "Gemeentelijk Technisch Instituut Beveren-Waas",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Beveren-Kruibeke-Zwijndrecht",
+    "Type": "",
+    "Adres": "Europalaan 1",
+    "lat": 51.2192119,
+    "lon": 4.2532849,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902995",
@@ -457,7 +524,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Don Boscolaan 30",
     "lat": 50.7913662,
-    "lon": 3.2463887
+    "lon": 3.2463887,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926044",
@@ -467,7 +535,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Salesianenlaan 1",
     "lat": 51.1746335,
-    "lon": 4.3687259
+    "lon": 4.3687259,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926028",
@@ -477,7 +546,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Brusselstraat 283",
     "lat": 50.8671179,
-    "lon": 4.2808745
+    "lon": 4.2808745,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881734",
@@ -486,8 +556,9 @@ var scholenData = [
     "Plaats": "Leuven",
     "Type": "",
     "Adres": "Mechelsevest 72 72",
-    "lat": 50.8869308,
-    "lon": 4.6884698
+    "lat": 50.8853417,
+    "lon": 4.6861824,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514926030",
@@ -497,7 +568,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gezelleplein 11",
     "lat": 50.8510409,
-    "lon": 2.8899628
+    "lon": 2.8899628,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "10456210124",
@@ -507,7 +579,8 @@ var scholenData = [
     "Type": "",
     "Adres": "collegelaan 36",
     "lat": 51.2127431,
-    "lon": 4.4520965
+    "lon": 4.4520965,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "10456561107",
@@ -517,7 +590,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kloosterstraat 72",
     "lat": 51.1760049,
-    "lon": 4.3567992
+    "lon": 4.3567992,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "271400754363",
@@ -527,7 +601,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Cardijnlaan 2",
     "lat": 51.0238686,
-    "lon": 2.8630041
+    "lon": 2.8630041,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "197906380001",
@@ -537,7 +612,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stationsstraat 74",
     "lat": 51.2228628,
-    "lon": 5.4368079
+    "lon": 5.4368079,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819531",
@@ -547,7 +623,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pieter Breugheldreef 4",
     "lat": 51.2410879,
-    "lon": 5.312418
+    "lon": 5.312418,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862779",
@@ -557,7 +634,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Toekomststraat 75",
     "lat": 50.885432,
-    "lon": 3.4202928
+    "lon": 3.4202928,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862547",
@@ -567,7 +645,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Langestraat 199",
     "lat": 51.2330066,
-    "lon": 4.6877767
+    "lon": 4.6877767,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797777",
@@ -577,7 +656,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Arme-Klarenstraat 40",
     "lat": 50.9443484,
-    "lon": 3.1187011
+    "lon": 3.1187011,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926301",
@@ -587,7 +667,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Leon Declercqstraat 1",
     "lat": 50.9872845,
-    "lon": 3.5312364
+    "lon": 3.5312364,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819306",
@@ -597,7 +678,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Gelmelstraat 62",
     "lat": 51.4029816,
-    "lon": 4.7700082
+    "lon": 4.7700082,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819284",
@@ -607,7 +689,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Karenveldstraat 23",
     "lat": 50.9678682,
-    "lon": 4.1815826
+    "lon": 4.1815826,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514757100",
@@ -617,7 +700,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Spoorwegstraat 14",
     "lat": 51.1909518,
-    "lon": 3.2182534
+    "lon": 3.2182534,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881978",
@@ -627,7 +711,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Heldenplein 6",
     "lat": 51.0007023,
-    "lon": 4.3040932
+    "lon": 4.3040932,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514926062",
@@ -636,8 +721,9 @@ var scholenData = [
     "Plaats": "TIENEN",
     "Type": "",
     "Adres": "Waaibergstraat 45",
-    "lat": 50.8112173,
-    "lon": 4.9400887
+    "lat": 50.81006,
+    "lon": 4.9381967,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514902978",
@@ -646,8 +732,9 @@ var scholenData = [
     "Plaats": "TIENEN",
     "Type": "",
     "Adres": "Waaibergstraat 45",
-    "lat": 50.8112173,
-    "lon": 4.9400887
+    "lat": 50.81006,
+    "lon": 4.9381967,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514926061",
@@ -657,7 +744,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Zuidstraat 27",
     "lat": 50.9434325,
-    "lon": 3.1262601
+    "lon": 3.1262601,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881994",
@@ -667,7 +755,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Hoogstraat 35",
     "lat": 51.0225846,
-    "lon": 4.4757192
+    "lon": 4.4757192,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881743",
@@ -677,7 +766,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Picardstraat 170",
     "lat": 50.8627599,
-    "lon": 4.3483087
+    "lon": 4.3483087,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514778085",
@@ -687,7 +777,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jef Denynplein 2",
     "lat": 51.0300146,
-    "lon": 4.4754199
+    "lon": 4.4754199,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881752",
@@ -697,7 +788,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Oude Leielaan 15",
     "lat": 50.7915884,
-    "lon": 3.1217303
+    "lon": 3.1217303,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862803",
@@ -707,7 +799,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bellaertstraat 11",
     "lat": 50.9643262,
-    "lon": 3.9831462
+    "lon": 3.9831462,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514903014",
@@ -717,7 +810,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Eikenstraat 8",
     "lat": 51.1622002,
-    "lon": 4.9742599
+    "lon": 4.9742599,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881993",
@@ -727,7 +821,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Waterbaan 159",
     "lat": 51.2039127,
-    "lon": 4.4631148
+    "lon": 4.4631148,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757103",
@@ -737,7 +832,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Quellinstraat 31",
     "lat": 51.2160747,
-    "lon": 4.4163601
+    "lon": 4.4163601,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514882002",
@@ -747,7 +843,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Confortalei 173",
     "lat": 51.2294312,
-    "lon": 4.4564008
+    "lon": 4.4564008,
+    "Provincie": "Antwerpen"
+  },
+  {
+    "Record-ID": "6514797802",
+    "Naam onderneming": "De Resonant Stedelijk Onderwijs",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Lamorinierestraat 16",
+    "lat": 51.2075367,
+    "lon": 4.4234781,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903011",
@@ -757,7 +865,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Mellestraat 1",
     "lat": 50.8445075,
-    "lon": 3.2316894
+    "lon": 3.2316894,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819274",
@@ -767,7 +876,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Koning Albertstraat 50",
     "lat": 50.8502178,
-    "lon": 3.2889238
+    "lon": 3.2889238,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778315",
@@ -777,7 +887,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bogaarsveldstraat 14",
     "lat": 51.0516265,
-    "lon": 5.2205294
+    "lon": 5.2205294,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514903237",
@@ -787,7 +898,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bogaarsveldstraat 13",
     "lat": 51.0523509,
-    "lon": 5.2208259
+    "lon": 5.2208259,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819276",
@@ -797,7 +909,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kloosterstraat 15",
     "lat": 51.0150438,
-    "lon": 4.1995189
+    "lon": 4.1995189,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778094",
@@ -807,7 +920,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bosstraat 9",
     "lat": 51.0639076,
-    "lon": 4.5793772
+    "lon": 4.5793772,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "8941577705",
@@ -817,7 +931,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kanunnik Davidlaan 15",
     "lat": 51.1299328,
-    "lon": 4.5642748
+    "lon": 4.5642748,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926055",
@@ -827,7 +942,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Sint-Bavostraat 41",
     "lat": 51.1704273,
-    "lon": 4.3990403
+    "lon": 4.3990403,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926059",
@@ -837,7 +953,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Burgemeester Matthysstraat 5",
     "lat": 50.8859353,
-    "lon": 3.890808
+    "lon": 3.890808,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881999",
@@ -847,7 +964,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jubileumlaan 1",
     "lat": 51.3305178,
-    "lon": 4.9607374
+    "lon": 4.9607374,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881741",
@@ -857,7 +975,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Keukeldam 17",
     "lat": 50.8872741,
-    "lon": 3.4338737
+    "lon": 3.4338737,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778059",
@@ -867,7 +986,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Minderbroedersstraat 13",
     "lat": 50.8770395,
-    "lon": 4.695528
+    "lon": 4.695528,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881523",
@@ -877,7 +997,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Deken Jonckheerestraat 16",
     "lat": 50.8064819,
-    "lon": 3.1837028
+    "lon": 3.1837028,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819286",
@@ -887,7 +1008,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stationsstraat 6",
     "lat": 51.0926561,
-    "lon": 4.4986732
+    "lon": 4.4986732,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778311",
@@ -897,7 +1019,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Kapelsesteenweg 72",
     "lat": 51.2723917,
-    "lon": 4.4589603
+    "lon": 4.4589603,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778074",
@@ -907,7 +1030,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Papenaardekenstraat 53",
     "lat": 51.2466167,
-    "lon": 4.4858968
+    "lon": 4.4858968,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778061",
@@ -917,7 +1041,19 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Tremelobaan 4",
     "lat": 51.0043045,
-    "lon": 4.6334361
+    "lon": 4.6334361,
+    "Provincie": "Vlaams-Brabant"
+  },
+  {
+    "Record-ID": "6514882003",
+    "Naam onderneming": "Sint-Ludgardisschool Antwerpen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Maarschalk Gerardstraat 18",
+    "lat": 51.212803,
+    "lon": 4.4033786,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840045",
@@ -927,7 +1063,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Du Chastellei 48",
     "lat": 51.2509468,
-    "lon": 4.4522321
+    "lon": 4.4522321,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514902974",
@@ -937,7 +1074,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Patronagestraat 51",
     "lat": 51.2013078,
-    "lon": 3.8136848
+    "lon": 3.8136848,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926275",
@@ -947,7 +1085,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Kroonstraat 19",
     "lat": 50.9935154,
-    "lon": 3.3281438
+    "lon": 3.3281438,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514903232",
@@ -957,7 +1096,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Zilverstraat 26",
     "lat": 51.2072002,
-    "lon": 3.2211001
+    "lon": 3.2211001,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881751",
@@ -967,7 +1107,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Noordzandstraat 76",
     "lat": 51.2066567,
-    "lon": 3.2184663
+    "lon": 3.2184663,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862807",
@@ -977,7 +1118,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lucien Hendrickxlei 2_B",
     "lat": 51.1921795,
-    "lon": 4.4873862
+    "lon": 4.4873862,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839795",
@@ -987,7 +1129,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bruggestraat 23",
     "lat": 51.0689969,
-    "lon": 3.1043085
+    "lon": 3.1043085,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862549",
@@ -997,7 +1140,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Kloosterstraat 31",
     "lat": 50.9248006,
-    "lon": 3.9776005
+    "lon": 3.9776005,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514882008",
@@ -1007,7 +1151,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Collegestraat 31",
     "lat": 51.1672786,
-    "lon": 4.1396039
+    "lon": 4.1396039,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881726",
@@ -1017,7 +1162,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Koningin Astridlaan 33",
     "lat": 51.3216903,
-    "lon": 4.9216657
+    "lon": 4.9216657,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6993888998",
@@ -1027,7 +1173,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kruibekestraat 55a",
     "lat": 51.1492927,
-    "lon": 4.3008041
+    "lon": 4.3008041,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514903233",
@@ -1037,7 +1184,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kleine Hemmenweg 4 A",
     "lat": 50.9952168,
-    "lon": 5.372325
+    "lon": 5.372325,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881985",
@@ -1047,7 +1195,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Visitatiestraat 5",
     "lat": 51.0623399,
-    "lon": 3.7475073
+    "lon": 3.7475073,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862796",
@@ -1057,7 +1206,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Waversesteenweg 1",
     "lat": 50.7800119,
-    "lon": 4.8349784
+    "lon": 4.8349784,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862525",
@@ -1067,7 +1217,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ursulinenstraat 4",
     "lat": 50.8417732,
-    "lon": 4.3488689
+    "lon": 4.3488689,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514840048",
@@ -1077,7 +1228,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kanunnik Davidlaan 10",
     "lat": 51.128628,
-    "lon": 4.5660878
+    "lon": 4.5660878,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514798017",
@@ -1087,7 +1239,8 @@ var scholenData = [
     "Type": "",
     "Adres": "St-Jans-Gasthuisstraat 20",
     "lat": 51.1568618,
-    "lon": 2.9705568
+    "lon": 2.9705568,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862584",
@@ -1097,7 +1250,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lange Kroonstraat 72",
     "lat": 51.1634992,
-    "lon": 4.488476
+    "lon": 4.488476,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881770",
@@ -1107,7 +1261,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Broeder Frederikstraat 3",
     "lat": 51.2460526,
-    "lon": 4.4507932
+    "lon": 4.4507932,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797792",
@@ -1117,7 +1272,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Mariastraat 7",
     "lat": 51.2057504,
-    "lon": 3.2237097
+    "lon": 3.2237097,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797758",
@@ -1127,7 +1283,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Schepenhuisstraat 4",
     "lat": 51.1079441,
-    "lon": 3.7074668
+    "lon": 3.7074668,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514777846",
@@ -1137,7 +1294,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Wilgendaalstraat 7",
     "lat": 51.2532088,
-    "lon": 4.4954301
+    "lon": 4.4954301,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862548",
@@ -1147,7 +1305,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Reep 4",
     "lat": 51.0522434,
-    "lon": 3.7305397
+    "lon": 3.7305397,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819307",
@@ -1157,7 +1316,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint-Jacobstraat 12",
     "lat": 51.1342511,
-    "lon": 5.6039343
+    "lon": 5.6039343,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514797558",
@@ -1167,7 +1327,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Kloosterbaan 5",
     "lat": 51.3212087,
-    "lon": 5.079951
+    "lon": 5.079951,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757063",
@@ -1177,7 +1338,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Leopoldlaan 9",
     "lat": 50.9431547,
-    "lon": 4.0537957
+    "lon": 4.0537957,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902769",
@@ -1187,7 +1349,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Grote Markt 13",
     "lat": 50.7959242,
-    "lon": 3.1192443
+    "lon": 3.1192443,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902756",
@@ -1197,7 +1360,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Geldenaaksebaan 277",
     "lat": 50.8571766,
-    "lon": 4.7215832
+    "lon": 4.7215832,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881768",
@@ -1207,7 +1371,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kolveniersvest 24",
     "lat": 51.1327718,
-    "lon": 4.5668259
+    "lon": 4.5668259,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6849700026",
@@ -1217,7 +1382,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Stationsstraat 85",
     "lat": 50.8890033,
-    "lon": 3.4295065
+    "lon": 3.4295065,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797805",
@@ -1227,7 +1393,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Lombardenvest 52",
     "lat": 51.2169894,
-    "lon": 4.4028757
+    "lon": 4.4028757,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926266",
@@ -1237,7 +1404,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rozenberg 2",
     "lat": 51.1875309,
-    "lon": 5.122353
+    "lon": 5.122353,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903027",
@@ -1247,7 +1415,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Charles Deberiotstraat 14",
     "lat": 50.8766327,
-    "lon": 4.7042318
+    "lon": 4.7042318,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514902979",
@@ -1257,7 +1426,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Deken Camerlyncklaan 76",
     "lat": 50.8187423,
-    "lon": 3.2844165
+    "lon": 3.2844165,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514757073",
@@ -1267,7 +1437,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Roze 131",
     "lat": 51.1905342,
-    "lon": 3.5752361
+    "lon": 3.5752361,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514757066",
@@ -1277,7 +1448,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Beverlaai 75",
     "lat": 50.8190381,
-    "lon": 3.2618613
+    "lon": 3.2618613,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "146778993883",
@@ -1287,7 +1459,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Magnolialaan 2",
     "lat": 50.8974123,
-    "lon": 4.3291613
+    "lon": 4.3291613,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514819312",
@@ -1297,7 +1470,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Boechoutsesteenweg 87a",
     "lat": 51.1565369,
-    "lon": 4.4758271
+    "lon": 4.4758271,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926279",
@@ -1307,7 +1481,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Alexianenweg 2",
     "lat": 50.8090676,
-    "lon": 4.9400069
+    "lon": 4.9400069,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514902977",
@@ -1317,7 +1492,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sabina van Beierenlaan 35",
     "lat": 50.8696617,
-    "lon": 3.8219182
+    "lon": 3.8219182,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514882004",
@@ -1327,7 +1503,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stationsstraat 36",
     "lat": 50.9103006,
-    "lon": 5.4202066
+    "lon": 5.4202066,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514926073",
@@ -1337,7 +1514,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Desguinlei 244",
     "lat": 51.1979539,
-    "lon": 4.3980355
+    "lon": 4.3980355,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840020",
@@ -1347,7 +1525,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Duinenstraat 1",
     "lat": 51.2200312,
-    "lon": 5.3057213
+    "lon": 5.3057213,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514926047",
@@ -1357,7 +1536,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kalkstraat 26",
     "lat": 51.1650124,
-    "lon": 4.1444453
+    "lon": 4.1444453,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926303",
@@ -1367,7 +1547,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Stuiverstraat 108",
     "lat": 51.2182979,
-    "lon": 2.9039159
+    "lon": 2.9039159,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902987",
@@ -1377,7 +1558,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Janseniusstraat 2",
     "lat": 50.8759436,
-    "lon": 4.6952612
+    "lon": 4.6952612,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514902984",
@@ -1387,7 +1569,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Collegelaan 30",
     "lat": 50.978162,
-    "lon": 5.518541
+    "lon": 5.518541,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819520",
@@ -1397,7 +1580,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Kloosterweg 1",
     "lat": 50.7457035,
-    "lon": 4.3447077
+    "lon": 4.3447077,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862558",
@@ -1407,7 +1591,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Plezantstraat 135",
     "lat": 51.1673601,
-    "lon": 4.1349883
+    "lon": 4.1349883,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840035",
@@ -1417,7 +1602,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rombaut Keldermansstraat 33",
     "lat": 51.1658964,
-    "lon": 4.4393133
+    "lon": 4.4393133,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839772",
@@ -1427,7 +1613,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Ooststraat 44",
     "lat": 50.8708637,
-    "lon": 3.820451
+    "lon": 3.820451,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514839770",
@@ -1437,7 +1624,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Driesstraat 10",
     "lat": 51.1001289,
-    "lon": 4.2358561
+    "lon": 4.2358561,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862567",
@@ -1447,7 +1635,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Grotesteenweg 489",
     "lat": 51.1816906,
-    "lon": 4.4303992
+    "lon": 4.4303992,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757087",
@@ -1457,7 +1646,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Aarschotsesteenweg 39",
     "lat": 50.9422581,
-    "lon": 4.7381799
+    "lon": 4.7381799,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514840038",
@@ -1467,7 +1657,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Antwerpsesteenweg 67",
     "lat": 51.2983281,
-    "lon": 4.7192131
+    "lon": 4.7192131,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862578",
@@ -1477,7 +1668,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Handzamestraat 18",
     "lat": 51.0296879,
-    "lon": 3.0384933
+    "lon": 3.0384933,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881723",
@@ -1487,7 +1679,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Peter Benoitlaan 40",
     "lat": 50.9872321,
-    "lon": 3.5266688
+    "lon": 3.5266688,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862780",
@@ -1497,7 +1690,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Guido Gezellelaan 105",
     "lat": 50.9808899,
-    "lon": 3.5320297
+    "lon": 3.5320297,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778078",
@@ -1507,7 +1701,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Middenstraat 10",
     "lat": 50.88317,
-    "lon": 4.0782626
+    "lon": 4.0782626,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514756852",
@@ -1517,7 +1712,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gentpoortstraat 37",
     "lat": 50.985168,
-    "lon": 3.5303551
+    "lon": 3.5303551,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862561",
@@ -1527,7 +1723,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ieperstraat 5",
     "lat": 51.1753454,
-    "lon": 4.8288094
+    "lon": 4.8288094,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840018",
@@ -1537,7 +1734,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Oude Houtlei 44",
     "lat": 51.0529627,
-    "lon": 3.7163544
+    "lon": 3.7163544,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797775",
@@ -1547,7 +1745,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jagerstraat 5",
     "lat": 51.0994841,
-    "lon": 4.1360458
+    "lon": 4.1360458,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514757069",
@@ -1557,7 +1756,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pas 110",
     "lat": 51.1579531,
-    "lon": 4.9891879
+    "lon": 4.9891879,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839780",
@@ -1567,7 +1767,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Vrijheid 234",
     "lat": 51.3985907,
-    "lon": 4.7584123
+    "lon": 4.7584123,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839775",
@@ -1577,7 +1778,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Veldstraat 11",
     "lat": 51.0063503,
-    "lon": 4.3572817
+    "lon": 4.3572817,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514797815",
@@ -1587,7 +1789,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Zuidstraat 27",
     "lat": 50.9434325,
-    "lon": 3.1262601
+    "lon": 3.1262601,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "7420747213",
@@ -1597,7 +1800,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Statiestraat 35",
     "lat": 50.8697733,
-    "lon": 4.1738839
+    "lon": 4.1738839,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881772",
@@ -1607,7 +1811,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Kard. Mercierstraat 10",
     "lat": 50.9845364,
-    "lon": 4.8300344
+    "lon": 4.8300344,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862565",
@@ -1617,7 +1822,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Turnhoutsebaan 226",
     "lat": 51.2137297,
-    "lon": 4.4375744
+    "lon": 4.4375744,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757065",
@@ -1627,7 +1833,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pachthofstraat 3",
     "lat": 50.9849878,
-    "lon": 4.0491347
+    "lon": 4.0491347,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "114742483182",
@@ -1637,7 +1844,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Boogschutterslaan 25",
     "lat": 51.2154,
-    "lon": 3.2493149
+    "lon": 3.2493149,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862582",
@@ -1647,7 +1855,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Louiza-Marialei 5",
     "lat": 51.2131472,
-    "lon": 4.4120739
+    "lon": 4.4120739,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926269",
@@ -1657,7 +1866,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "kloosterstraat 7",
     "lat": 51.3931309,
-    "lon": 4.5969574
+    "lon": 4.5969574,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903015",
@@ -1667,7 +1877,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rijselstraat 83",
     "lat": 50.848157,
-    "lon": 2.888412
+    "lon": 2.888412,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514839764",
@@ -1677,7 +1888,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "KAPELLEWEIDE 5",
     "lat": 50.8426416,
-    "lon": 4.0852709
+    "lon": 4.0852709,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514819296",
@@ -1687,7 +1899,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Veldstraat 2",
     "lat": 51.1891563,
-    "lon": 3.2085416
+    "lon": 3.2085416,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881761",
@@ -1697,7 +1910,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Herentalsstraat 70",
     "lat": 51.3194516,
-    "lon": 4.9492086
+    "lon": 4.9492086,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903019",
@@ -1707,7 +1921,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Onderwijslaan 4",
     "lat": 50.8329849,
-    "lon": 4.0216668
+    "lon": 4.0216668,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840030",
@@ -1717,7 +1932,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Oude Markt 28",
     "lat": 50.8772784,
-    "lon": 4.6989543
+    "lon": 4.6989543,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778052",
@@ -1727,7 +1943,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Eigenheerdstraat 8",
     "lat": 50.8506652,
-    "lon": 2.8783535
+    "lon": 2.8783535,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926019",
@@ -1737,7 +1954,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Kuringersteenweg 174",
     "lat": 50.9350067,
-    "lon": 5.3180361
+    "lon": 5.3180361,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881731",
@@ -1747,7 +1965,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Sollevelden 3A",
     "lat": 51.1175552,
-    "lon": 4.6635398
+    "lon": 4.6635398,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757067",
@@ -1757,7 +1976,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Diestersteenweg 146",
     "lat": 50.8325328,
-    "lon": 5.1864426
+    "lon": 5.1864426,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514903228",
@@ -1767,7 +1987,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Weggevoerdenstraat 55",
     "lat": 50.8409234,
-    "lon": 4.0234912
+    "lon": 4.0234912,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862537",
@@ -1777,7 +1998,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Pastoor Vandenhoudtstraat 8",
     "lat": 51.3183483,
-    "lon": 4.432142
+    "lon": 4.432142,
+    "Provincie": "Antwerpen"
+  },
+  {
+    "Record-ID": "6514797761",
+    "Naam onderneming": "GO! technisch atheneum Jette",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "JETTE",
+    "Type": "Prospect",
+    "Adres": "Leon Theodorstraat 80",
+    "lat": 50.875135,
+    "lon": 4.3268036,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514840025",
@@ -1786,8 +2019,9 @@ var scholenData = [
     "Plaats": "BRASSCHAAT",
     "Type": "Klant",
     "Adres": "Prins Kavellei 98",
-    "lat": 51.2975953,
-    "lon": 4.4953566
+    "lat": 51.2996868,
+    "lon": 4.492157,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839998",
@@ -1797,7 +2031,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Vlieghavenlaan 18",
     "lat": 51.0029411,
-    "lon": 4.6587674
+    "lon": 4.6587674,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514926291",
@@ -1807,7 +2042,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Rooseveltplaats 11",
     "lat": 51.2205817,
-    "lon": 4.4183455
+    "lon": 4.4183455,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840031",
@@ -1817,7 +2053,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Hendriklei 67",
     "lat": 51.1874071,
-    "lon": 4.3709666
+    "lon": 4.3709666,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797785",
@@ -1827,7 +2064,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Hertoginstraat 17",
     "lat": 51.2082535,
-    "lon": 4.4103034
+    "lon": 4.4103034,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778312",
@@ -1837,7 +2075,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Pontstraat 51",
     "lat": 50.9357721,
-    "lon": 4.042937
+    "lon": 4.042937,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778049",
@@ -1847,7 +2086,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Uitbreidingstraat 246",
     "lat": 51.1939649,
-    "lon": 4.4213543
+    "lon": 4.4213543,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819524",
@@ -1857,7 +2097,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Generaal Jungbluthlaan 4",
     "lat": 51.2155924,
-    "lon": 2.9120631
+    "lon": 2.9120631,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514903226",
@@ -1867,7 +2108,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Augustijnenstraat 92",
     "lat": 51.0237043,
-    "lon": 4.4867292
+    "lon": 4.4867292,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514902777",
@@ -1877,7 +2119,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Bruul 129",
     "lat": 51.0238075,
-    "lon": 4.4829959
+    "lon": 4.4829959,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797765",
@@ -1887,7 +2130,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Caputsteenstraat 51",
     "lat": 51.0351668,
-    "lon": 4.4891974
+    "lon": 4.4891974,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926267",
@@ -1897,7 +2141,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Herman Vosstraat 3",
     "lat": 51.0633025,
-    "lon": 4.3587093
+    "lon": 4.3587093,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862786",
@@ -1907,7 +2152,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Van Helmontstraat 6",
     "lat": 50.925691,
-    "lon": 4.4305084
+    "lon": 4.4305084,
+    "Provincie": "Vlaams-Brabant"
+  },
+  {
+    "Record-ID": "6514840021",
+    "Naam onderneming": "GO! atheneum Unescoschool Koekelberg",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Koekelberg",
+    "Type": "Prospect",
+    "Adres": "Felix Vande Sandestraat 11",
+    "lat": 50.8623696,
+    "lon": 4.3279509,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514819304",
@@ -1917,7 +2174,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Parklaan 39",
     "lat": 50.8799888,
-    "lon": 4.4739313
+    "lon": 4.4739313,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "192320747731",
@@ -1927,7 +2185,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hippolyte Boulengerlaan 7",
     "lat": 50.8214727,
-    "lon": 4.5006996
+    "lon": 4.5006996,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881525",
@@ -1937,7 +2196,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Dreefstraat 31",
     "lat": 50.8374252,
-    "lon": 4.0260497
+    "lon": 4.0260497,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862785",
@@ -1947,7 +2207,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Mechelsesteenweg 194",
     "lat": 51.1639774,
-    "lon": 4.4528681
+    "lon": 4.4528681,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797784",
@@ -1957,7 +2218,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Speelhoflaan 9",
     "lat": 50.8234922,
-    "lon": 5.1878187
+    "lon": 5.1878187,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514778054",
@@ -1967,7 +2229,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Steensedijk 495",
     "lat": 51.2081985,
-    "lon": 2.8944202
+    "lon": 2.8944202,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819300",
@@ -1977,7 +2240,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Sint Martinusstraat 3",
     "lat": 50.8712828,
-    "lon": 5.5113922
+    "lon": 5.5113922,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819260",
@@ -1987,7 +2251,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Amand Casier de ter Bekenlaan 26",
     "lat": 51.074197,
-    "lon": 3.6717458
+    "lon": 3.6717458,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778082",
@@ -1997,7 +2262,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Azalealaan 2",
     "lat": 51.1746467,
-    "lon": 3.9261671
+    "lon": 3.9261671,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902994",
@@ -2007,7 +2273,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lagesteenweg 77",
     "lat": 50.9316672,
-    "lon": 4.366365
+    "lon": 4.366365,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881759",
@@ -2016,8 +2283,9 @@ var scholenData = [
     "Plaats": "HEIST-OP-DEN-BERG",
     "Type": "",
     "Adres": "Boudewijnlaan 61",
-    "lat": 51.0738781,
-    "lon": 4.717728
+    "lat": 51.0731984,
+    "lon": 4.7208626,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778083",
@@ -2027,7 +2295,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Auguste Demaeghtlaan 40",
     "lat": 50.739189,
-    "lon": 4.2353462
+    "lon": 4.2353462,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "7743347644",
@@ -2037,7 +2306,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Eikelstraat 41",
     "lat": 51.1898403,
-    "lon": 3.5603177
+    "lon": 3.5603177,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926042",
@@ -2047,7 +2317,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Polderdreef 42",
     "lat": 50.9912434,
-    "lon": 3.6571362
+    "lon": 3.6571362,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514798012",
@@ -2057,7 +2328,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Charles Gilisquetlaan 34",
     "lat": 50.8638325,
-    "lon": 4.393169
+    "lon": 4.393169,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514778306",
@@ -2067,7 +2339,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kouterbaan 20",
     "lat": 50.8879216,
-    "lon": 4.070503
+    "lon": 4.070503,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778081",
@@ -2077,7 +2350,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lindestraat 323",
     "lat": 50.8777496,
-    "lon": 4.3912685
+    "lon": 4.3912685,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514881528",
@@ -2087,7 +2361,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Minister De Taeyelaan 13",
     "lat": 50.8231854,
-    "lon": 3.2869305
+    "lon": 3.2869305,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862329",
@@ -2097,7 +2372,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Graanmarkt 14",
     "lat": 50.940307,
-    "lon": 4.0409482
+    "lon": 4.0409482,
+    "Provincie": "Oost-Vlaanderen"
+  },
+  {
+    "Record-ID": "6514819264",
+    "Naam onderneming": "GO! atheneum Boom",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Boom",
+    "Type": "",
+    "Adres": "Jan Baptist Davidstraat 2",
+    "lat": 51.0958746,
+    "lon": 4.3736507,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926040",
@@ -2107,7 +2394,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gemeentestraat 41",
     "lat": 51.1616993,
-    "lon": 4.6751322
+    "lon": 4.6751322,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797810",
@@ -2117,7 +2405,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Door Verstraetelei 50",
     "lat": 51.2911794,
-    "lon": 4.4975704
+    "lon": 4.4975704,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862783",
@@ -2127,7 +2416,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Onderwijsstraat 5",
     "lat": 50.9386445,
-    "lon": 4.0425038
+    "lon": 4.0425038,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514839778",
@@ -2137,7 +2427,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hofbilkstraat 21",
     "lat": 51.1127457,
-    "lon": 3.7054901
+    "lon": 3.7054901,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819261",
@@ -2147,7 +2438,19 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Sint-Jozefstraat 7",
     "lat": 51.0849508,
-    "lon": 3.7663796
+    "lon": 3.7663796,
+    "Provincie": "Oost-Vlaanderen"
+  },
+  {
+    "Record-ID": "6514819301",
+    "Naam onderneming": "Don Bosco instituut Haacht",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Haacht",
+    "Type": "Partner (Actief)",
+    "Adres": "Stationsstraat 87",
+    "lat": 50.9735041,
+    "lon": 4.6306189,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778075",
@@ -2157,7 +2460,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Karel Oomsstraat 24",
     "lat": 51.1966218,
-    "lon": 4.4090278
+    "lon": 4.4090278,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514902754",
@@ -2167,7 +2471,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Hulstplein 32",
     "lat": 50.9969672,
-    "lon": 3.3330152
+    "lon": 3.3330152,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881758",
@@ -2177,7 +2482,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Berlaarbaan 229",
     "lat": 51.0553404,
-    "lon": 4.5443596
+    "lon": 4.5443596,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6867299559",
@@ -2186,8 +2492,9 @@ var scholenData = [
     "Plaats": "Ronse",
     "Type": "",
     "Adres": "Stefaan Modest Glorieuxlaan 30",
-    "lat": 50.7540013,
-    "lon": 3.6009266
+    "lat": 50.7518694,
+    "lon": 3.6022817,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514839797",
@@ -2197,7 +2504,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Heilig Hartlaan 16",
     "lat": 51.0663608,
-    "lon": 5.0939133
+    "lon": 5.0939133,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514756837",
@@ -2207,7 +2515,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Weverstraat 23",
     "lat": 51.1462217,
-    "lon": 4.1213143
+    "lon": 4.1213143,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514903012",
@@ -2217,7 +2526,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Botermarkt 1",
     "lat": 51.0545266,
-    "lon": 3.7252744
+    "lon": 3.7252744,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902983",
@@ -2227,7 +2537,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Collegelaan 24",
     "lat": 51.1348271,
-    "lon": 5.4609818
+    "lon": 5.4609818,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881988",
@@ -2237,7 +2548,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Turnhoutsebaan 430A",
     "lat": 51.2292564,
-    "lon": 4.5229079
+    "lon": 4.5229079,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514756838",
@@ -2247,7 +2559,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Vleeshouwersstraat 22",
     "lat": 51.0713095,
-    "lon": 2.6593928
+    "lon": 2.6593928,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6508106228",
@@ -2257,7 +2570,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Scheppersstraat 9",
     "lat": 51.172196,
-    "lon": 4.8304364
+    "lon": 4.8304364,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6506102246",
@@ -2267,7 +2581,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rijksweg 357",
     "lat": 50.9673777,
-    "lon": 5.697335
+    "lon": 5.697335,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "115039570110",
@@ -2277,7 +2592,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Burgemeester Vandenbogaerdelaan 53",
     "lat": 50.9135306,
-    "lon": 3.2115098
+    "lon": 3.2115098,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "10456279489",
@@ -2287,7 +2603,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Nieuwstraat 91",
     "lat": 51.2210253,
-    "lon": 4.1303471
+    "lon": 4.1303471,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "10456385985",
@@ -2297,7 +2614,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jef Denynplein 2",
     "lat": 51.0300146,
-    "lon": 4.4754199
+    "lon": 4.4754199,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "10115452388",
@@ -2307,7 +2625,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Offerlaan 1",
     "lat": 51.0454172,
-    "lon": 3.7107979
+    "lon": 3.7107979,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "9825523956",
@@ -2317,7 +2636,19 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Dorp-Oost 32",
     "lat": 51.0968007,
-    "lon": 3.8362482
+    "lon": 3.8362482,
+    "Provincie": "Oost-Vlaanderen"
+  },
+  {
+    "Record-ID": "8335991483",
+    "Naam onderneming": "Impuls Dilbeek",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Dilbeek",
+    "Type": "Ex-klant",
+    "Adres": "Arconatistraat 78A",
+    "lat": 50.8463422,
+    "lon": 4.2532177,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "10456709100",
@@ -2327,7 +2658,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Vanderlindenstraat 40",
     "lat": 50.8672491,
-    "lon": 4.3671814
+    "lon": 4.3671814,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6613884610",
@@ -2337,7 +2669,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Zandpoortvest 9A",
     "lat": 51.0262959,
-    "lon": 4.4886552
+    "lon": 4.4886552,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903229",
@@ -2347,7 +2680,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ursulinenstraat 17",
     "lat": 51.2083034,
-    "lon": 5.4275572
+    "lon": 5.4275572,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514757106",
@@ -2357,7 +2691,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Collegestraat 25",
     "lat": 51.2321411,
-    "lon": 5.5413997
+    "lon": 5.5413997,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "152330377464",
@@ -2367,7 +2702,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kruisbogenhofstraat 7",
     "lat": 51.1347415,
-    "lon": 4.567273
+    "lon": 4.567273,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926307",
@@ -2377,7 +2713,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Augustijnenstraat 58",
     "lat": 50.855388,
-    "lon": 2.8667255
+    "lon": 2.8667255,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514903236",
@@ -2387,7 +2724,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Ieperse Steenweg 90",
     "lat": 51.0636969,
-    "lon": 2.6684981
+    "lon": 2.6684981,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881767",
@@ -2397,7 +2735,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Stokerijstraat 9",
     "lat": 50.9545902,
-    "lon": 3.1265395
+    "lon": 3.1265395,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881744",
@@ -2407,7 +2746,8 @@ var scholenData = [
     "Type": "",
     "Adres": "",
     "lat": 51.1646685,
-    "lon": 4.1395124
+    "lon": 4.1395124,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778313",
@@ -2417,7 +2757,19 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Grotesteenweg-Noord 113",
     "lat": 51.0137047,
-    "lon": 3.7035301
+    "lon": 3.7035301,
+    "Provincie": "Oost-Vlaanderen"
+  },
+  {
+    "Record-ID": "6514819318",
+    "Naam onderneming": "Vrije Israelitische school voor Secundair Onderwijs Yavne",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Lamorinierestraat 150",
+    "lat": 51.2038813,
+    "lon": 4.4206327,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778318",
@@ -2427,7 +2779,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Boeschepestraat 44",
     "lat": 50.8495878,
-    "lon": 2.7234159
+    "lon": 2.7234159,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778077",
@@ -2437,7 +2790,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Dekenstraat 3",
     "lat": 50.8743975,
-    "lon": 4.7092712
+    "lon": 4.7092712,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862555",
@@ -2447,7 +2801,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Vakschoolstraat 41",
     "lat": 50.9408647,
-    "lon": 4.0288064
+    "lon": 4.0288064,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819291",
@@ -2457,7 +2812,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sinte Annalaan 99_B",
     "lat": 50.9414809,
-    "lon": 4.0288024
+    "lon": 4.0288024,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778314",
@@ -2467,7 +2823,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Edegemsesteenweg 129 ",
     "lat": 51.1422543,
-    "lon": 4.4463132
+    "lon": 4.4463132,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778102",
@@ -2477,7 +2834,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Papebrugstraat 8_A",
     "lat": 51.0662717,
-    "lon": 3.1038963
+    "lon": 3.1038963,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778071",
@@ -2487,7 +2845,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Grote Hulststraat 28",
     "lat": 50.9964521,
-    "lon": 3.3290826
+    "lon": 3.3290826,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514757096",
@@ -2497,7 +2856,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Leenstraat 32",
     "lat": 50.9446945,
-    "lon": 3.1299242
+    "lon": 3.1299242,
+    "Provincie": "West-Vlaanderen"
+  },
+  {
+    "Record-ID": "6514819311",
+    "Naam onderneming": "VLOT! sint-laurentius",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Lokeren",
+    "Type": "",
+    "Adres": "Prosper Thuysbaertlaan 1",
+    "lat": 51.105786,
+    "lon": 3.987162,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778299",
@@ -2507,7 +2878,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Markt 48",
     "lat": 51.1030578,
-    "lon": 3.9922729
+    "lon": 3.9922729,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778101",
@@ -2516,8 +2888,9 @@ var scholenData = [
     "Plaats": "SCHOTEN",
     "Type": "Gerelateerd aan klant",
     "Adres": "Victor Frislei 18",
-    "lat": 51.2512241,
-    "lon": 4.5331521
+    "lat": 51.2512222,
+    "lon": 4.5331875,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862574",
@@ -2527,7 +2900,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Marktstraat 15",
     "lat": 51.2074746,
-    "lon": 3.4454825
+    "lon": 3.4454825,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514757050",
@@ -2537,7 +2911,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Zandloperstraat 8",
     "lat": 51.0717827,
-    "lon": 3.6782267
+    "lon": 3.6782267,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902757",
@@ -2547,7 +2922,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Baron de Taxislaan 4",
     "lat": 51.1363915,
-    "lon": 5.5992922
+    "lon": 5.5992922,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862576",
@@ -2557,7 +2933,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Wijerstraat 28",
     "lat": 50.8738535,
-    "lon": 5.516092
+    "lon": 5.516092,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514840054",
@@ -2567,7 +2944,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Theo De Deckerlaan 2",
     "lat": 51.1314043,
-    "lon": 4.2062707
+    "lon": 4.2062707,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778100",
@@ -2577,7 +2955,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Zennelaan 51_53",
     "lat": 50.9294617,
-    "lon": 4.4158833
+    "lon": 4.4158833,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514756854",
@@ -2587,7 +2966,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Sint- Baafskouterstraat 129",
     "lat": 51.0542781,
-    "lon": 3.7559662
+    "lon": 3.7559662,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514798015",
@@ -2597,7 +2977,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Londenstraat 43",
     "lat": 51.231337,
-    "lon": 4.4119961
+    "lon": 4.4119961,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862557",
@@ -2607,7 +2988,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Katelijnestraat 86",
     "lat": 51.2014174,
-    "lon": 3.226396
+    "lon": 3.226396,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819320",
@@ -2617,7 +2999,8 @@ var scholenData = [
     "Type": "",
     "Adres": "August Leyweg 3",
     "lat": 51.1943643,
-    "lon": 4.3762567
+    "lon": 4.3762567,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "197906441416",
@@ -2627,7 +3010,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "VIIde-Olympiadelaan 2",
     "lat": 51.1848899,
-    "lon": 4.3899134
+    "lon": 4.3899134,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819319",
@@ -2637,7 +3021,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Parklaan 52",
     "lat": 51.311893,
-    "lon": 4.9420236
+    "lon": 4.9420236,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514882007",
@@ -2647,7 +3032,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kerkstraat 86",
     "lat": 50.8394885,
-    "lon": 3.4749464
+    "lon": 3.4749464,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862552",
@@ -2657,7 +3043,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pastoor Frederickxstraat 9",
     "lat": 50.9858353,
-    "lon": 5.1938332
+    "lon": 5.1938332,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514840043",
@@ -2667,7 +3054,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Jan Moorkensstraat 95",
     "lat": 51.1879453,
-    "lon": 4.4322995
+    "lon": 4.4322995,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514756857",
@@ -2677,7 +3065,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Mgr. Heylenstraat 37",
     "lat": 51.2368252,
-    "lon": 4.9641998
+    "lon": 4.9641998,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926023",
@@ -2687,7 +3076,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Kasteelplein 20",
     "lat": 51.3256621,
-    "lon": 4.9460037
+    "lon": 4.9460037,
+    "Provincie": "Antwerpen"
+  },
+  {
+    "Record-ID": "6514862575",
+    "Naam onderneming": "Sint-Pieterscollege Jette",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "JETTE",
+    "Type": "",
+    "Adres": "Leon Theodorstraat 167",
+    "lat": 50.8777565,
+    "lon": 4.328915,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514797812",
@@ -2696,8 +3097,9 @@ var scholenData = [
     "Plaats": "GENT",
     "Type": "Gerelateerd aan klant",
     "Adres": "Koning Albertlaan 70",
-    "lat": 51.0394737,
-    "lon": 3.7129281
+    "lat": 51.0388633,
+    "lon": 3.7117929,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514798022",
@@ -2707,7 +3109,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Koensborre 1",
     "lat": 50.9129807,
-    "lon": 4.1916742
+    "lon": 4.1916742,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514797807",
@@ -2717,7 +3120,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Bergense Steenweg 1421",
     "lat": 50.8085432,
-    "lon": 4.2890396
+    "lon": 4.2890396,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778062",
@@ -2727,7 +3131,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Patijntjestraat 45",
     "lat": 51.0402421,
-    "lon": 3.7073103
+    "lon": 3.7073103,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926276",
@@ -2737,7 +3142,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Petrus Ascanusplein 1",
     "lat": 50.9019616,
-    "lon": 4.2168098
+    "lon": 4.2168098,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514797799",
@@ -2747,7 +3153,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Esplanadeplein 6",
     "lat": 50.9414795,
-    "lon": 4.0352939
+    "lon": 4.0352939,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514757076",
@@ -2757,7 +3164,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Parklaan 17",
     "lat": 50.9071166,
-    "lon": 4.2043136
+    "lon": 4.2043136,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514882011",
@@ -2767,7 +3175,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint-Jozefstraat 35",
     "lat": 51.3041693,
-    "lon": 4.8835627
+    "lon": 4.8835627,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778096",
@@ -2777,7 +3186,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Gasthuisstraat 3",
     "lat": 51.1866369,
-    "lon": 5.1127447
+    "lon": 5.1127447,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "10456677613",
@@ -2787,7 +3197,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Gildestraat 17",
     "lat": 51.055136,
-    "lon": 3.7307992
+    "lon": 3.7307992,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881784",
@@ -2797,7 +3208,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kerkplein 14",
     "lat": 51.0763116,
-    "lon": 4.7280316
+    "lon": 4.7280316,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797771",
@@ -2807,7 +3219,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint Lambertuslaan 15",
     "lat": 50.8738147,
-    "lon": 5.5115671
+    "lon": 5.5115671,
+    "Provincie": "Limburg"
+  },
+  {
+    "Record-ID": "6514797791",
+    "Naam onderneming": "Sint-Jozefsinstituut - Bovenbouw",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Betekom",
+    "Type": "Prospect",
+    "Adres": "Professor Scharpelaan 23",
+    "lat": 50.9873429,
+    "lon": 4.7819646,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514757097",
@@ -2817,7 +3241,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Karmelietenstraat 57",
     "lat": 50.7757337,
-    "lon": 3.8783439
+    "lon": 3.8783439,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926051",
@@ -2827,7 +3252,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Wegvoeringstraat 59A",
     "lat": 51.0108461,
-    "lon": 3.9033505
+    "lon": 3.9033505,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819288",
@@ -2837,7 +3263,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Woluwelaan 20",
     "lat": 50.8352511,
-    "lon": 4.4334589
+    "lon": 4.4334589,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514777844",
@@ -2847,7 +3274,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jozef Hendrickxstraat 153",
     "lat": 51.248276,
-    "lon": 4.4875692
+    "lon": 4.4875692,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926021",
@@ -2857,7 +3285,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Fabiolalaan 2",
     "lat": 50.7936646,
-    "lon": 3.124098
+    "lon": 3.124098,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514840040",
@@ -2867,7 +3296,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Hofstraat 56",
     "lat": 51.4641816,
-    "lon": 4.4633668
+    "lon": 4.4633668,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "10456086481",
@@ -2877,7 +3307,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jakob Smitslaan 36",
     "lat": 51.1863841,
-    "lon": 5.1089876
+    "lon": 5.1089876,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757102",
@@ -2887,7 +3318,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Schuttershofstraat 17",
     "lat": 51.0775982,
-    "lon": 4.278336
+    "lon": 4.278336,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819527",
@@ -2897,7 +3329,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Kasteelstraat 12",
     "lat": 50.7756967,
-    "lon": 3.4478419
+    "lon": 3.4478419,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514839793",
@@ -2907,7 +3340,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Wegvoeringstraat 21",
     "lat": 51.0075756,
-    "lon": 3.8871973
+    "lon": 3.8871973,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514882012",
@@ -2917,7 +3351,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Tuinstraat 105",
     "lat": 51.0179111,
-    "lon": 3.7703251
+    "lon": 3.7703251,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862524",
@@ -2927,7 +3362,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Kasteeldreef 2",
     "lat": 50.8228122,
-    "lon": 3.7760468
+    "lon": 3.7760468,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514839781",
@@ -2937,7 +3373,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stella Marisstraat 2",
     "lat": 51.2423584,
-    "lon": 4.4369349
+    "lon": 4.4369349,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797776",
@@ -2947,7 +3384,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Marktstraat 1",
     "lat": 50.9593113,
-    "lon": 4.2310704
+    "lon": 4.2310704,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778323",
@@ -2957,7 +3395,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Minderbroedersstraat 11",
     "lat": 51.0438905,
-    "lon": 5.315612
+    "lon": 5.315612,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514926272",
@@ -2967,7 +3406,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Nonnenstraat 21",
     "lat": 51.1621779,
-    "lon": 4.671381
+    "lon": 4.671381,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903008",
@@ -2977,7 +3417,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Marktplein 5",
     "lat": 51.1291117,
-    "lon": 2.753274
+    "lon": 2.753274,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881522",
@@ -2987,7 +3428,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Collegestraat 11",
     "lat": 50.7725037,
-    "lon": 3.8767184
+    "lon": 3.8767184,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778065",
@@ -2997,7 +3439,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Savaanstraat 33",
     "lat": 51.0490049,
-    "lon": 3.7252821
+    "lon": 3.7252821,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926305",
@@ -3007,7 +3450,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Oscar De Gruyterlaan 4",
     "lat": 51.2225976,
-    "lon": 4.3830127
+    "lon": 4.3830127,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881777",
@@ -3016,8 +3460,9 @@ var scholenData = [
     "Plaats": "BRUGGE",
     "Type": "",
     "Adres": "Garenmarkt 8",
-    "lat": 51.2048651,
-    "lon": 3.229563
+    "lat": 51.2055112,
+    "lon": 3.2291561,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514840023",
@@ -3027,7 +3472,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Steensedijk 151",
     "lat": 51.2030788,
-    "lon": 2.9097798
+    "lon": 2.9097798,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819268",
@@ -3037,7 +3483,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Fortuinstraat 29",
     "lat": 51.2080065,
-    "lon": 3.2550877
+    "lon": 3.2550877,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797817",
@@ -3047,7 +3494,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ottogracht 4",
     "lat": 51.0579284,
-    "lon": 3.7281783
+    "lon": 3.7281783,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778084",
@@ -3057,7 +3505,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Van Helmontstraat 29",
     "lat": 51.225658,
-    "lon": 4.4358978
+    "lon": 4.4358978,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881991",
@@ -3067,7 +3516,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Cooppallaan 128",
     "lat": 51.0086152,
-    "lon": 3.8661641
+    "lon": 3.8661641,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819278",
@@ -3077,7 +3527,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Heerweg 77",
     "lat": 50.7172702,
-    "lon": 4.2230552
+    "lon": 4.2230552,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862579",
@@ -3086,8 +3537,9 @@ var scholenData = [
     "Plaats": "HAMME",
     "Type": "Klant",
     "Adres": "Meulenbroekstraat 15",
-    "lat": 51.100428,
-    "lon": 4.1358098
+    "lat": 51.1001533,
+    "lon": 4.1383112,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840046",
@@ -3097,7 +3549,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Abdisstraat 56",
     "lat": 51.0428069,
-    "lon": 3.7144501
+    "lon": 3.7144501,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840011",
@@ -3107,7 +3560,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Sint-Niklaasstraat 22",
     "lat": 50.8147467,
-    "lon": 3.336168
+    "lon": 3.336168,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881742",
@@ -3117,7 +3571,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Europaplein 36",
     "lat": 50.9877477,
-    "lon": 5.6873319
+    "lon": 5.6873319,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819313",
@@ -3127,7 +3582,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Rozenlaan 45",
     "lat": 50.8418383,
-    "lon": 4.2787183
+    "lon": 4.2787183,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778103",
@@ -3137,7 +3593,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Koning Albertlaan 26",
     "lat": 50.8901826,
-    "lon": 5.6539733
+    "lon": 5.6539733,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514840009",
@@ -3147,7 +3604,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gouverneur Verwilghensingel 1",
     "lat": 50.9386533,
-    "lon": 5.3450894
+    "lon": 5.3450894,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819522",
@@ -3157,7 +3615,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Godshuizenlaan 65-75",
     "lat": 51.0435462,
-    "lon": 3.7155171
+    "lon": 3.7155171,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926300",
@@ -3167,7 +3626,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Henleykaai 83",
     "lat": 51.0421518,
-    "lon": 3.7150244
+    "lon": 3.7150244,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840029",
@@ -3177,7 +3637,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Italianenlaan 30",
     "lat": 50.9191909,
-    "lon": 3.231902
+    "lon": 3.231902,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819526",
@@ -3187,7 +3648,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint-Truidersteenweg 323",
     "lat": 50.8064755,
-    "lon": 5.2824779
+    "lon": 5.2824779,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514903033",
@@ -3197,7 +3659,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Dirk Martenslaan 16",
     "lat": 50.9181092,
-    "lon": 3.2174167
+    "lon": 3.2174167,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819299",
@@ -3207,7 +3670,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ieperstraat 9",
     "lat": 51.2266703,
-    "lon": 2.9147346
+    "lon": 2.9147346,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514756834",
@@ -3217,7 +3681,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Vindictivelaan 9",
     "lat": 51.2279908,
-    "lon": 2.9194389
+    "lon": 2.9194389,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926274",
@@ -3227,7 +3692,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bassinstraat 15",
     "lat": 51.0846457,
-    "lon": 4.367259
+    "lon": 4.367259,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840006",
@@ -3237,7 +3703,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Collegestraat 24",
     "lat": 51.2034247,
-    "lon": 3.250862
+    "lon": 3.250862,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902976",
@@ -3247,7 +3714,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Boeschepestraat 20",
     "lat": 50.8520328,
-    "lon": 2.7234408
+    "lon": 2.7234408,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881984",
@@ -3257,7 +3725,19 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Parkstraat 2",
     "lat": 50.8723886,
-    "lon": 3.8342154
+    "lon": 3.8342154,
+    "Provincie": "Oost-Vlaanderen"
+  },
+  {
+    "Record-ID": "6514881783",
+    "Naam onderneming": "Onze-Lieve-Vrouwcollege Zottegem campus Centrum",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ZOTTEGEM",
+    "Type": "Klant",
+    "Adres": "zavel 19",
+    "lat": 50.8688779,
+    "lon": 3.8112957,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797803",
@@ -3267,7 +3747,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Tweebruggenstraat 55",
     "lat": 51.0482643,
-    "lon": 3.7352462
+    "lon": 3.7352462,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514756849",
@@ -3277,7 +3758,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Doornstraat 3",
     "lat": 51.1929735,
-    "lon": 3.1951559
+    "lon": 3.1951559,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926022",
@@ -3287,7 +3769,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Frankrijklei 91",
     "lat": 51.2140922,
-    "lon": 4.4127855
+    "lon": 4.4127855,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514902980",
@@ -3297,7 +3780,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hofbilkstraat 21",
     "lat": 51.1127457,
-    "lon": 3.7054901
+    "lon": 3.7054901,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881773",
@@ -3307,7 +3791,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Collegestraat 1",
     "lat": 51.0654653,
-    "lon": 4.0427014
+    "lon": 4.0427014,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881526",
@@ -3317,7 +3802,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Mandellaan 170",
     "lat": 50.9521267,
-    "lon": 3.1363561
+    "lon": 3.1363561,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902975",
@@ -3327,7 +3813,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint-Jansberg 39",
     "lat": 51.1132222,
-    "lon": 5.7862042
+    "lon": 5.7862042,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514902971",
@@ -3337,7 +3824,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Diestsestraat 163",
     "lat": 50.8819178,
-    "lon": 4.7089418
+    "lon": 4.7089418,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862550",
@@ -3347,7 +3835,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Weertersteenweg 135",
     "lat": 51.1066258,
-    "lon": 5.7786853
+    "lon": 5.7786853,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514797798",
@@ -3357,7 +3846,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Weertersteenweg 135",
     "lat": 51.1066258,
-    "lon": 5.7786853
+    "lon": 5.7786853,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514756836",
@@ -3367,7 +3857,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kloosterstraat 82",
     "lat": 51.2818846,
-    "lon": 4.4165183
+    "lon": 4.4165183,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819534",
@@ -3377,7 +3868,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Bredabaan 394",
     "lat": 51.2941868,
-    "lon": 4.4953741
+    "lon": 4.4953741,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778316",
@@ -3387,7 +3879,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "gazometerstraat 4",
     "lat": 50.933767,
-    "lon": 5.334296
+    "lon": 5.334296,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "156777912516",
@@ -3397,7 +3890,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stalkruidlaan 1",
     "lat": 50.8996263,
-    "lon": 4.3623552
+    "lon": 4.3623552,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514902760",
@@ -3407,7 +3901,8 @@ var scholenData = [
     "Type": "",
     "Adres": "de Wahalaan 11",
     "lat": 50.8185652,
-    "lon": 4.4294268
+    "lon": 4.4294268,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514881753",
@@ -3417,7 +3912,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Moutstraat 22",
     "lat": 50.8500814,
-    "lon": 4.344923
+    "lon": 4.344923,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514862784",
@@ -3426,8 +3922,9 @@ var scholenData = [
     "Plaats": "WETTEREN",
     "Type": "",
     "Adres": "Oosterzelesteenweg 80",
-    "lat": 50.9779576,
-    "lon": 3.8336534
+    "lat": 50.9790254,
+    "lon": 3.8340411,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819310",
@@ -3437,7 +3934,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Huidevettersstraat 5",
     "lat": 51.0279097,
-    "lon": 5.4022719
+    "lon": 5.4022719,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "226418043099",
@@ -3447,7 +3945,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Koning Albertlaan 58",
     "lat": 50.8909832,
-    "lon": 5.6561554
+    "lon": 5.6561554,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "152330222829",
@@ -3457,7 +3956,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Coupure 312",
     "lat": 51.0516513,
-    "lon": 3.710727
+    "lon": 3.710727,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "7611991243",
@@ -3467,7 +3967,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "KLEIBEEKSTRAAT 138",
     "lat": 51.1734958,
-    "lon": 4.120918
+    "lon": 4.120918,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862782",
@@ -3477,7 +3978,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bruggestraat 190",
     "lat": 51.1871264,
-    "lon": 3.3006247
+    "lon": 3.3006247,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902767",
@@ -3487,7 +3989,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gasthuisstraat 2",
     "lat": 51.1615971,
-    "lon": 4.9996674
+    "lon": 4.9996674,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819266",
@@ -3497,7 +4000,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Technische-Schoolstraat 52",
     "lat": 51.1671315,
-    "lon": 4.9832935
+    "lon": 4.9832935,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926043",
@@ -3507,7 +4011,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Mgr. Donchelei 7",
     "lat": 51.2017233,
-    "lon": 4.7697211
+    "lon": 4.7697211,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862556",
@@ -3517,7 +4022,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Eduard Arsenstraat 40",
     "lat": 51.1695294,
-    "lon": 4.4456211
+    "lon": 4.4456211,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797557",
@@ -3527,7 +4033,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Maantjessteenweg 130",
     "lat": 51.2544734,
-    "lon": 4.4416447
+    "lon": 4.4416447,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926289",
@@ -3537,7 +4044,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Forumlaan 4",
     "lat": 50.8970587,
-    "lon": 4.3545896
+    "lon": 4.3545896,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514926286",
@@ -3547,7 +4055,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Marktstraat 15",
     "lat": 51.2074746,
-    "lon": 3.4454825
+    "lon": 3.4454825,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862572",
@@ -3557,7 +4066,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bruiloftstraat 10",
     "lat": 50.8508921,
-    "lon": 5.4867178
+    "lon": 5.4867178,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819532",
@@ -3567,7 +4077,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Steenbokstraat 14",
     "lat": 51.2074719,
-    "lon": 4.4267067
+    "lon": 4.4267067,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514902986",
@@ -3577,7 +4088,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Lovelingstraat 8",
     "lat": 51.220658,
-    "lon": 4.4317358
+    "lon": 4.4317358,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862539",
@@ -3587,7 +4099,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Dreef 47",
     "lat": 51.1201339,
-    "lon": 3.5646792
+    "lon": 3.5646792,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840034",
@@ -3597,7 +4110,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Dorpsstraat 40",
     "lat": 51.3162301,
-    "lon": 4.4288989
+    "lon": 4.4288989,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757082",
@@ -3607,7 +4121,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Groenstraat 15",
     "lat": 50.8348442,
-    "lon": 3.764663
+    "lon": 3.764663,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926035",
@@ -3617,7 +4132,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Hofstraat 15",
     "lat": 51.1679635,
-    "lon": 4.1382521
+    "lon": 4.1382521,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840014",
@@ -3627,7 +4143,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Groot Eiland 39",
     "lat": 50.8460836,
-    "lon": 4.3460904
+    "lon": 4.3460904,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514840004,\"Instituut Heilig Hart\t\",\"300 - 600 lln\",\"KALMTHOUT\",\"\",\"Kapellensteenweg 190\"",
@@ -3637,7 +4154,8 @@ var scholenData = [
     "Type": "",
     "Adres": "",
     "lat": 50.6402809,
-    "lon": 4.6667145
+    "lon": 4.6667145,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514840015",
@@ -3647,7 +4165,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Herebaan West 11",
     "lat": 51.038827,
-    "lon": 5.3758647
+    "lon": 5.3758647,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514778303",
@@ -3657,7 +4176,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Koninklijke Baan 28",
     "lat": 51.0969414,
-    "lon": 2.5831006
+    "lon": 2.5831006,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514840037",
@@ -3667,7 +4187,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lange Violettestraat 65",
     "lat": 51.0472044,
-    "lon": 3.7343877
+    "lon": 3.7343877,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778069",
@@ -3677,7 +4198,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kempenlaan 36",
     "lat": 51.3073308,
-    "lon": 4.8564109
+    "lon": 4.8564109,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778063",
@@ -3687,7 +4209,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Houtsaegerlaan 40",
     "lat": 51.1061397,
-    "lon": 2.6533186
+    "lon": 2.6533186,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778042",
@@ -3697,7 +4220,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hoogstraatsebaan 2",
     "lat": 51.3025432,
-    "lon": 4.7359787
+    "lon": 4.7359787,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926295",
@@ -3707,7 +4231,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Bonekruidlaan 88",
     "lat": 50.8957602,
-    "lon": 4.3702915
+    "lon": 4.3702915,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514819283",
@@ -3717,7 +4242,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lange Violettestraat 12",
     "lat": 51.0482602,
-    "lon": 3.7339169
+    "lon": 3.7339169,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797794",
@@ -3727,7 +4253,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Holstraat 66",
     "lat": 51.0526023,
-    "lon": 3.7136726
+    "lon": 3.7136726,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926057",
@@ -3736,8 +4263,9 @@ var scholenData = [
     "Plaats": "ARDOOIE",
     "Type": "Klant",
     "Adres": "Wezestraat 2",
-    "lat": 50.9757836,
-    "lon": 3.2035814
+    "lat": 50.9574573,
+    "lon": 3.213124,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902998",
@@ -3747,7 +4275,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jazz Bilzenplein",
     "lat": 50.8708113,
-    "lon": 5.5197648
+    "lon": 5.5197648,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862530",
@@ -3757,7 +4286,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jozef Pierrestraat 56",
     "lat": 50.8848321,
-    "lon": 4.722524
+    "lon": 4.722524,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514797814",
@@ -3767,7 +4297,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Mechelsestraat 7",
     "lat": 50.9298812,
-    "lon": 4.4218477
+    "lon": 4.4218477,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881981",
@@ -3777,7 +4308,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bessemerstraat 443",
     "lat": 50.9021818,
-    "lon": 5.6304216
+    "lon": 5.6304216,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881519",
@@ -3787,7 +4319,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Oudaen 76_2",
     "lat": 51.2640831,
-    "lon": 4.5536541
+    "lon": 4.5536541,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819287",
@@ -3796,8 +4329,9 @@ var scholenData = [
     "Plaats": "HEIST-OP-DEN-BERG",
     "Type": "Prospect",
     "Adres": "Biekorfstraat 10",
-    "lat": 51.0735577,
-    "lon": 4.6973801
+    "lat": 51.0740282,
+    "lon": 4.7035662,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839994",
@@ -3807,7 +4341,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Gildestraat 22",
     "lat": 50.8197444,
-    "lon": 5.1841041
+    "lon": 5.1841041,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514797760",
@@ -3817,7 +4352,8 @@ var scholenData = [
     "Type": "",
     "Adres": "VIIde-Olympiadelaan 25",
     "lat": 51.1834931,
-    "lon": 4.3882612
+    "lon": 4.3882612,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514756843",
@@ -3827,7 +4363,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Patersdreef 5",
     "lat": 50.9991227,
-    "lon": 3.3244591
+    "lon": 3.3244591,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "12118057191",
@@ -3837,7 +4374,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Brusselsesteenweg 165",
     "lat": 51.0148085,
-    "lon": 3.7880796
+    "lon": 3.7880796,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926302",
@@ -3847,7 +4385,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Dieseghemlei 60",
     "lat": 51.1775728,
-    "lon": 4.4547832
+    "lon": 4.4547832,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926034",
@@ -3857,7 +4396,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gagelveldenstraat 71",
     "lat": 51.2437741,
-    "lon": 4.4357667
+    "lon": 4.4357667,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881763",
@@ -3867,7 +4407,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Picardstraat 172",
     "lat": 50.8627599,
-    "lon": 4.3483087
+    "lon": 4.3483087,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514840005",
@@ -3877,7 +4418,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Oscar Ruelensplein 13",
     "lat": 50.8671695,
-    "lon": 4.2981413
+    "lon": 4.2981413,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514881989",
@@ -3887,7 +4429,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Magnolialaan 21",
     "lat": 51.1105097,
-    "lon": 3.9897005
+    "lon": 3.9897005,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926278",
@@ -3897,7 +4440,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Wirixstraat 56",
     "lat": 51.1117256,
-    "lon": 4.3217444
+    "lon": 4.3217444,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778050",
@@ -3907,7 +4451,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Vlieghavenlaan 18",
     "lat": 51.0029411,
-    "lon": 4.6587674
+    "lon": 4.6587674,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514903005",
@@ -3917,7 +4462,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Vaartstraat 1",
     "lat": 50.9448948,
-    "lon": 4.3992792
+    "lon": 4.3992792,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862568",
@@ -3927,7 +4473,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "de Merodelei 220",
     "lat": 51.3212283,
-    "lon": 4.9285057
+    "lon": 4.9285057,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839777",
@@ -3937,7 +4484,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Monseigneur Cardijnlaan 1",
     "lat": 51.1523105,
-    "lon": 4.4459883
+    "lon": 4.4459883,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819315",
@@ -3946,8 +4494,9 @@ var scholenData = [
     "Plaats": "WEMMEL",
     "Type": "",
     "Adres": "Zijp 14",
-    "lat": 50.9182282,
-    "lon": 4.3235327
+    "lat": 50.9185614,
+    "lon": 4.3223798,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514756828",
@@ -3957,7 +4506,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Boomgaardstraat 56",
     "lat": 51.3236127,
-    "lon": 4.9614817
+    "lon": 4.9614817,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "7706793696",
@@ -3967,7 +4517,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Capucienenstraat 28",
     "lat": 50.9287619,
-    "lon": 5.3413665
+    "lon": 5.3413665,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819529",
@@ -3977,7 +4528,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Hugo Verrieststraat 68",
     "lat": 50.9515537,
-    "lon": 3.1244096
+    "lon": 3.1244096,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797795",
@@ -3987,7 +4539,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Elfde-Liniestraat 22",
     "lat": 50.9372155,
-    "lon": 5.3467218
+    "lon": 5.3467218,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514902765",
@@ -3997,7 +4550,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Hollezijp 11",
     "lat": 51.0912349,
-    "lon": 4.3710194
+    "lon": 4.3710194,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819519",
@@ -4007,7 +4561,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Wegvoeringstraat 7",
     "lat": 50.7723416,
-    "lon": 3.8788243
+    "lon": 3.8788243,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797793",
@@ -4017,7 +4572,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Astridlaan 33",
     "lat": 50.8391032,
-    "lon": 4.0290731
+    "lon": 4.0290731,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514757090",
@@ -4027,7 +4583,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Auguste Demaeghtlaan 40",
     "lat": 50.739189,
-    "lon": 4.2353462
+    "lon": 4.2353462,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514757086",
@@ -4037,7 +4594,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Plumerlaan 24",
     "lat": 50.8535976,
-    "lon": 2.8806255
+    "lon": 2.8806255,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902990",
@@ -4047,7 +4605,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Frank Craeybeckxlaan 22",
     "lat": 51.2216859,
-    "lon": 4.4606479
+    "lon": 4.4606479,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839765",
@@ -4057,7 +4616,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Chrysantenstraat 26",
     "lat": 50.8819292,
-    "lon": 4.3498093
+    "lon": 4.3498093,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514778308",
@@ -4067,7 +4627,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Melgesdreef 113",
     "lat": 51.2553082,
-    "lon": 4.4555973
+    "lon": 4.4555973,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926271",
@@ -4077,7 +4638,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Keizersplein 19",
     "lat": 50.9363113,
-    "lon": 4.033576
+    "lon": 4.033576,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926025",
@@ -4086,8 +4648,9 @@ var scholenData = [
     "Plaats": "DEINZE",
     "Type": "Klant",
     "Adres": "Volhardingslaan 11",
-    "lat": 50.9740292,
-    "lon": 3.5302842
+    "lat": 50.974226,
+    "lon": 3.5295289,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514839785",
@@ -4097,7 +4660,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Ganzendries 14",
     "lat": 51.3780265,
-    "lon": 4.4718316
+    "lon": 4.4718316,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819258",
@@ -4107,7 +4671,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Mosselerlaan 94",
     "lat": 50.9749457,
-    "lon": 5.5119316
+    "lon": 5.5119316,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514797811",
@@ -4117,7 +4682,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Antwerpsestraat 36",
     "lat": 50.9902167,
-    "lon": 5.0529391
+    "lon": 5.0529391,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514757089",
@@ -4127,7 +4693,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Spikdorenveld 22",
     "lat": 51.0873337,
-    "lon": 4.9071587
+    "lon": 4.9071587,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819302",
@@ -4137,7 +4704,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Callaertswalledreef 8",
     "lat": 51.1531946,
-    "lon": 2.9664859
+    "lon": 2.9664859,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926031",
@@ -4147,7 +4715,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gerhagenstraat 58",
     "lat": 51.0649288,
-    "lon": 5.0816629
+    "lon": 5.0816629,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862581",
@@ -4157,7 +4726,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Grote Prijzenlaan 59",
     "lat": 50.8330765,
-    "lon": 4.461824
+    "lon": 4.461824,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514839774",
@@ -4167,7 +4737,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Pottelberg 4",
     "lat": 50.8197266,
-    "lon": 3.2556783
+    "lon": 3.2556783,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "7447355334",
@@ -4177,7 +4748,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Predikherenlaan 18",
     "lat": 51.1336351,
-    "lon": 4.5748216
+    "lon": 4.5748216,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862792",
@@ -4187,7 +4759,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Arthur Vanderpoortenlaan 35",
     "lat": 51.1274372,
-    "lon": 4.5737457
+    "lon": 4.5737457,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840032",
@@ -4197,7 +4770,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Anton Bergmannlaan 24",
     "lat": 51.136246,
-    "lon": 4.570294
+    "lon": 4.570294,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778055",
@@ -4207,7 +4781,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Gaversesteenweg 195",
     "lat": 50.9983912,
-    "lon": 3.7446579
+    "lon": 3.7446579,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "116472283367",
@@ -4217,7 +4792,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Plumerlaan 26",
     "lat": 50.8540576,
-    "lon": 2.8788666
+    "lon": 2.8788666,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902993",
@@ -4227,7 +4803,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Begonialaan 34",
     "lat": 51.1931062,
-    "lon": 5.1200147
+    "lon": 5.1200147,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757084",
@@ -4237,7 +4814,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ooievaarsnest 3",
     "lat": 51.0357916,
-    "lon": 3.7692552
+    "lon": 3.7692552,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881764",
@@ -4247,7 +4825,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gustave Royerslaan 39",
     "lat": 50.7421928,
-    "lon": 3.5921485
+    "lon": 3.5921485,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514839787",
@@ -4257,7 +4836,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Begijnhoflaan 1",
     "lat": 51.0255911,
-    "lon": 4.0966541
+    "lon": 4.0966541,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797770",
@@ -4267,7 +4847,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Technische-Schoolstraat 15",
     "lat": 51.1650382,
-    "lon": 4.9863565
+    "lon": 4.9863565,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903030",
@@ -4277,7 +4858,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Tiensestraat 57",
     "lat": 50.7590041,
-    "lon": 5.0740082
+    "lon": 5.0740082,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514839784",
@@ -4287,7 +4869,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kasteelstraat 32",
     "lat": 50.8018013,
-    "lon": 3.7621698
+    "lon": 3.7621698,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797559",
@@ -4297,7 +4880,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stationstraat 67",
     "lat": 50.9938646,
-    "lon": 3.3283417
+    "lon": 3.3283417,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778060",
@@ -4307,7 +4891,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Noordlaan 10",
     "lat": 51.0031356,
-    "lon": 3.8756192
+    "lon": 3.8756192,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926294",
@@ -4317,7 +4902,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Oudenaardsesteenweg 20",
     "lat": 50.7774852,
-    "lon": 3.4462977
+    "lon": 3.4462977,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514839768",
@@ -4327,7 +4913,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint-Guidostraat 73",
     "lat": 50.8359377,
-    "lon": 4.3026849
+    "lon": 4.3026849,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514926029",
@@ -4337,7 +4924,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kapellensteenweg 501",
     "lat": 51.3616417,
-    "lon": 4.466503
+    "lon": 4.466503,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881735",
@@ -4347,7 +4935,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Guido Gezellelaan 10",
     "lat": 50.8328997,
-    "lon": 3.2409247
+    "lon": 3.2409247,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881982",
@@ -4357,7 +4946,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Brusselsestraat 25",
     "lat": 51.0004247,
-    "lon": 4.3018523
+    "lon": 4.3018523,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881529",
@@ -4367,7 +4957,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Stationsstraat 55",
     "lat": 50.9569936,
-    "lon": 4.2270116
+    "lon": 4.2270116,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514881518",
@@ -4377,7 +4968,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rooienberg 20",
     "lat": 51.0952728,
-    "lon": 4.4984225
+    "lon": 4.4984225,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840000",
@@ -4387,7 +4979,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stationsplein 4",
     "lat": 50.7713138,
-    "lon": 4.5323074
+    "lon": 4.5323074,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514797786",
@@ -4397,7 +4990,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Molenbaan 54",
     "lat": 50.9825321,
-    "lon": 4.2356848
+    "lon": 4.2356848,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778045",
@@ -4406,8 +5000,9 @@ var scholenData = [
     "Plaats": "TERVUREN",
     "Type": "",
     "Adres": "Pater Dupierreuxlaan 1",
-    "lat": 50.8332593,
-    "lon": 4.5278361
+    "lat": 50.8321169,
+    "lon": 4.5255977,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514926068",
@@ -4417,7 +5012,8 @@ var scholenData = [
     "Type": "",
     "Adres": "de Haveskerckelaan 25",
     "lat": 50.8059625,
-    "lon": 4.3207367
+    "lon": 4.3207367,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514926268",
@@ -4427,7 +5023,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Eksaardserijweg 24",
     "lat": 51.0834797,
-    "lon": 3.7694045
+    "lon": 3.7694045,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797756",
@@ -4437,7 +5034,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Onderwijsstraat 2",
     "lat": 50.9384706,
-    "lon": 4.0416315
+    "lon": 4.0416315,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819065",
@@ -4447,7 +5045,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Kloosterstraat 70",
     "lat": 51.4688035,
-    "lon": 4.4619786
+    "lon": 4.4619786,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797555",
@@ -4457,7 +5056,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Guldendallaan 90",
     "lat": 50.838312,
-    "lon": 4.4246114
+    "lon": 4.4246114,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514757080",
@@ -4467,7 +5067,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Berm 12",
     "lat": 50.9713104,
-    "lon": 5.4459793
+    "lon": 5.4459793,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514778047",
@@ -4477,7 +5078,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Burg. Bertenplein 32",
     "lat": 50.8534337,
-    "lon": 2.7251102
+    "lon": 2.7251102,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926024",
@@ -4487,7 +5089,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Brusselsesteenweg 459",
     "lat": 50.9998908,
-    "lon": 3.8107027
+    "lon": 3.8107027,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862541",
@@ -4497,7 +5100,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rouwmoer 7B",
     "lat": 51.4448677,
-    "lon": 4.426891
+    "lon": 4.426891,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819316",
@@ -4507,7 +5111,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Emile Grysonlaan 1",
     "lat": 50.8156538,
-    "lon": 4.2950991
+    "lon": 4.2950991,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514819314",
@@ -4517,7 +5122,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Karel Coggelaan 8",
     "lat": 51.0713151,
-    "lon": 2.6653107
+    "lon": 2.6653107,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797754",
@@ -4527,7 +5133,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Zuidmoerstraat 125",
     "lat": 51.1791119,
-    "lon": 3.5663244
+    "lon": 3.5663244,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840027",
@@ -4537,7 +5144,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Kattenstraat 7",
     "lat": 50.9464089,
-    "lon": 3.1209969
+    "lon": 3.1209969,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778058",
@@ -4547,7 +5155,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Luitenant Dobbelaerestraat 16",
     "lat": 51.1201612,
-    "lon": 3.5604371
+    "lon": 3.5604371,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902764",
@@ -4557,7 +5166,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Spoorwegstraat 14",
     "lat": 51.1909518,
-    "lon": 3.2182534
+    "lon": 3.2182534,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797781",
@@ -4567,7 +5177,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Nieuwstraat 75",
     "lat": 51.1624272,
-    "lon": 4.1367269
+    "lon": 4.1367269,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902776",
@@ -4577,7 +5188,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bleekstraat 3",
     "lat": 51.0280276,
-    "lon": 4.4881704
+    "lon": 4.4881704,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881987",
@@ -4587,7 +5199,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kaulillerweg 3",
     "lat": 51.1733769,
-    "lon": 5.5760479
+    "lon": 5.5760479,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514797767",
@@ -4597,7 +5210,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Diestersteenweg 3",
     "lat": 51.1155048,
-    "lon": 5.2573978
+    "lon": 5.2573978,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514756825",
@@ -4607,7 +5221,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Molenbergstraat 25",
     "lat": 50.7522614,
-    "lon": 5.0881788
+    "lon": 5.0881788,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514840033",
@@ -4617,7 +5232,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kleine Peperstraat 16",
     "lat": 51.1642659,
-    "lon": 4.1451093
+    "lon": 4.1451093,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514839773",
@@ -4627,7 +5243,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kortrijksesteenweg 1024",
     "lat": 51.0240985,
-    "lon": 3.7055149
+    "lon": 3.7055149,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "85204888789",
@@ -4637,7 +5254,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Keversstraat 26",
     "lat": 50.7844719,
-    "lon": 5.4605246
+    "lon": 5.4605246,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819321",
@@ -4647,7 +5265,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Turnhoutsebaan 250",
     "lat": 51.2185344,
-    "lon": 4.4740798
+    "lon": 4.4740798,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926026",
@@ -4657,7 +5276,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Toverfluitstraat 21",
     "lat": 50.8507548,
-    "lon": 4.2959976
+    "lon": 4.2959976,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514840022",
@@ -4667,7 +5287,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Zevenkerken 4",
     "lat": 51.1597119,
-    "lon": 3.1592244
+    "lon": 3.1592244,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926283",
@@ -4677,7 +5298,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Brusselsesteenweg 20",
     "lat": 50.7426662,
-    "lon": 4.3335999
+    "lon": 4.3335999,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6507991005",
@@ -4687,7 +5309,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Wilgendijk 30",
     "lat": 51.0341529,
-    "lon": 2.8617404
+    "lon": 2.8617404,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "5918818775",
@@ -4697,7 +5320,19 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Lindendreef 37",
     "lat": 51.4014859,
-    "lon": 4.7680043
+    "lon": 4.7680043,
+    "Provincie": "Antwerpen"
+  },
+  {
+    "Record-ID": "11986989774",
+    "Naam onderneming": "Sila Westerlo - Anker",
+    "# lln grootorde": "2000 - 3000 lln",
+    "Plaats": "Westerlo",
+    "Type": "",
+    "Adres": "Denis Voetsstraat 21",
+    "lat": 51.0877421,
+    "lon": 4.9135775,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903020",
@@ -4707,7 +5342,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Patersstraat 28",
     "lat": 51.3250772,
-    "lon": 4.9519523
+    "lon": 4.9519523,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778086",
@@ -4717,7 +5353,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Diesterstraat 1",
     "lat": 50.8170345,
-    "lon": 5.1876744
+    "lon": 5.1876744,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "44162230465",
@@ -4727,7 +5364,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Beheerstraat 10",
     "lat": 50.8266555,
-    "lon": 3.2585107
+    "lon": 3.2585107,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "43680943312",
@@ -4737,7 +5375,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Etterbeeksesteenweg 182",
     "lat": 50.8424005,
-    "lon": 4.3782579
+    "lon": 4.3782579,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "200131898611",
@@ -4746,8 +5385,9 @@ var scholenData = [
     "Plaats": "TONGEREN",
     "Type": "",
     "Adres": "Sint-Truidersteenweg 17",
-    "lat": 50.7983066,
-    "lon": 5.3548653
+    "lat": 50.8064755,
+    "lon": 5.2824779,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514926064",
@@ -4756,8 +5396,9 @@ var scholenData = [
     "Plaats": "Sint-Niklaas",
     "Type": "Prospect",
     "Adres": "Hospitaalstraat 2",
-    "lat": 51.162552,
-    "lon": 4.1494924
+    "lat": 51.1617399,
+    "lon": 4.1517268,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881736",
@@ -4767,7 +5408,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pierstraat 1",
     "lat": 51.1293855,
-    "lon": 4.4340161
+    "lon": 4.4340161,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862536",
@@ -4777,7 +5419,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kasteellaan 54",
     "lat": 51.0490959,
-    "lon": 3.7405289
+    "lon": 3.7405289,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840041",
@@ -4787,7 +5430,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Kempische steenweg 400",
     "lat": 50.9517646,
-    "lon": 5.3463538
+    "lon": 5.3463538,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862570",
@@ -4797,7 +5441,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Molenaarsstraat 30",
     "lat": 51.0618814,
-    "lon": 3.7179838
+    "lon": 3.7179838,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514882005",
@@ -4807,7 +5452,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Naamsesteenweg 355",
     "lat": 50.8582763,
-    "lon": 4.6986679
+    "lon": 4.6986679,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778068",
@@ -4817,7 +5463,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Parklaan 7",
     "lat": 50.8810632,
-    "lon": 4.4749542
+    "lon": 4.4749542,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514902755",
@@ -4827,7 +5474,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Rijselstraat 7",
     "lat": 51.1910133,
-    "lon": 3.2144174
+    "lon": 3.2144174,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778309",
@@ -4837,7 +5485,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Ruggeveldlaan 496",
     "lat": 51.2191242,
-    "lon": 4.4813748
+    "lon": 4.4813748,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757055",
@@ -4847,7 +5496,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Lenniksesteenweg 2",
     "lat": 50.7439603,
-    "lon": 4.2264334
+    "lon": 4.2264334,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "227095380184",
@@ -4857,7 +5507,19 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Hoogstraat 3",
     "lat": 50.8832592,
-    "lon": 4.4781055
+    "lon": 4.4781055,
+    "Provincie": "Vlaams-Brabant"
+  },
+  {
+    "Record-ID": "6514757098",
+    "Naam onderneming": "Virga Jessecollege",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "HASSELT",
+    "Type": "",
+    "Adres": "Guffenslaan 27",
+    "lat": 50.9268289,
+    "lon": 5.3400513,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514757094",
@@ -4867,7 +5529,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Oude Zak 38",
     "lat": 51.2109348,
-    "lon": 3.2192375
+    "lon": 3.2192375,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881748",
@@ -4877,7 +5540,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Cadixstraat 2",
     "lat": 51.2325643,
-    "lon": 4.4131778
+    "lon": 4.4131778,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926304",
@@ -4887,7 +5551,19 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Amerikalei 47",
     "lat": 51.2072735,
-    "lon": 4.4006568
+    "lon": 4.4006568,
+    "Provincie": "Antwerpen"
+  },
+  {
+    "Record-ID": "6514881778",
+    "Naam onderneming": "Sint-Maarten Bovenschool",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "Beveren-Kruibeke-Zwijndrecht",
+    "Type": "Partner (Passief)",
+    "Adres": "Kallobaan 1",
+    "lat": 51.2185719,
+    "lon": 4.2586059,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "192951402727",
@@ -4897,7 +5573,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Magdalenastraat 30",
     "lat": 51.2008872,
-    "lon": 3.2101053
+    "lon": 3.2101053,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514840053",
@@ -4907,7 +5584,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Gemeenteplein 8",
     "lat": 51.1346329,
-    "lon": 4.4438161
+    "lon": 4.4438161,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839796",
@@ -4917,7 +5595,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Parklaan 89",
     "lat": 51.158758,
-    "lon": 4.1500774
+    "lon": 4.1500774,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926308",
@@ -4927,7 +5606,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Antwerpsesteenweg 145",
     "lat": 51.0444768,
-    "lon": 4.4681855
+    "lon": 4.4681855,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840007",
@@ -4936,8 +5616,9 @@ var scholenData = [
     "Plaats": "STABROEK",
     "Type": "Prospect",
     "Adres": "Laageind 19",
-    "lat": 51.3291172,
-    "lon": 4.3613013
+    "lat": 51.3277095,
+    "lon": 4.362782,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797759",
@@ -4947,7 +5628,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Leffingestraat 1",
     "lat": 51.2218158,
-    "lon": 2.9154551
+    "lon": 2.9154551,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902773",
@@ -4957,7 +5639,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "47 Fortstraat",
     "lat": 50.8480061,
-    "lon": 3.6128103
+    "lon": 3.6128103,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778057",
@@ -4966,8 +5649,9 @@ var scholenData = [
     "Plaats": "BEVEREN",
     "Type": "Prospect",
     "Adres": "Donkvijverstraat 30",
-    "lat": 51.2149296,
-    "lon": 4.2525194
+    "lat": 51.214041,
+    "lon": 4.2508876,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514881781",
@@ -4977,7 +5661,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint-Jozefstraat 10",
     "lat": 51.0841927,
-    "lon": 3.7677143
+    "lon": 3.7677143,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "13103940555",
@@ -4987,7 +5672,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Sint Catharinastraat 10",
     "lat": 51.3318852,
-    "lon": 4.3726966
+    "lon": 4.3726966,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "13100734442",
@@ -4997,7 +5683,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Potaardeberg 59",
     "lat": 50.9912893,
-    "lon": 3.7402187
+    "lon": 3.7402187,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "12453291976",
@@ -5007,7 +5694,19 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Kaaskerkestraat 22",
     "lat": 51.0323688,
-    "lon": 2.8503301
+    "lon": 2.8503301,
+    "Provincie": "West-Vlaanderen"
+  },
+  {
+    "Record-ID": "11821008865",
+    "Naam onderneming": "GO! Atheneum Brussel",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Brussel",
+    "Type": "Prospect",
+    "Adres": " Oratorienberg 20",
+    "lat": 50.8493926,
+    "lon": 4.3618552,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "7139575764",
@@ -5017,7 +5716,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Nekkersgatlaan 17",
     "lat": 50.791937,
-    "lon": 4.3274756
+    "lon": 4.3274756,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514882009",
@@ -5027,7 +5727,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stationsstraat 25",
     "lat": 51.2267684,
-    "lon": 5.4370167
+    "lon": 5.4370167,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819525",
@@ -5037,7 +5738,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Koninklijke Baan 5",
     "lat": 51.2729405,
-    "lon": 3.0198721
+    "lon": 3.0198721,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514757081",
@@ -5047,7 +5749,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Mudakkers 25",
     "lat": 51.2316613,
-    "lon": 5.3140598
+    "lon": 5.3140598,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819293",
@@ -5057,7 +5760,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Engstegenseweg 1",
     "lat": 50.9935736,
-    "lon": 5.3646132
+    "lon": 5.3646132,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862551",
@@ -5067,7 +5771,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Conscienceplein 12",
     "lat": 51.0649444,
-    "lon": 3.1036065
+    "lon": 3.1036065,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797808",
@@ -5077,7 +5782,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Vaartdijkstraat 3",
     "lat": 51.192592,
-    "lon": 3.2277475
+    "lon": 3.2277475,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514882000",
@@ -5087,7 +5793,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Eksaarde-dorp 1_A",
     "lat": 51.1458816,
-    "lon": 3.9556428
+    "lon": 3.9556428,
+    "Provincie": "Oost-Vlaanderen"
+  },
+  {
+    "Record-ID": "6514819282",
+    "Naam onderneming": "VLOT! Creo",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Lokeren",
+    "Type": "",
+    "Adres": "heilig hartlaan 1A",
+    "lat": 51.1011802,
+    "lon": 3.9871479,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797779",
@@ -5097,7 +5815,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Kasteelstraat 44",
     "lat": 50.8014896,
-    "lon": 3.7606938
+    "lon": 3.7606938,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862805",
@@ -5107,7 +5826,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Grootloonstraat 1",
     "lat": 50.7991179,
-    "lon": 5.3572538
+    "lon": 5.3572538,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514778321",
@@ -5117,7 +5837,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rooseveltlaan (Franklin) 98",
     "lat": 50.9318476,
-    "lon": 4.4266734
+    "lon": 4.4266734,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514819279",
@@ -5127,7 +5848,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Ploegstraat 38",
     "lat": 51.3289558,
-    "lon": 3.208353
+    "lon": 3.208353,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "306170460406",
@@ -5137,7 +5859,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Lange Leemstraat 313",
     "lat": 51.204496,
-    "lon": 4.422386
+    "lon": 4.422386,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926306",
@@ -5147,7 +5870,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Kruisven 25",
     "lat": 51.1763634,
-    "lon": 5.1257924
+    "lon": 5.1257924,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757052",
@@ -5157,7 +5881,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ledebaan 101",
     "lat": 50.9468377,
-    "lon": 4.0283832
+    "lon": 4.0283832,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840016",
@@ -5167,7 +5892,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Capucienenlaan 8",
     "lat": 50.9365462,
-    "lon": 4.0284502
+    "lon": 4.0284502,
+    "Provincie": "Oost-Vlaanderen"
+  },
+  {
+    "Record-ID": "6514839800",
+    "Naam onderneming": "Stroom leuven 1e graad",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Leuven",
+    "Type": "",
+    "Adres": "Jan-Pieter Minckelersstraat 192",
+    "lat": 50.8859335,
+    "lon": 4.7031992,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778105",
@@ -5177,7 +5914,8 @@ var scholenData = [
     "Type": "",
     "Adres": "",
     "lat": 51.0538286,
-    "lon": 3.7250121
+    "lon": 3.7250121,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926048",
@@ -5187,7 +5925,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lange Beeldekensstraat 264",
     "lat": 51.2219161,
-    "lon": 4.4346926
+    "lon": 4.4346926,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514778099",
@@ -5197,7 +5936,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Jan De Voslei 6",
     "lat": 51.1858668,
-    "lon": 4.390803
+    "lon": 4.390803,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926277",
@@ -5207,7 +5947,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Daverlostraat 132",
     "lat": 51.1957189,
-    "lon": 3.2439965
+    "lon": 3.2439965,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881992",
@@ -5217,7 +5958,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ingelmunstersteenweg 1_A",
     "lat": 50.9461273,
-    "lon": 3.2778463
+    "lon": 3.2778463,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514903032",
@@ -5227,7 +5969,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pastoor Staelensstraat 4",
     "lat": 51.1271071,
-    "lon": 3.1573141
+    "lon": 3.1573141,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514903009",
@@ -5237,7 +5980,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Schaffensesteenweg 2",
     "lat": 51.0389489,
-    "lon": 5.16833
+    "lon": 5.16833,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "118543103206",
@@ -5247,7 +5991,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Potterierei 11",
     "lat": 51.2202127,
-    "lon": 3.2324554
+    "lon": 3.2324554,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926298",
@@ -5257,7 +6002,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Jan Moorkensstraat 95",
     "lat": 51.1879453,
-    "lon": 4.4322995
+    "lon": 4.4322995,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926054",
@@ -5267,7 +6013,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Predikherenstraat 1",
     "lat": 50.8326794,
-    "lon": 5.1019795
+    "lon": 5.1019795,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862573",
@@ -5277,7 +6024,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Diestersteenweg 11",
     "lat": 51.1152634,
-    "lon": 5.255188
+    "lon": 5.255188,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881775",
@@ -5287,7 +6035,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Rollebaanstraat 10",
     "lat": 51.1410773,
-    "lon": 3.3412702
+    "lon": 3.3412702,
+    "Provincie": "West-Vlaanderen"
+  },
+  {
+    "Record-ID": "6514798011",
+    "Naam onderneming": "Sint-Maarten Middenschool",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Beveren-Kruibeke-Zwijndrecht",
+    "Type": "Partner (Actief)",
+    "Adres": "Kallobaan 3_A",
+    "lat": 51.2163958,
+    "lon": 4.2578418,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514819528",
@@ -5297,7 +6057,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Haantjeslei 50-52",
     "lat": 51.2027158,
-    "lon": 4.3987687
+    "lon": 4.3987687,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819308",
@@ -5307,7 +6068,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Groenstraat 156",
     "lat": 50.8609202,
-    "lon": 4.3658517
+    "lon": 4.3658517,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514797813",
@@ -5317,7 +6079,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bethaniastraat 1_A",
     "lat": 50.8299586,
-    "lon": 5.1012346
+    "lon": 5.1012346,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514757095",
@@ -5327,7 +6090,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Amerikalei 32",
     "lat": 51.2086377,
-    "lon": 4.4003555
+    "lon": 4.4003555,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881737",
@@ -5337,7 +6101,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Van Rysselberghestraat 12",
     "lat": 51.3443047,
-    "lon": 3.2865764
+    "lon": 3.2865764,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "7743302377",
@@ -5347,7 +6112,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Koestraat 26 / 42",
     "lat": 50.776691,
-    "lon": 3.0381964
+    "lon": 3.0381964,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902973",
@@ -5357,7 +6123,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Bekaflaan 65",
     "lat": 50.9857193,
-    "lon": 4.8465724
+    "lon": 4.8465724,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514756856",
@@ -5367,7 +6134,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Pastoor Pitetlaan 28",
     "lat": 50.9870177,
-    "lon": 4.7837553
+    "lon": 4.7837553,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862797",
@@ -5377,7 +6145,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Collegestraat 46",
     "lat": 51.1752793,
-    "lon": 4.8338066
+    "lon": 4.8338066,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819309",
@@ -5387,7 +6156,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Weststraat 86",
     "lat": 51.3136842,
-    "lon": 3.1291643
+    "lon": 3.1291643,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514902771",
@@ -5397,7 +6167,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Herestraat 49",
     "lat": 50.8800166,
-    "lon": 4.6701753
+    "lon": 4.6701753,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862800",
@@ -5407,7 +6178,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Willem Gijsselsstraat 1",
     "lat": 51.2230033,
-    "lon": 4.3767179
+    "lon": 4.3767179,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514840019",
@@ -5417,7 +6189,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sportlaan 4",
     "lat": 51.3433729,
-    "lon": 3.2828587
+    "lon": 3.2828587,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514840003",
@@ -5427,7 +6200,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Dokter Coenstraat 24",
     "lat": 51.1766145,
-    "lon": 4.3528492
+    "lon": 4.3528492,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926032",
@@ -5437,7 +6211,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Van Helmontstraat 27",
     "lat": 51.2255028,
-    "lon": 4.4356365
+    "lon": 4.4356365,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514902768",
@@ -5447,7 +6222,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Koninklijkelaan 9",
     "lat": 51.1893886,
-    "lon": 4.4242121
+    "lon": 4.4242121,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757083",
@@ -5457,7 +6233,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hoeneveldje 2",
     "lat": 50.7541838,
-    "lon": 5.7547475
+    "lon": 5.7547475,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514902770",
@@ -5467,7 +6244,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Appelboomgaardstraat 2",
     "lat": 50.8877626,
-    "lon": 5.5224903
+    "lon": 5.5224903,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881527",
@@ -5477,7 +6255,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Schoolstraat 8",
     "lat": 50.9212861,
-    "lon": 3.2564993
+    "lon": 3.2564993,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862795",
@@ -5487,7 +6266,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Minderbroedersstraat 6",
     "lat": 50.840852,
-    "lon": 3.5990751
+    "lon": 3.5990751,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514798014",
@@ -5497,7 +6277,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Kasteelstraat 28",
     "lat": 50.9188384,
-    "lon": 3.2176544
+    "lon": 3.2176544,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514757057",
@@ -5507,7 +6288,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Dorpsplein 2",
     "lat": 50.8856046,
-    "lon": 3.2387186
+    "lon": 3.2387186,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819514",
@@ -5517,7 +6299,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Stationsstraat 125",
     "lat": 51.0675927,
-    "lon": 5.0992643
+    "lon": 5.0992643,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881745",
@@ -5527,7 +6310,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Frankrijklei 91",
     "lat": 51.2140922,
-    "lon": 4.4127855
+    "lon": 4.4127855,
+    "Provincie": "Antwerpen"
+  },
+  {
+    "Record-ID": "6514862531",
+    "Naam onderneming": "Onze-Lieve-Vrouwinstituut - Bovenbouw ASO",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BOOM",
+    "Type": "",
+    "Adres": "Onze Lieve Vrouwstraat 9",
+    "lat": 51.0853081,
+    "lon": 4.3667769,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839791",
@@ -5537,7 +6332,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Brandstraat 44",
     "lat": 51.0881984,
-    "lon": 4.3688254
+    "lon": 4.3688254,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903031",
@@ -5547,7 +6343,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bruggestraat 23",
     "lat": 51.0689969,
-    "lon": 3.1043085
+    "lon": 3.1043085,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881738",
@@ -5557,7 +6354,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kortrijksestraat 47",
     "lat": 51.1523023,
-    "lon": 3.2361786
+    "lon": 3.2361786,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862781",
@@ -5567,7 +6365,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Oorderseweg 8",
     "lat": 51.2785453,
-    "lon": 4.4167097
+    "lon": 4.4167097,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862560",
@@ -5577,7 +6376,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pelserstraat 33",
     "lat": 51.0962202,
-    "lon": 5.7890678
+    "lon": 5.7890678,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514902766",
@@ -5587,7 +6387,8 @@ var scholenData = [
     "Type": "Partner (Actief)",
     "Adres": "Luchtvaartlaan 70",
     "lat": 50.8326848,
-    "lon": 4.4598132
+    "lon": 4.4598132,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514902761",
@@ -5597,7 +6398,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint-Jacobstraat 10",
     "lat": 51.1352828,
-    "lon": 5.6028402
+    "lon": 5.6028402,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514756850",
@@ -5607,7 +6409,8 @@ var scholenData = [
     "Type": "Gerelateerd aan klant",
     "Adres": "Groenendael 2_A",
     "lat": 50.7539751,
-    "lon": 5.077803
+    "lon": 5.077803,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514757051",
@@ -5617,7 +6420,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Maloulaan 2",
     "lat": 50.8498704,
-    "lon": 2.8776879
+    "lon": 2.8776879,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "147034881216",
@@ -5627,7 +6431,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lemmensberg 3",
     "lat": 50.8818712,
-    "lon": 4.6810655
+    "lon": 4.6810655,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514756827",
@@ -5637,7 +6442,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Ganzendries 149",
     "lat": 51.0329512,
-    "lon": 3.7105336
+    "lon": 3.7105336,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862523",
@@ -5647,7 +6453,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Maria Pijpelincxstraat 1",
     "lat": 51.2156427,
-    "lon": 4.409273
+    "lon": 4.409273,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797774",
@@ -5657,7 +6464,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Prinses Elisabethlaan 1",
     "lat": 51.2235081,
-    "lon": 2.9464415
+    "lon": 2.9464415,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797800",
@@ -5667,7 +6475,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Slangstraat 12",
     "lat": 51.0962313,
-    "lon": 4.1344184
+    "lon": 4.1344184,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902972",
@@ -5677,7 +6486,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Schuttershof 2_B",
     "lat": 51.1589166,
-    "lon": 4.9932651
+    "lon": 4.9932651,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926053",
@@ -5687,7 +6497,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Nederkouter 112",
     "lat": 51.0471213,
-    "lon": 3.7213617
+    "lon": 3.7213617,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797773",
@@ -5697,7 +6508,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ichtegemstraat 14_2",
     "lat": 51.0909651,
-    "lon": 2.9931824
+    "lon": 2.9931824,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514777849",
@@ -5707,7 +6519,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rijksweg 168",
     "lat": 51.0200368,
-    "lon": 5.7259607
+    "lon": 5.7259607,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514757068",
@@ -5717,7 +6530,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Tichelrijlaan 1",
     "lat": 50.8142554,
-    "lon": 5.191
+    "lon": 5.191,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514902774",
@@ -5727,7 +6541,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Snaggaardstraat 15",
     "lat": 51.2158673,
-    "lon": 3.2328989
+    "lon": 3.2328989,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862569",
@@ -5737,7 +6552,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Volkstraat 40",
     "lat": 51.2111157,
-    "lon": 4.3952224
+    "lon": 4.3952224,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514902752",
@@ -5747,7 +6563,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "kasteelstraat 53",
     "lat": 50.8319234,
-    "lon": 5.2413717
+    "lon": 5.2413717,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514839798",
@@ -5757,7 +6574,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Moerestraat 20",
     "lat": 51.0933644,
-    "lon": 2.9809491
+    "lon": 2.9809491,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514756833",
@@ -5767,7 +6585,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gloriantlaan 75",
     "lat": 51.2255189,
-    "lon": 4.3868012
+    "lon": 4.3868012,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839769",
@@ -5777,7 +6596,19 @@ var scholenData = [
     "Type": "",
     "Adres": "Oud-Strijderslaan 200",
     "lat": 50.8661178,
-    "lon": 4.4094358
+    "lon": 4.4094358,
+    "Provincie": "Onbekend"
+  },
+  {
+    "Record-ID": "6514881739",
+    "Naam onderneming": "GO! technisch atheneum Ieper",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "IEPER",
+    "Type": "Prospect",
+    "Adres": "Plumerlaan 26",
+    "lat": 50.8540576,
+    "lon": 2.8788666,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926072",
@@ -5787,7 +6618,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Burgemeester Philipslaan 19_B",
     "lat": 51.0978187,
-    "lon": 5.7904528
+    "lon": 5.7904528,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862529",
@@ -5797,7 +6629,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Rerum Novarumlaan 1",
     "lat": 50.8843638,
-    "lon": 4.7373741
+    "lon": 4.7373741,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514840039",
@@ -5807,7 +6640,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Stationsstraat 128",
     "lat": 51.0882285,
-    "lon": 3.4483851
+    "lon": 3.4483851,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778298",
@@ -5817,7 +6651,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Daalstraat 4",
     "lat": 50.9842644,
-    "lon": 5.7111386
+    "lon": 5.7111386,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514777842",
@@ -5827,7 +6662,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Westerlaan 69",
     "lat": 50.8878229,
-    "lon": 3.4218671
+    "lon": 3.4218671,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862802",
@@ -5837,7 +6673,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Vrijwilligersplein 3",
     "lat": 50.9338467,
-    "lon": 5.3323804
+    "lon": 5.3323804,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819275",
@@ -5847,7 +6684,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Vildersstraat 28",
     "lat": 50.9369135,
-    "lon": 5.3436745
+    "lon": 5.3436745,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "10175109851",
@@ -5857,7 +6695,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Loystraat 70",
     "lat": 51.0904656,
-    "lon": 4.1413369
+    "lon": 4.1413369,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514840002",
@@ -5867,7 +6706,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Karel Keymolenstraat 35",
     "lat": 50.8078217,
-    "lon": 4.1516444
+    "lon": 4.1516444,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514819521",
@@ -5877,7 +6717,8 @@ var scholenData = [
     "Type": "Partner (Actief)",
     "Adres": "Technische-Schoolstraat 15",
     "lat": 51.1650382,
-    "lon": 4.9863565
+    "lon": 4.9863565,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881998",
@@ -5887,7 +6728,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Sint-Clarastraat 46A",
     "lat": 51.2163302,
-    "lon": 3.2232098
+    "lon": 3.2232098,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881995",
@@ -5897,7 +6739,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Mercatorlaan 15",
     "lat": 51.2237137,
-    "lon": 2.9201822
+    "lon": 2.9201822,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881730",
@@ -5907,7 +6750,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Burgemeester Philipslaan 20",
     "lat": 51.0967305,
-    "lon": 5.7901732
+    "lon": 5.7901732,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862543",
@@ -5917,7 +6761,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Arsenaalstraat 20",
     "lat": 51.1308675,
-    "lon": 2.7546609
+    "lon": 2.7546609,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862542",
@@ -5927,7 +6772,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Hospicestraat 16",
     "lat": 51.1751097,
-    "lon": 3.9454437
+    "lon": 3.9454437,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514862533",
@@ -5937,7 +6783,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Kortrijksesteenweg 32",
     "lat": 51.0413419,
-    "lon": 3.7179809
+    "lon": 3.7179809,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514778048",
@@ -5947,7 +6794,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Onderwijsstraat 11",
     "lat": 50.9843668,
-    "lon": 5.7102665
+    "lon": 5.7102665,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514757091",
@@ -5957,7 +6805,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Nieuw Kwartier 2",
     "lat": 51.0252998,
-    "lon": 4.0951358
+    "lon": 4.0951358,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514756841",
@@ -5967,7 +6816,19 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Vander Merschplein 54",
     "lat": 50.7994787,
-    "lon": 3.1197477
+    "lon": 3.1197477,
+    "Provincie": "West-Vlaanderen"
+  },
+  {
+    "Record-ID": "400629369043",
+    "Naam onderneming": "Makz Secundair",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "KNOKKE-HEIST",
+    "Type": "Prospect",
+    "Adres": "Alfred Verweeplein 25",
+    "lat": 51.3443889,
+    "lon": 3.2898541,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514839999",
@@ -5977,17 +6838,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Augustijnenlaan 32",
     "lat": 51.1766856,
-    "lon": 4.8419947
-  },
-  {
-    "Record-ID": "6514778046",
-    "Naam onderneming": "Makz Secundair",
-    "# lln grootorde": "0 - 300 lln",
-    "Plaats": "KNOKKE-HEIST",
-    "Type": "Prospect",
-    "Adres": "Alfred Verweeplein 25",
-    "lat": 51.3443889,
-    "lon": 3.2898541
+    "lon": 4.8419947,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514862583",
@@ -5997,7 +6849,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Smissestraat 3",
     "lat": 51.0742944,
-    "lon": 2.6633191
+    "lon": 2.6633191,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514777848",
@@ -6007,7 +6860,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Leopoldlaan 45",
     "lat": 51.2206842,
-    "lon": 5.4248013
+    "lon": 5.4248013,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514777847",
@@ -6017,7 +6871,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Nekkersgatlaan 17",
     "lat": 50.791937,
-    "lon": 4.3274756
+    "lon": 4.3274756,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514819270",
@@ -6027,7 +6882,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Moerenstraat 4",
     "lat": 50.7810746,
-    "lon": 5.469995
+    "lon": 5.469995,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514902982",
@@ -6036,8 +6892,9 @@ var scholenData = [
     "Plaats": "LIEDEKERKE",
     "Type": "",
     "Adres": "Kleemputtenstraat 20",
-    "lat": 50.8714299,
-    "lon": 4.092796
+    "lat": 50.8736207,
+    "lon": 4.0914481,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514797789",
@@ -6047,7 +6904,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Van Maerlantstraat 1",
     "lat": 51.3107933,
-    "lon": 3.1259786
+    "lon": 3.1259786,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797766",
@@ -6057,7 +6915,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Herentalsebaan 56",
     "lat": 51.2951705,
-    "lon": 4.7380555
+    "lon": 4.7380555,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881754",
@@ -6067,7 +6926,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Lindestraat 123",
     "lat": 51.0956862,
-    "lon": 4.2435908
+    "lon": 4.2435908,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514797768",
@@ -6077,7 +6937,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Streepstraat 16",
     "lat": 51.3194515,
-    "lon": 4.4224602
+    "lon": 4.4224602,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514881760",
@@ -6087,7 +6948,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Rijselstraat 110",
     "lat": 51.0586539,
-    "lon": 3.104847
+    "lon": 3.104847,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514839761",
@@ -6097,7 +6959,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pastoor De Vosstraat 19",
     "lat": 51.2759097,
-    "lon": 4.4226316
+    "lon": 4.4226316,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926290",
@@ -6107,7 +6970,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Augustijnslei 54",
     "lat": 51.2935169,
-    "lon": 4.4902638
+    "lon": 4.4902638,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514902988",
@@ -6116,8 +6980,9 @@ var scholenData = [
     "Plaats": "Asse",
     "Type": "",
     "Adres": "Nieuwstraat 124B",
-    "lat": 50.9110112,
-    "lon": 4.1950026
+    "lat": 50.9117255,
+    "lon": 4.1961517,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778056",
@@ -6127,7 +6992,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Stationsstraat 32",
     "lat": 50.8061399,
-    "lon": 5.3450053
+    "lon": 5.3450053,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514757093",
@@ -6137,7 +7003,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Mevrouw Courtmanslaan 80",
     "lat": 51.2087913,
-    "lon": 3.4514351
+    "lon": 3.4514351,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514757088",
@@ -6147,7 +7014,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Leuvensebaan 18",
     "lat": 50.9193278,
-    "lon": 4.75093
+    "lon": 4.75093,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514757059",
@@ -6157,7 +7025,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Burgemeester Philipslaan 19 A",
     "lat": 51.0985209,
-    "lon": 5.7914771
+    "lon": 5.7914771,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514757058",
@@ -6167,7 +7036,8 @@ var scholenData = [
     "Type": "",
     "Adres": "St.-Elisabethlaan 4",
     "lat": 51.0934705,
-    "lon": 2.5938767
+    "lon": 2.5938767,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514926045",
@@ -6177,7 +7047,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Sint-Clarastraat 46",
     "lat": 51.216086,
-    "lon": 3.2242996
+    "lon": 3.2242996,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514881732",
@@ -6187,7 +7058,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bellevuestraat 28",
     "lat": 50.9181701,
-    "lon": 3.2034293
+    "lon": 3.2034293,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514882001",
@@ -6197,7 +7069,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Watermolenstraat 33",
     "lat": 50.8967707,
-    "lon": 4.4358596
+    "lon": 4.4358596,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514862535",
@@ -6207,7 +7080,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Sint-Gerolflaan 20",
     "lat": 51.0847637,
-    "lon": 3.447034
+    "lon": 3.447034,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514797816",
@@ -6217,7 +7091,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Eksaardserijweg 24",
     "lat": 51.0834797,
-    "lon": 3.7694045
+    "lon": 3.7694045,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902991",
@@ -6226,8 +7101,9 @@ var scholenData = [
     "Plaats": "SINT-DENIJS-WESTREM",
     "Type": "Gerelateerd aan klant",
     "Adres": "Kortrijksesteenweg 1025",
-    "lat": 51.0226242,
-    "lon": 3.699473
+    "lat": 51.0206894,
+    "lon": 3.6990795,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514902753",
@@ -6237,7 +7113,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Don Boscostraat 6",
     "lat": 51.0540959,
-    "lon": 5.3794928
+    "lon": 5.3794928,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862787",
@@ -6247,7 +7124,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Groenveldstraat 44",
     "lat": 50.8751216,
-    "lon": 4.6831779
+    "lon": 4.6831779,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514839762",
@@ -6257,7 +7135,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Don Boscostraat 72",
     "lat": 51.1153039,
-    "lon": 5.3639779
+    "lon": 5.3639779,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514881517",
@@ -6267,7 +7146,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Pastoor Dergentlaan 220",
     "lat": 50.9921299,
-    "lon": 4.8377188
+    "lon": 4.8377188,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514903029",
@@ -6277,7 +7157,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Tervuursesteenweg 2",
     "lat": 51.0057345,
-    "lon": 4.4872404
+    "lon": 4.4872404,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903022",
@@ -6287,7 +7168,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Atheneumstraat 2",
     "lat": 51.1211094,
-    "lon": 5.253611
+    "lon": 5.253611,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514757079",
@@ -6297,7 +7179,19 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Nieuwstraat 17",
     "lat": 51.2086427,
-    "lon": 4.0460758
+    "lon": 4.0460758,
+    "Provincie": "Oost-Vlaanderen"
+  },
+  {
+    "Record-ID": "97869801719",
+    "Naam onderneming": "Vrij Technisch Instituut Mari\u00c3\u00abndaal",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Diest",
+    "Type": "Prospect",
+    "Adres": "Mariendaalstraat 44",
+    "lat": 50.9815709,
+    "lon": 5.0559727,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "5918944718",
@@ -6307,7 +7201,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Sinte Annalaan 198",
     "lat": 50.9432058,
-    "lon": 4.0278133
+    "lon": 4.0278133,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "204799474907",
@@ -6317,7 +7212,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Karel Coggelaan 8",
     "lat": 51.0713151,
-    "lon": 2.6653107
+    "lon": 2.6653107,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "28202651844",
@@ -6327,7 +7223,8 @@ var scholenData = [
     "Type": "Partner (Actief)",
     "Adres": "Nieuw Kwartier 2",
     "lat": 51.0252998,
-    "lon": 4.0951358
+    "lon": 4.0951358,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "15263253471",
@@ -6337,7 +7234,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "",
     "lat": 51.2900693,
-    "lon": 4.4917295
+    "lon": 4.4917295,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "13519179966",
@@ -6347,7 +7245,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Onderwijslaan 4",
     "lat": 50.8329849,
-    "lon": 4.0216668
+    "lon": 4.0216668,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "226285017286",
@@ -6357,7 +7256,8 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Georges Henrilaan 278",
     "lat": 50.843795,
-    "lon": 4.4116472
+    "lon": 4.4116472,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "7050372311",
@@ -6367,7 +7267,8 @@ var scholenData = [
     "Type": "Overige",
     "Adres": "Nekkerspoelstraat 74",
     "lat": 51.0307554,
-    "lon": 4.493458
+    "lon": 4.493458,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514903004",
@@ -6377,7 +7278,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Collegelaan 36",
     "lat": 51.2127431,
-    "lon": 4.4520965
+    "lon": 4.4520965,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819292",
@@ -6387,7 +7289,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Ursulinenstraat 13",
     "lat": 51.2094787,
-    "lon": 5.4285665
+    "lon": 5.4285665,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514926046",
@@ -6397,7 +7300,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Waaibergstraat 43",
     "lat": 50.8112173,
-    "lon": 4.9400887
+    "lon": 4.9400887,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514819290",
@@ -6407,7 +7311,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Ninoofsesteenweg 369",
     "lat": 50.8482517,
-    "lon": 4.311597
+    "lon": 4.311597,
+    "Provincie": "Onbekend"
   },
   {
     "Record-ID": "6514881774",
@@ -6417,7 +7322,8 @@ var scholenData = [
     "Type": "Ex-klant",
     "Adres": "Vuurkruisenlaan 16",
     "lat": 51.2445769,
-    "lon": 4.4396944
+    "lon": 4.4396944,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514819289",
@@ -6427,7 +7333,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bogaarsveldstraat 13",
     "lat": 51.0523509,
-    "lon": 5.2208259
+    "lon": 5.2208259,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514819285",
@@ -6437,7 +7344,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Bogaarsveldstraat 13",
     "lat": 51.0523509,
-    "lon": 5.2208259
+    "lon": 5.2208259,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514778072",
@@ -6447,7 +7355,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Veldstraat 11",
     "lat": 51.0063503,
-    "lon": 4.3572817
+    "lon": 4.3572817,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514903231",
@@ -6457,7 +7366,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Burgemeester Bertenplein 32",
     "lat": 50.8534337,
-    "lon": 2.7251102
+    "lon": 2.7251102,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514778076",
@@ -6467,7 +7377,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Terhulpensesteenweg 708",
     "lat": 50.7379135,
-    "lon": 4.5031819
+    "lon": 4.5031819,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514778067",
@@ -6477,7 +7388,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Dendermondestraat 26",
     "lat": 50.9621817,
-    "lon": 4.2285549
+    "lon": 4.2285549,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "146778955982",
@@ -6486,8 +7398,9 @@ var scholenData = [
     "Plaats": "TILDONK",
     "Type": "",
     "Adres": "Kruineikestraat 5",
-    "lat": 50.9438579,
-    "lon": 4.6452635
+    "lat": 50.944742,
+    "lon": 4.6454241,
+    "Provincie": "Vlaams-Brabant"
   },
   {
     "Record-ID": "6514839779",
@@ -6497,7 +7410,8 @@ var scholenData = [
     "Type": "Partner (Passief)",
     "Adres": "Kloosterstraat 72",
     "lat": 51.1760049,
-    "lon": 4.3567992
+    "lon": 4.3567992,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514798016",
@@ -6507,7 +7421,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kerkstraat 1",
     "lat": 50.9731163,
-    "lon": 5.4822691
+    "lon": 5.4822691,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514756842",
@@ -6517,7 +7432,8 @@ var scholenData = [
     "Type": "Prospect",
     "Adres": "Frederik de Merodestraat 18",
     "lat": 51.0290859,
-    "lon": 4.4809604
+    "lon": 4.4809604,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514757074",
@@ -6527,7 +7443,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Centrumlaan 160",
     "lat": 50.831718,
-    "lon": 4.0151696
+    "lon": 4.0151696,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514926281",
@@ -6537,7 +7454,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Gouverneur Verwilghensingel 1_A",
     "lat": 50.9379649,
-    "lon": 5.3461577
+    "lon": 5.3461577,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514926067",
@@ -6547,7 +7465,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Kerkstraat 4_A",
     "lat": 51.0832776,
-    "lon": 5.1050483
+    "lon": 5.1050483,
+    "Provincie": "Limburg"
   },
   {
     "Record-ID": "6514862790",
@@ -6557,7 +7476,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Parkstraat 2",
     "lat": 50.8723886,
-    "lon": 3.8342154
+    "lon": 3.8342154,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "6514903023",
@@ -6567,7 +7487,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Statiestraat 34",
     "lat": 51.0263138,
-    "lon": 3.1386137
+    "lon": 3.1386137,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514862564",
@@ -6577,7 +7498,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Boeschepestraat 20",
     "lat": 50.8520328,
-    "lon": 2.7234408
+    "lon": 2.7234408,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797801",
@@ -6587,7 +7509,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Schuttershof 2_B",
     "lat": 51.1589166,
-    "lon": 4.9932651
+    "lon": 4.9932651,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839789",
@@ -6597,7 +7520,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Lange Van Ruusbroecstraat 12",
     "lat": 51.2075734,
-    "lon": 4.425938
+    "lon": 4.425938,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514839763",
@@ -6607,7 +7531,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Pensionaatstraat 10",
     "lat": 51.0419149,
-    "lon": 3.3942995
+    "lon": 3.3942995,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514819262",
@@ -6617,7 +7542,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Scheppersstraat 9",
     "lat": 51.172196,
-    "lon": 4.8304364
+    "lon": 4.8304364,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514756831",
@@ -6627,7 +7553,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Haverstraat 9a",
     "lat": 51.2198828,
-    "lon": 2.9152569
+    "lon": 2.9152569,
+    "Provincie": "West-Vlaanderen"
   },
   {
     "Record-ID": "6514797783",
@@ -6637,7 +7564,8 @@ var scholenData = [
     "Type": "",
     "Adres": "",
     "lat": 51.1646685,
-    "lon": 4.1395124
+    "lon": 4.1395124,
+    "Provincie": "Oost-Vlaanderen"
   },
   {
     "Record-ID": "156266387670",
@@ -6647,7 +7575,8 @@ var scholenData = [
     "Type": "",
     "Adres": "Hoevedreef 9",
     "lat": 51.231461,
-    "lon": 4.5761985
+    "lon": 4.5761985,
+    "Provincie": "Antwerpen"
   },
   {
     "Record-ID": "6514926293",
@@ -6657,6 +7586,7 @@ var scholenData = [
     "Type": "Klant",
     "Adres": "Laarbemdeweg 17",
     "lat": 51.0861845,
-    "lon": 5.2212732
+    "lon": 5.2212732,
+    "Provincie": "Limburg"
   }
 ];
