@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholenkaart Vlaanderen</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+
+    <style>
+        body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        #map { height: 100vh; width: 100%; z-index: 1; }
+
+        .info.legend {
+            background: white;
+            padding: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            color: #333;
+            min-width: 220px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        .info.legend h3 {
+            margin: 0 0 15px;
+            color: #2c3e50;
+            font-size: 16px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        .filter-group { 
+            margin-bottom: 20px; 
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        .filter-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .filter-title { 
+            font-weight: bold; 
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #555;
+        }
+        .toggle-links {
+            font-size: 10px;
+        }
+        .toggle-links a {
+            color: #0078A8;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .toggle-links a:hover { text-decoration: underline; }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+        .checkbox-label input { margin-right: 8px; }
+        
+        .stats {
+            font-size: 12px;
+            color: #888;
+            margin-top: 10px;
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    
+    <script src="scholen_data.js"></script>
+
+    <script>
+        // --- CONFIGURATIE ---
+        // Hier bepalen we de vaste volgorde van klein naar groot
+        var grootordeVolgorde = [
+            "0 - 300 lln",
+            "300 - 600 lln",
+            "600 - 900 lln",
+            "900 - 1200 lln",
+            "1200 - 1500 lln",
+            "1500 - 2000 lln",
+            "2000 - 3000 lln",
+            "> 3000 lln",
+            "Onbekend"
+        ];
+
+        // 1. Initialiseer Kaart
+        var map = L.map('map').setView([51.05, 4.4], 9);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap &copy; CARTO',
+            maxZoom: 20
+        }).addTo(map);
+
+        var markers = L.markerClusterGroup();
+        var allMarkers = []; 
+
+        // 2. Data Verwerken
+        var types = new Set();
+        var grootordes = new Set();
+        var provincies = new Set(); 
+
+        if (typeof scholenData === 'undefined') {
+            alert("Fout: 'scholen_data.js' niet gevonden. Zorg dat dit bestand in dezelfde map staat!");
+        } else {
+            
+            scholenData.forEach(school => {
+                var type = school['Type'] ? school['Type'].trim() : "Onbekend";
+                var grootorde = school['# lln grootorde'] ? school['# lln grootorde'].trim() : "Onbekend";
+                var provincie = school['Provincie'] ? school['Provincie'].trim() : "Onbekend";
+                
+                if(type === "") type = "Onbekend";
+                if(grootorde === "") grootorde = "Onbekend";
+                
+                // Sommige provincies hebben "Provincie " in de naam, dat maken we netjes
+                provincie = provincie.replace("Provincie ", "");
+
+                types.add(type);
+                grootordes.add(grootorde);
+                provincies.add(provincie);
+
+                if (school.lat && school.lon) {
+                    var marker = L.marker([school.lat, school.lon]);
+                    
+                    var popupContent = `
+                        <div style="min-width: 200px">
+                            <h3 style="margin:0 0 5px; color:#2c3e50">${school['Naam onderneming']}</h3>
+                            <div style="font-size:13px; line-height:1.4">
+                                <strong>Plaats:</strong> ${school['Plaats']}<br>
+                                <strong>Provincie:</strong> ${provincie}<br>
+                                <strong>Type:</strong> ${type}<br>
+                                <strong>Grootte:</strong> ${grootorde}
+                            </div>
+                        </div>
+                    `;
+
+                    marker.bindTooltip(popupContent, { direction: 'top', offset: [0, -10] });
+                    
+                    marker.filterData = {
+                        type: type,
+                        grootorde: grootorde,
+                        provincie: provincie
+                    };
+
+                    allMarkers.push(marker);
+                    markers.addLayer(marker);
+                }
+            });
+
+            map.addLayer(markers);
+        }
+
+        // 3. Legende met Custom Sorting
+        var legend = L.control({position: 'topleft'});
+
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML = '<h3>Filter Scholen</h3>';
+
+            function createFilterGroup(title, values, category) {
+                // Maak een array van de set
+                var sortedValues = Array.from(values);
+
+                // --- HIER IS DE WIJZIGING: SORTERING ---
+                if (category === 'grootorde') {
+                    // Sorteer op basis van onze vaste lijst
+                    sortedValues.sort(function(a, b) {
+                        return grootordeVolgorde.indexOf(a) - grootordeVolgorde.indexOf(b);
+                    });
+                } else {
+                    // Alle andere filters gewoon alfabetisch
+                    sortedValues.sort();
+                }
+                // ---------------------------------------
+
+                var html = `
+                    <div class="filter-group">
+                        <div class="filter-header">
+                            <span class="filter-title">${title}</span>
+                            <div class="toggle-links">
+                                <a onclick="toggleGroup('${category}', true)">Alles</a> / 
+                                <a onclick="toggleGroup('${category}', false)">Niets</a>
+                            </div>
+                        </div>
+                        <div id="group-${category}">`;
+                
+                sortedValues.forEach(val => {
+                    html += `
+                        <label class="checkbox-label">
+                            <input type="checkbox" checked value="${val}" data-category="${category}" onchange="filterMarkers()">
+                            ${val}
+                        </label>`;
+                });
+                html += '</div></div>';
+                return html;
+            }
+
+            // Volgorde van filters in de balk
+            div.innerHTML += createFilterGroup('Provincie', provincies, 'provincie');
+            div.innerHTML += createFilterGroup('Grootorde', grootordes, 'grootorde');
+            div.innerHTML += createFilterGroup('Type', types, 'type');
+            
+            div.innerHTML += '<div class="stats" id="countDisplay">Aantal scholen: ' + allMarkers.length + '</div>';
+
+            L.DomEvent.disableClickPropagation(div);
+            return div;
+        };
+
+        legend.addTo(map);
+
+        // 4. Helper functies
+        window.toggleGroup = function(category, isChecked) {
+            var inputs = document.querySelectorAll(`input[data-category="${category}"]`);
+            inputs.forEach(input => {
+                input.checked = isChecked;
+            });
+            filterMarkers();
+        }
+
+        window.filterMarkers = function() {
+            var checkedTypes = [];
+            var checkedGrootordes = [];
+            var checkedProvincies = [];
+
+            document.querySelectorAll('input[data-category="type"]:checked').forEach(c => checkedTypes.push(c.value));
+            document.querySelectorAll('input[data-category="grootorde"]:checked').forEach(c => checkedGrootordes.push(c.value));
+            document.querySelectorAll('input[data-category="provincie"]:checked').forEach(c => checkedProvincies.push(c.value));
+
+            markers.clearLayers();
+            var count = 0;
+
+            allMarkers.forEach(marker => {
+                var matchType = checkedTypes.includes(marker.filterData.type);
+                var matchGrootorde = checkedGrootordes.includes(marker.filterData.grootorde);
+                var matchProvincie = checkedProvincies.includes(marker.filterData.provincie);
+
+                if (matchType && matchGrootorde && matchProvincie) {
+                    markers.addLayer(marker);
+                    count++;
+                }
+            });
+
+            map.addLayer(markers);
+            document.getElementById('countDisplay').innerText = 'Aantal scholen: ' + count;
+        }
+
+    </script>
+</body>
+</html>

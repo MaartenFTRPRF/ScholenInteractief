@@ -1,0 +1,6662 @@
+var scholenData = [
+  {
+    "Record-ID": "6514881755",
+    "Naam onderneming": "\u00c3\u201cscar Romerocollege 5 scholen",
+    "# lln grootorde": "> 3000 lln",
+    "Plaats": "Dendermonde",
+    "Type": "",
+    "Adres": "Noordlaan 51",
+    "lat": 51.0330663,
+    "lon": 4.0949041
+  },
+  {
+    "Record-ID": "6514756840",
+    "Naam onderneming": "Guldensporencollege (alle campussen)",
+    "# lln grootorde": "> 3000 lln",
+    "Plaats": "Kortrijk",
+    "Type": "",
+    "Adres": "Beekstraat 21",
+    "lat": 50.81994,
+    "lon": 3.285
+  },
+  {
+    "Record-ID": "6514839783",
+    "Naam onderneming": "Bernardusscholen",
+    "# lln grootorde": "> 3000 lln",
+    "Plaats": "Oudenaarde",
+    "Type": "",
+    "Adres": "Hoogstraat 10",
+    "lat": 50.8440408,
+    "lon": 3.6022438
+  },
+  {
+    "Record-ID": "6993834429",
+    "Naam onderneming": "Atlas College Genk",
+    "# lln grootorde": "> 3000 lln",
+    "Plaats": "GENK",
+    "Type": "Klant",
+    "Adres": "Collegelaan 1",
+    "lat": 50.9766605,
+    "lon": 5.5158769
+  },
+  {
+    "Record-ID": "15435223255",
+    "Naam onderneming": "Broederschool Handel Sint-Niklaas",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Sint-Niklaas",
+    "Type": "Prospect",
+    "Adres": "Nieuwstraat 91",
+    "lat": 51.2210253,
+    "lon": 4.1303471
+  },
+  {
+    "Record-ID": "12604898765",
+    "Naam onderneming": "Sint-Guido-Instituut Campus Sainte-Adresseplein",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Anderlecht",
+    "Type": "Ex-klant",
+    "Adres": "Sainte-Adresseplein 12",
+    "lat": 50.8381741,
+    "lon": 4.30526
+  },
+  {
+    "Record-ID": "11469681609",
+    "Naam onderneming": "Heilig Hartcollege Tervuren",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Wezembeek-Oppem",
+    "Type": "Prospect",
+    "Adres": "Albertlaan 44",
+    "lat": 50.8294368,
+    "lon": 4.5037033
+  },
+  {
+    "Record-ID": "10456122358",
+    "Naam onderneming": "Sint-Franciscus-Xaveriusinstituut",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Brugge",
+    "Type": "",
+    "Adres": "Mariastraat 7",
+    "lat": 51.2057504,
+    "lon": 3.2237097
+  },
+  {
+    "Record-ID": "6514926058",
+    "Naam onderneming": "weTech academy",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "SINT-NIKLAAS",
+    "Type": "",
+    "Adres": "Breedstraat 152",
+    "lat": 51.1645233,
+    "lon": 4.1664116
+  },
+  {
+    "Record-ID": "6514881997",
+    "Naam onderneming": "NOVA campus VISO",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "ROESELARE",
+    "Type": "Klant",
+    "Adres": "Polenplein 23",
+    "lat": 50.9454077,
+    "lon": 3.1260184
+  },
+  {
+    "Record-ID": "6514819533",
+    "Naam onderneming": "Vrij Instituut voor Technisch Onderwijs - Hoogstraten",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "HOOGSTRATEN",
+    "Type": "Klant",
+    "Adres": "Gravin Elisabethlaan 30",
+    "lat": 51.402913,
+    "lon": 4.7547837
+  },
+  {
+    "Record-ID": "6514756855",
+    "Naam onderneming": "VISO Campus Mariakerke",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "MARIAKERKE",
+    "Type": "Klant",
+    "Adres": "Industrieweg 230",
+    "lat": 51.0879501,
+    "lon": 3.670084
+  },
+  {
+    "Record-ID": "6514757072",
+    "Naam onderneming": "Technisch Instituut Sint-Vincentius",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "TORHOUT",
+    "Type": "",
+    "Adres": "Spinneschoolstraat 10",
+    "lat": 51.0651821,
+    "lon": 3.103641
+  },
+  {
+    "Record-ID": "6514839792",
+    "Naam onderneming": "Stedelijke Humaniora Dilsen-Stokkem",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "DILSEN-STOKKEM",
+    "Type": "Klant",
+    "Adres": "Europalaan 10",
+    "lat": 51.035978,
+    "lon": 5.7269363
+  },
+  {
+    "Record-ID": "6514881780",
+    "Naam onderneming": "Stedelijk Lyceum Linkeroever",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Gloriantlaan 60",
+    "lat": 51.2257515,
+    "lon": 4.3848427
+  },
+  {
+    "Record-ID": "6514840049",
+    "Naam onderneming": "Sint-Romboutscollege",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "MECHELEN",
+    "Type": "",
+    "Adres": "Veemarkt 56",
+    "lat": 51.0299835,
+    "lon": 4.4847162
+  },
+  {
+    "Record-ID": "6514881733",
+    "Naam onderneming": "Sint-Lievenscollege Gent",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "GENT",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Zilverenberg 1",
+    "lat": 51.0552911,
+    "lon": 3.7324035
+  },
+  {
+    "Record-ID": "6514881749",
+    "Naam onderneming": "Sint-Jozefsinstituut Ternat",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "TERNAT",
+    "Type": "",
+    "Adres": "Statiestraat 37",
+    "lat": 50.871752,
+    "lon": 4.1717451
+  },
+  {
+    "Record-ID": "6514903230",
+    "Naam onderneming": "Sint-Jozefscollege schaluin",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "AARSCHOT",
+    "Type": "",
+    "Adres": "Schaluin 28",
+    "lat": 50.9896127,
+    "lon": 4.8401242
+  },
+  {
+    "Record-ID": "6514778104",
+    "Naam onderneming": "Sint-Jozefinstituut Genk",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "GENK",
+    "Type": "",
+    "Adres": "Hasseltweg 383",
+    "lat": 50.9551393,
+    "lon": 5.4267511
+  },
+  {
+    "Record-ID": "6514839786",
+    "Naam onderneming": "vzw KOBA voorkempen Sint-Jan Berchmanscollege Malle",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "WESTMALLE",
+    "Type": "Ex-klant",
+    "Adres": "Kasteellaan 18",
+    "lat": 51.2984948,
+    "lon": 4.6901536
+  },
+  {
+    "Record-ID": "6514903028",
+    "Naam onderneming": "Sint-Guido-Instituut - Campus Dokter Jacobsstraat",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "ANDERLECHT",
+    "Type": "Ex-klant",
+    "Adres": "Dokter Jacobsstraat 67",
+    "lat": 50.8339107,
+    "lon": 4.3026006
+  },
+  {
+    "Record-ID": "6514797780",
+    "Naam onderneming": "Sint-Godelieve-Instituut ASO",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "SINT-MARTENS-LENNIK",
+    "Type": "",
+    "Adres": "Schapenstraat 39",
+    "lat": 50.8149198,
+    "lon": 4.1673083
+  },
+  {
+    "Record-ID": "6514819537",
+    "Naam onderneming": "Sint-Martinuscollege Overijse",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Overijse",
+    "Type": "Ex-klant",
+    "Adres": "Waversesteenweg 96",
+    "lat": 50.7707499,
+    "lon": 4.5422541
+  },
+  {
+    "Record-ID": "6514757077",
+    "Naam onderneming": "Scheppersinstituut",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "MECHELEN",
+    "Type": "Ex-klant",
+    "Adres": "Melaan 16",
+    "lat": 51.0287689,
+    "lon": 4.4745921
+  },
+  {
+    "Record-ID": "6514926299",
+    "Naam onderneming": "Provinciaal Technisch Instituut (PTI) Kortrijk",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "KORTRIJK",
+    "Type": "",
+    "Adres": "Graaf Karel de Goedelaan 7",
+    "lat": 50.8248765,
+    "lon": 3.2481351
+  },
+  {
+    "Record-ID": "6514757061",
+    "Naam onderneming": "Provinciale Secundaire School Hasselt",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "HASSELT",
+    "Type": "",
+    "Adres": "Gouverneur Verwilghensingel 3",
+    "lat": 50.9371326,
+    "lon": 5.351645
+  },
+  {
+    "Record-ID": "6514778073",
+    "Naam onderneming": "Mariagaarde Instituut",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "WESTMALLE",
+    "Type": "Klant",
+    "Adres": "Oude Molenstraat 13",
+    "lat": 51.3038126,
+    "lon": 4.6885499
+  },
+  {
+    "Record-ID": "6514926041",
+    "Naam onderneming": "Lucerna College Diamant (antwerpen)",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Antwerpen",
+    "Type": "Ex-klant",
+    "Adres": "Bredabaan 25",
+    "lat": 51.2727721,
+    "lon": 4.4699757
+  },
+  {
+    "Record-ID": "6514797757",
+    "Naam onderneming": "Vrije Nederlandstalige school Lucerna College Campus Innova",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "ANDERLECHT",
+    "Type": "Ex-klant",
+    "Adres": "Industrielaan 31",
+    "lat": 50.8255855,
+    "lon": 4.3107179
+  },
+  {
+    "Record-ID": "6514903000",
+    "Naam onderneming": "Koninklijk Atheneum Geraardsbergen",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "GERAARDSBERGEN",
+    "Type": "Klant",
+    "Adres": "Papiermolenstraat 103",
+    "lat": 50.7685805,
+    "lon": 3.8691616
+  },
+  {
+    "Record-ID": "6514881520",
+    "Naam onderneming": "Instituut Mariaburcht - Secundair Onderwijs",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "STEVOORT",
+    "Type": "",
+    "Adres": "Hasseltse dreef 115",
+    "lat": 50.9185177,
+    "lon": 5.2491937
+  },
+  {
+    "Record-ID": "6514902999",
+    "Naam onderneming": "Humaniora Kindsheid Jesu",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "HASSELT",
+    "Type": "Partner (Passief)",
+    "Adres": "Kempische steenweg 400",
+    "lat": 50.9517646,
+    "lon": 5.3463538
+  },
+  {
+    "Record-ID": "6514777845",
+    "Naam onderneming": "Het Spectrum Gent",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Martelaarslaan 13",
+    "lat": 51.0460227,
+    "lon": 3.7121957
+  },
+  {
+    "Record-ID": "6514902759",
+    "Naam onderneming": "GO! technisch atheneum Horteco Vilvoorde",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "VILVOORDE",
+    "Type": "Prospect",
+    "Adres": "de Bavaylei 116",
+    "lat": 50.9351156,
+    "lon": 4.441966
+  },
+  {
+    "Record-ID": "6514778064",
+    "Naam onderneming": "GO! technisch atheneum Halle",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "HALLE",
+    "Type": "",
+    "Adres": "KLUISSTRAAT 1",
+    "lat": 50.7343009,
+    "lon": 4.2460291
+  },
+  {
+    "Record-ID": "6514839767",
+    "Naam onderneming": "GO! middenschool Voskenslaan Gent",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "GENT",
+    "Type": "Prospect",
+    "Adres": "Voskenslaan 60",
+    "lat": 51.0328388,
+    "lon": 3.7059818
+  },
+  {
+    "Record-ID": "6514926288",
+    "Naam onderneming": "GO! atheneum Zottegem",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "ZOTTEGEM",
+    "Type": "",
+    "Adres": "Meerlaan 25",
+    "lat": 50.8641218,
+    "lon": 3.8088307
+  },
+  {
+    "Record-ID": "6514778070",
+    "Naam onderneming": "GO! Busleyden Atheneum-campus Stassart",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "MECHELEN",
+    "Type": "Prospect",
+    "Adres": "Wollemarkt 36",
+    "lat": 51.0298933,
+    "lon": 4.480261
+  },
+  {
+    "Record-ID": "6514903026",
+    "Naam onderneming": "GO! atheneum Tienen",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "TIENEN",
+    "Type": "",
+    "Adres": "Gilainstraat 70",
+    "lat": 50.8102251,
+    "lon": 4.9359924
+  },
+  {
+    "Record-ID": "6514839776",
+    "Naam onderneming": "GO! atheneum Schoten",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "SCHOTEN",
+    "Type": "",
+    "Adres": "Emiel Blangenoisstraat 2",
+    "lat": 51.2572722,
+    "lon": 4.5041806
+  },
+  {
+    "Record-ID": "6514881729",
+    "Naam onderneming": "Go! Atheneum Redingenstraat (Atheneum Leuven)",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "LEUVEN",
+    "Type": "",
+    "Adres": "Redingenstraat 88",
+    "lat": 50.8728889,
+    "lon": 4.6944883
+  },
+  {
+    "Record-ID": "197906442442",
+    "Naam onderneming": "Site-A",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "AARSCHOT",
+    "Type": "Ex-klant",
+    "Adres": "Pastoor Dergentlaan 47",
+    "lat": 50.9889896,
+    "lon": 4.8364877
+  },
+  {
+    "Record-ID": "6514862580",
+    "Naam onderneming": "GO! atheneum Herzele",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "HERZELE",
+    "Type": "",
+    "Adres": "De Tramzate 9",
+    "lat": 50.8953073,
+    "lon": 3.8851744
+  },
+  {
+    "Record-ID": "6514797788",
+    "Naam onderneming": "GO! atheneum De Ring Leuven",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "LEUVEN",
+    "Type": "",
+    "Adres": "Tiensevest 62",
+    "lat": 50.8787871,
+    "lon": 4.7147149
+  },
+  {
+    "Record-ID": "6514902995",
+    "Naam onderneming": "Don Boscocollege Kortrijk",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "KORTRIJK",
+    "Type": "",
+    "Adres": "Don Boscolaan 30",
+    "lat": 50.7913662,
+    "lon": 3.2463887
+  },
+  {
+    "Record-ID": "6514926044",
+    "Naam onderneming": "Don Bosco Technisch Instituut Hoboken",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "HOBOKEN",
+    "Type": "",
+    "Adres": "Salesianenlaan 1",
+    "lat": 51.1746335,
+    "lon": 4.3687259
+  },
+  {
+    "Record-ID": "6514926028",
+    "Naam onderneming": "Don Bosco Instituut Groot-Bijgaarden (ASO/TSO/BSO)",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "GROOT-BIJGAARDEN",
+    "Type": "Partner (Passief)",
+    "Adres": "Brusselstraat 283",
+    "lat": 50.8671179,
+    "lon": 4.2808745
+  },
+  {
+    "Record-ID": "6514881734",
+    "Naam onderneming": "De Wijnpers - Provinciaal onderwijs Leuven",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "Leuven",
+    "Type": "",
+    "Adres": "Mechelsevest 72 72",
+    "lat": 50.8869308,
+    "lon": 4.6884698
+  },
+  {
+    "Record-ID": "6514926030",
+    "Naam onderneming": "College Ieper",
+    "# lln grootorde": "900 - 1200 lln",
+    "Plaats": "IEPER",
+    "Type": "",
+    "Adres": "Gezelleplein 11",
+    "lat": 50.8510409,
+    "lon": 2.8899628
+  },
+  {
+    "Record-ID": "10456210124",
+    "Naam onderneming": "Xaveriuscollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Borgerhout",
+    "Type": "",
+    "Adres": "collegelaan 36",
+    "lat": 51.2127431,
+    "lon": 4.4520965
+  },
+  {
+    "Record-ID": "10456561107",
+    "Naam onderneming": "Sint-Agnesinstituut",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Hoboken",
+    "Type": "",
+    "Adres": "Kloosterstraat 72",
+    "lat": 51.1760049,
+    "lon": 4.3567992
+  },
+  {
+    "Record-ID": "271400754363",
+    "Naam onderneming": "'t Saam Campus Cardijn",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Diksmuide",
+    "Type": "Ex-klant",
+    "Adres": "Cardijnlaan 2",
+    "lat": 51.0238686,
+    "lon": 2.8630041
+  },
+  {
+    "Record-ID": "197906380001",
+    "Naam onderneming": "WICO Neerpelt",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "PELT",
+    "Type": "",
+    "Adres": "Stationsstraat 74",
+    "lat": 51.2228628,
+    "lon": 5.4368079
+  },
+  {
+    "Record-ID": "6514819531",
+    "Naam onderneming": "WICO Lommel",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LOMMEL",
+    "Type": "",
+    "Adres": "Pieter Breugheldreef 4",
+    "lat": 51.2410879,
+    "lon": 5.312418
+  },
+  {
+    "Record-ID": "6514862779",
+    "Naam onderneming": "Vrij Technisch Instituut Waregem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "WAREGEM",
+    "Type": "",
+    "Adres": "Toekomststraat 75",
+    "lat": 50.885432,
+    "lon": 3.4202928
+  },
+  {
+    "Record-ID": "6514862547",
+    "Naam onderneming": "Vrij Technisch Instituut Zandhoven",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ZANDHOVEN",
+    "Type": "",
+    "Adres": "Langestraat 199",
+    "lat": 51.2330066,
+    "lon": 4.6877767
+  },
+  {
+    "Record-ID": "6514797777",
+    "Naam onderneming": "Vrije Middelbare School Roeselare",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ROESELARE",
+    "Type": "",
+    "Adres": "Arme-Klarenstraat 40",
+    "lat": 50.9443484,
+    "lon": 3.1187011
+  },
+  {
+    "Record-ID": "6514926301",
+    "Naam onderneming": "Vrij Technisch Instituut      Deinze",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DEINZE",
+    "Type": "Partner (Passief)",
+    "Adres": "Leon Declercqstraat 1",
+    "lat": 50.9872845,
+    "lon": 3.5312364
+  },
+  {
+    "Record-ID": "6514819306",
+    "Naam onderneming": "Vrij Technisch Instituut Spijker",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HOOGSTRATEN",
+    "Type": "Klant",
+    "Adres": "Gelmelstraat 62",
+    "lat": 51.4029816,
+    "lon": 4.7700082
+  },
+  {
+    "Record-ID": "6514819284",
+    "Naam onderneming": "Vrij Katholiek Onderwijs Opwijk",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "OPWIJK",
+    "Type": "Ex-klant",
+    "Adres": "Karenveldstraat 23",
+    "lat": 50.9678682,
+    "lon": 4.1815826
+  },
+  {
+    "Record-ID": "6514757100",
+    "Naam onderneming": "Vrij Handels- en Sportinstituut Sint-Michiels",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-MICHIELS",
+    "Type": "Ex-klant",
+    "Adres": "Spoorwegstraat 14",
+    "lat": 51.1909518,
+    "lon": 3.2182534
+  },
+  {
+    "Record-ID": "6514881978",
+    "Naam onderneming": "Virgo Sapiensinstituut",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LONDERZEEL",
+    "Type": "",
+    "Adres": "Heldenplein 6",
+    "lat": 51.0007023,
+    "lon": 4.3040932
+  },
+  {
+    "Record-ID": "6514926062",
+    "Naam onderneming": "Via-3De Graad",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TIENEN",
+    "Type": "",
+    "Adres": "Waaibergstraat 45",
+    "lat": 50.8112173,
+    "lon": 4.9400887
+  },
+  {
+    "Record-ID": "6514902978",
+    "Naam onderneming": "Via-2De Graad",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TIENEN",
+    "Type": "",
+    "Adres": "Waaibergstraat 45",
+    "lat": 50.8112173,
+    "lon": 4.9400887
+  },
+  {
+    "Record-ID": "6514926061",
+    "Naam onderneming": "VABI Roeselare",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ROESELARE",
+    "Type": "",
+    "Adres": "Zuidstraat 27",
+    "lat": 50.9434325,
+    "lon": 3.1262601
+  },
+  {
+    "Record-ID": "6514881994",
+    "Naam onderneming": "Ursulinen - Mechelen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Mechelen",
+    "Type": "Klant",
+    "Adres": "Hoogstraat 35",
+    "lat": 51.0225846,
+    "lon": 4.4757192
+  },
+  {
+    "Record-ID": "6514881743",
+    "Naam onderneming": "Katoba Imelda Instituut - Brussel (Sint-Jans-Molenbeek)",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Brussel (Sint-Jans-Molenbeek)",
+    "Type": "Ex-klant",
+    "Adres": "Picardstraat 170",
+    "lat": 50.8627599,
+    "lon": 4.3483087
+  },
+  {
+    "Record-ID": "6514778085",
+    "Naam onderneming": "TSM",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MECHELEN",
+    "Type": "",
+    "Adres": "Jef Denynplein 2",
+    "lat": 51.0300146,
+    "lon": 4.4754199
+  },
+  {
+    "Record-ID": "6514881752",
+    "Naam onderneming": "Technisch Instituut Sint-Lucas",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MENEN",
+    "Type": "",
+    "Adres": "Oude Leielaan 15",
+    "lat": 50.7915884,
+    "lon": 3.1217303
+  },
+  {
+    "Record-ID": "6514862803",
+    "Naam onderneming": "Stella Matutinacollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LEDE",
+    "Type": "",
+    "Adres": "Bellaertstraat 11",
+    "lat": 50.9643262,
+    "lon": 3.9831462
+  },
+  {
+    "Record-ID": "6514903014",
+    "Naam onderneming": "Stedelijk Lyceum Meir",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Eikenstraat 8",
+    "lat": 51.1622002,
+    "lon": 4.9742599
+  },
+  {
+    "Record-ID": "6514881993",
+    "Naam onderneming": "Stedelijk Lyceum Waterbaan",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DEURNE",
+    "Type": "",
+    "Adres": "Waterbaan 159",
+    "lat": 51.2039127,
+    "lon": 4.4631148
+  },
+  {
+    "Record-ID": "6514757103",
+    "Naam onderneming": "Stedelijk Lyceum Quellin - Antwerpen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Quellinstraat 31",
+    "lat": 51.2160747,
+    "lon": 4.4163601
+  },
+  {
+    "Record-ID": "6514882002",
+    "Naam onderneming": "Stedelijk Lyceum Lakbors",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DEURNE",
+    "Type": "",
+    "Adres": "Confortalei 173",
+    "lat": 51.2294312,
+    "lon": 4.4564008
+  },
+  {
+    "Record-ID": "6514903011",
+    "Naam onderneming": "Spes Nostra Heule",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HEULE",
+    "Type": "",
+    "Adres": "Mellestraat 1",
+    "lat": 50.8445075,
+    "lon": 3.2316894
+  },
+  {
+    "Record-ID": "6514819274",
+    "Naam onderneming": "Spes Nostra Instituut Kuurne",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "KUURNE",
+    "Type": "",
+    "Adres": "Koning Albertstraat 50",
+    "lat": 50.8502178,
+    "lon": 3.2889238
+  },
+  {
+    "Record-ID": "6514778315",
+    "Naam onderneming": "Spectrumcollege Middenschool  Sint-Jan Campus Beringen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BERINGEN",
+    "Type": "",
+    "Adres": "Bogaarsveldstraat 14",
+    "lat": 51.0516265,
+    "lon": 5.2205294
+  },
+  {
+    "Record-ID": "6514903237",
+    "Naam onderneming": "Spectrumcollege Bovenbouw VTI",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BERINGEN",
+    "Type": "",
+    "Adres": "Bogaarsveldstraat 13",
+    "lat": 51.0523509,
+    "lon": 5.2208259
+  },
+  {
+    "Record-ID": "6514819276",
+    "Naam onderneming": "Sint-Vincentiuscollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BUGGENHOUT",
+    "Type": "",
+    "Adres": "Kloosterstraat 15",
+    "lat": 51.0150438,
+    "lon": 4.1995189
+  },
+  {
+    "Record-ID": "6514778094",
+    "Naam onderneming": "Sint-Ursula-Instituut Waver",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ONZE-LIEVE-VROUW-WAVER",
+    "Type": "",
+    "Adres": "Bosstraat 9",
+    "lat": 51.0639076,
+    "lon": 4.5793772
+  },
+  {
+    "Record-ID": "8941577705",
+    "Naam onderneming": "Sint-Ursulalyceum En Middenschool Lier",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Lier",
+    "Type": "",
+    "Adres": "Kanunnik Davidlaan 15",
+    "lat": 51.1299328,
+    "lon": 4.5642748
+  },
+  {
+    "Record-ID": "6514926055",
+    "Naam onderneming": "Sint-Ursula-Instituut Wilrijk",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "WILRIJK",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Sint-Bavostraat 41",
+    "lat": 51.1704273,
+    "lon": 4.3990403
+  },
+  {
+    "Record-ID": "6514926059",
+    "Naam onderneming": "Sint-Paulusinstituut Herzele",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HERZELE",
+    "Type": "",
+    "Adres": "Burgemeester Matthysstraat 5",
+    "lat": 50.8859353,
+    "lon": 3.890808
+  },
+  {
+    "Record-ID": "6514881999",
+    "Naam onderneming": "Sint-Pietersinstituut Hoger Secundair Onderwijs",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TURNHOUT",
+    "Type": "",
+    "Adres": "Jubileumlaan 1",
+    "lat": 51.3305178,
+    "lon": 4.9607374
+  },
+  {
+    "Record-ID": "6514881741",
+    "Naam onderneming": "Sint-Paulusschool campus Hemelvaart 1",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "WAREGEM",
+    "Type": "",
+    "Adres": "Keukeldam 17",
+    "lat": 50.8872741,
+    "lon": 3.4338737
+  },
+  {
+    "Record-ID": "6514778059",
+    "Naam onderneming": "Sint-Pieterscollege Leuven",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LEUVEN",
+    "Type": "",
+    "Adres": "Minderbroedersstraat 13",
+    "lat": 50.8770395,
+    "lon": 4.695528
+  },
+  {
+    "Record-ID": "6514881523",
+    "Naam onderneming": "Sint-Pauluscollege Wevelgem-Moorsele",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "WEVELGEM",
+    "Type": "",
+    "Adres": "Deken Jonckheerestraat 16",
+    "lat": 50.8064819,
+    "lon": 3.1837028
+  },
+  {
+    "Record-ID": "6514819286",
+    "Naam onderneming": "Sint-Norbertusinstituut Duffel",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DUFFEL",
+    "Type": "",
+    "Adres": "Stationsstraat 6",
+    "lat": 51.0926561,
+    "lon": 4.4986732
+  },
+  {
+    "Record-ID": "6514778311",
+    "Naam onderneming": "Sint-Michielscollege Brasschaat",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BRASSCHAAT",
+    "Type": "Partner (Passief)",
+    "Adres": "Kapelsesteenweg 72",
+    "lat": 51.2723917,
+    "lon": 4.4589603
+  },
+  {
+    "Record-ID": "6514778074",
+    "Naam onderneming": "Sint-Michielscollege Schoten",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SCHOTEN",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Papenaardekenstraat 53",
+    "lat": 51.2466167,
+    "lon": 4.4858968
+  },
+  {
+    "Record-ID": "6514778061",
+    "Naam onderneming": "Sint-Michielsinstituut Keerbergen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "KEERBERGEN",
+    "Type": "Partner (Passief)",
+    "Adres": "Tremelobaan 4",
+    "lat": 51.0043045,
+    "lon": 4.6334361
+  },
+  {
+    "Record-ID": "6514840045",
+    "Naam onderneming": "Sint-Ludgardisschool Merksem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MERKSEM",
+    "Type": "Klant",
+    "Adres": "Du Chastellei 48",
+    "lat": 51.2509468,
+    "lon": 4.4522321
+  },
+  {
+    "Record-ID": "6514902974",
+    "Naam onderneming": "Sint-Laurensinstituut Zelzate",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Zelzate",
+    "Type": "Klant",
+    "Adres": "Patronagestraat 51",
+    "lat": 51.2013078,
+    "lon": 3.8136848
+  },
+  {
+    "Record-ID": "6514926275",
+    "Naam onderneming": "Sint-Jozefsinstituut Tielt",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TIELT",
+    "Type": "Ex-klant",
+    "Adres": "Kroonstraat 19",
+    "lat": 50.9935154,
+    "lon": 3.3281438
+  },
+  {
+    "Record-ID": "6514903232",
+    "Naam onderneming": "Sint-Jozefsinstituut Brugge",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BRUGGE",
+    "Type": "",
+    "Adres": "Zilverstraat 26",
+    "lat": 51.2072002,
+    "lon": 3.2211001
+  },
+  {
+    "Record-ID": "6514881751",
+    "Naam onderneming": "Sint-Jozefsinstituut - ASO",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BRUGGE",
+    "Type": "",
+    "Adres": "Noordzandstraat 76",
+    "lat": 51.2066567,
+    "lon": 3.2184663
+  },
+  {
+    "Record-ID": "6514862807",
+    "Naam onderneming": "Sint-Jozefsinstituut Borsbeek",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BORSBEEK",
+    "Type": "",
+    "Adres": "Lucien Hendrickxlei 2_B",
+    "lat": 51.1921795,
+    "lon": 4.4873862
+  },
+  {
+    "Record-ID": "6514839795",
+    "Naam onderneming": "Sint-Jozefsinstituut Torhout",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TORHOUT",
+    "Type": "",
+    "Adres": "Bruggestraat 23",
+    "lat": 51.0689969,
+    "lon": 3.1043085
+  },
+  {
+    "Record-ID": "6514862549",
+    "Naam onderneming": "Sint-Jozefschool Mere",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MERE",
+    "Type": "Ex-klant",
+    "Adres": "Kloosterstraat 31",
+    "lat": 50.9248006,
+    "lon": 3.9776005
+  },
+  {
+    "Record-ID": "6514882008",
+    "Naam onderneming": "Sint-Jozef - Klein-Seminarie",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-NIKLAAS",
+    "Type": "",
+    "Adres": "Collegestraat 31",
+    "lat": 51.1672786,
+    "lon": 4.1396039
+  },
+  {
+    "Record-ID": "6514881726",
+    "Naam onderneming": "Sint-Jozefcollege Turnhout",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TURNHOUT",
+    "Type": "",
+    "Adres": "Koningin Astridlaan 33",
+    "lat": 51.3216903,
+    "lon": 4.9216657
+  },
+  {
+    "Record-ID": "6993888998",
+    "Naam onderneming": "Sint-Jorisinstituut Bazel",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Bazel",
+    "Type": "",
+    "Adres": "Kruibekestraat 55a",
+    "lat": 51.1492927,
+    "lon": 4.3008041
+  },
+  {
+    "Record-ID": "6514903233",
+    "Naam onderneming": "Sint-Jan Berchmansinstituut Zonhoven",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ZONHOVEN",
+    "Type": "",
+    "Adres": "Kleine Hemmenweg 4 A",
+    "lat": 50.9952168,
+    "lon": 5.372325
+  },
+  {
+    "Record-ID": "6514881985",
+    "Naam onderneming": "Sint-Janscollege Campus Visitatie",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-AMANDSBERG",
+    "Type": "",
+    "Adres": "Visitatiestraat 5",
+    "lat": 51.0623399,
+    "lon": 3.7475073
+  },
+  {
+    "Record-ID": "6514862796",
+    "Naam onderneming": "Sint-Janscollege Hoegaarden",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HOEGAARDEN",
+    "Type": "",
+    "Adres": "Waversesteenweg 1",
+    "lat": 50.7800119,
+    "lon": 4.8349784
+  },
+  {
+    "Record-ID": "6514862525",
+    "Naam onderneming": "Sint-Jan Berchmanscollege Brussel",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BRUSSEL",
+    "Type": "",
+    "Adres": "Ursulinenstraat 4",
+    "lat": 50.8417732,
+    "lon": 4.3488689
+  },
+  {
+    "Record-ID": "6514840048",
+    "Naam onderneming": "Sint-Gummaruscollege - Lier",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LIER",
+    "Type": "",
+    "Adres": "Kanunnik Davidlaan 10",
+    "lat": 51.128628,
+    "lon": 4.5660878
+  },
+  {
+    "Record-ID": "6514798017",
+    "Naam onderneming": "Sint-Godelievecollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "GISTEL",
+    "Type": "",
+    "Adres": "St-Jans-Gasthuisstraat 20",
+    "lat": 51.1568618,
+    "lon": 2.9705568
+  },
+  {
+    "Record-ID": "6514862584",
+    "Naam onderneming": "Sint-Gabri\u00c3\u00ablcollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BOECHOUT",
+    "Type": "",
+    "Adres": "Lange Kroonstraat 72",
+    "lat": 51.1634992,
+    "lon": 4.488476
+  },
+  {
+    "Record-ID": "6514881770",
+    "Naam onderneming": "Sint-Eduardusinstituut",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MERKSEM",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Broeder Frederikstraat 3",
+    "lat": 51.2460526,
+    "lon": 4.4507932
+  },
+  {
+    "Record-ID": "6514797792",
+    "Naam onderneming": "Sint-Franciscus-Xaveriusinstituut",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BRUGGE",
+    "Type": "",
+    "Adres": "Mariastraat 7",
+    "lat": 51.2057504,
+    "lon": 3.2237097
+  },
+  {
+    "Record-ID": "6514797758",
+    "Naam onderneming": "Sint-Franciscus Evergem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "EVERGEM",
+    "Type": "Klant",
+    "Adres": "Schepenhuisstraat 4",
+    "lat": 51.1079441,
+    "lon": 3.7074668
+  },
+  {
+    "Record-ID": "6514777846",
+    "Naam onderneming": "Sint-Cordula Instituut - Schoten",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SCHOTEN",
+    "Type": "Klant",
+    "Adres": "Wilgendaalstraat 7",
+    "lat": 51.2532088,
+    "lon": 4.4954301
+  },
+  {
+    "Record-ID": "6514862548",
+    "Naam onderneming": "Sint-Bavohumaniora",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Reep 4",
+    "lat": 51.0522434,
+    "lon": 3.7305397
+  },
+  {
+    "Record-ID": "6514819307",
+    "Naam onderneming": "Sint-Augustinusinstituut Bree",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BREE",
+    "Type": "",
+    "Adres": "Sint-Jacobstraat 12",
+    "lat": 51.1342511,
+    "lon": 5.6039343
+  },
+  {
+    "Record-ID": "6514797558",
+    "Naam onderneming": "Sint-Claracollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Arendonk",
+    "Type": "Ex-klant",
+    "Adres": "Kloosterbaan 5",
+    "lat": 51.3212087,
+    "lon": 5.079951
+  },
+  {
+    "Record-ID": "6514757063",
+    "Naam onderneming": "Sint-Augustinusinstituut Aalst",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Leopoldlaan 9",
+    "lat": 50.9431547,
+    "lon": 4.0537957
+  },
+  {
+    "Record-ID": "6514902769",
+    "Naam onderneming": "Sint-Aloysiuscollege Menen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MENEN",
+    "Type": "Klant",
+    "Adres": "Grote Markt 13",
+    "lat": 50.7959242,
+    "lon": 3.1192443
+  },
+  {
+    "Record-ID": "6514902756",
+    "Naam onderneming": "Sint-Albertuscollege - Haasrode",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HEVERLEE",
+    "Type": "",
+    "Adres": "Geldenaaksebaan 277",
+    "lat": 50.8571766,
+    "lon": 4.7215832
+  },
+  {
+    "Record-ID": "6514881768",
+    "Naam onderneming": "Sint-Aloysiusinstituut voor Verpleegkunde",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LIER",
+    "Type": "",
+    "Adres": "Kolveniersvest 24",
+    "lat": 51.1327718,
+    "lon": 4.5668259
+  },
+  {
+    "Record-ID": "6849700026",
+    "Naam onderneming": "Sint-Paulusschool Waregem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Waregem",
+    "Type": "Klant",
+    "Adres": "Stationsstraat 85",
+    "lat": 50.8890033,
+    "lon": 3.4295065
+  },
+  {
+    "Record-ID": "6514797805",
+    "Naam onderneming": "Secundaire Handelsschool Sint-Lodewijk",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "Ex-klant",
+    "Adres": "Lombardenvest 52",
+    "lat": 51.2169894,
+    "lon": 4.4028757
+  },
+  {
+    "Record-ID": "6514926266",
+    "Naam onderneming": "KSOM - campus Rozenberg",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MOL",
+    "Type": "",
+    "Adres": "Rozenberg 2",
+    "lat": 51.1875309,
+    "lon": 5.122353
+  },
+  {
+    "Record-ID": "6514903027",
+    "Naam onderneming": "Sancta Maria Leuven",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LEUVEN",
+    "Type": "",
+    "Adres": "Charles Deberiotstraat 14",
+    "lat": 50.8766327,
+    "lon": 4.7042318
+  },
+  {
+    "Record-ID": "6514902979",
+    "Naam onderneming": "RHIZO Lifestyle Kortrijk",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "KORTRIJK",
+    "Type": "",
+    "Adres": "Deken Camerlyncklaan 76",
+    "lat": 50.8187423,
+    "lon": 3.2844165
+  },
+  {
+    "Record-ID": "6514757073",
+    "Naam onderneming": "Richtpunt campus Eeklo",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "EEKLO",
+    "Type": "",
+    "Adres": "Roze 131",
+    "lat": 51.1905342,
+    "lon": 3.5752361
+  },
+  {
+    "Record-ID": "6514757066",
+    "Naam onderneming": "RHIZO 1",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "KORTRIJK",
+    "Type": "",
+    "Adres": "Beverlaai 75",
+    "lat": 50.8190381,
+    "lon": 3.2618613
+  },
+  {
+    "Record-ID": "146778993883",
+    "Naam onderneming": "Regina Pacisinstituut Brussel",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LAKEN",
+    "Type": "",
+    "Adres": "Magnolialaan 2",
+    "lat": 50.8974123,
+    "lon": 4.3291613
+  },
+  {
+    "Record-ID": "6514819312",
+    "Naam onderneming": "Regina Pacisinstituut - A.S.O. - Hove",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HOVE",
+    "Type": "Partner (Passief)",
+    "Adres": "Boechoutsesteenweg 87a",
+    "lat": 51.1565369,
+    "lon": 4.4758271
+  },
+  {
+    "Record-ID": "6514926279",
+    "Naam onderneming": "Provinciaal Instituut voor    Secundair onderwijs",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TIENEN",
+    "Type": "",
+    "Adres": "Alexianenweg 2",
+    "lat": 50.8090676,
+    "lon": 4.9400069
+  },
+  {
+    "Record-ID": "6514902977",
+    "Naam onderneming": "Richtpunt Zottegem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ZOTTEGEM",
+    "Type": "",
+    "Adres": "Sabina van Beierenlaan 35",
+    "lat": 50.8696617,
+    "lon": 3.8219182
+  },
+  {
+    "Record-ID": "6514882004",
+    "Naam onderneming": "Provinciale Middenschool Diepenbeek",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DIEPENBEEK",
+    "Type": "",
+    "Adres": "Stationsstraat 36",
+    "lat": 50.9103006,
+    "lon": 5.4202066
+  },
+  {
+    "Record-ID": "6514926073",
+    "Naam onderneming": "Provinciaal Instituut PIVA - Antwerpen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "Ex-klant",
+    "Adres": "Desguinlei 244",
+    "lat": 51.1979539,
+    "lon": 4.3980355
+  },
+  {
+    "Record-ID": "6514840020",
+    "Naam onderneming": "Provinciaal Instituut Lommel - Secundair Onderwijs PROVIL",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LOMMEL",
+    "Type": "Klant",
+    "Adres": "Duinenstraat 1",
+    "lat": 51.2200312,
+    "lon": 5.3057213
+  },
+  {
+    "Record-ID": "6514926047",
+    "Naam onderneming": "PORTUS berkenboom",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-NIKLAAS",
+    "Type": "",
+    "Adres": "Kalkstraat 26",
+    "lat": 51.1650124,
+    "lon": 4.1444453
+  },
+  {
+    "Record-ID": "6514926303",
+    "Naam onderneming": "Petrus & Paulus - VTI (Stemschool Campus West) - Oostende",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Oostende",
+    "Type": "Klant",
+    "Adres": "Stuiverstraat 108",
+    "lat": 51.2182979,
+    "lon": 2.9039159
+  },
+  {
+    "Record-ID": "6514902987",
+    "Naam onderneming": "Paridaensinstituut secundair  onderwijs",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LEUVEN",
+    "Type": "",
+    "Adres": "Janseniusstraat 2",
+    "lat": 50.8759436,
+    "lon": 4.6952612
+  },
+  {
+    "Record-ID": "6514902984",
+    "Naam onderneming": "Onze-Lieve-Vrouwlyceum Genk",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "GENK",
+    "Type": "Klant",
+    "Adres": "Collegelaan 30",
+    "lat": 50.978162,
+    "lon": 5.518541
+  },
+  {
+    "Record-ID": "6514819520",
+    "Naam onderneming": "Onze-Lieve-Vrouwinstituut - Secundair Onderwijs - A.S.O. - T.S.O - B.S.O.",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-GENESIUS-RODE",
+    "Type": "Ex-klant",
+    "Adres": "Kloosterweg 1",
+    "lat": 50.7457035,
+    "lon": 4.3447077
+  },
+  {
+    "Record-ID": "6514862558",
+    "Naam onderneming": "Onze-Lieve-Vrouw-Presentatie secundair onderwijs",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-NIKLAAS",
+    "Type": "",
+    "Adres": "Plezantstraat 135",
+    "lat": 51.1673601,
+    "lon": 4.1349883
+  },
+  {
+    "Record-ID": "6514840035",
+    "Naam onderneming": "Onze-Lieve-Vrouw-van-Lourdes- college",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "EDEGEM",
+    "Type": "",
+    "Adres": "Rombaut Keldermansstraat 33",
+    "lat": 51.1658964,
+    "lon": 4.4393133
+  },
+  {
+    "Record-ID": "6514839772",
+    "Naam onderneming": "Onze-Lieve-Vrouwcollege Bevegem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ZOTTEGEM",
+    "Type": "Ex-klant",
+    "Adres": "Ooststraat 44",
+    "lat": 50.8708637,
+    "lon": 3.820451
+  },
+  {
+    "Record-ID": "6514839770",
+    "Naam onderneming": "Onze-Lieve-Vrouw-Presentatie",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BORNEM",
+    "Type": "",
+    "Adres": "Driesstraat 10",
+    "lat": 51.1001289,
+    "lon": 4.2358561
+  },
+  {
+    "Record-ID": "6514862567",
+    "Naam onderneming": "O.L.V. Pulhof",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BERCHEM",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Grotesteenweg 489",
+    "lat": 51.1816906,
+    "lon": 4.4303992
+  },
+  {
+    "Record-ID": "6514757087",
+    "Naam onderneming": "Montfortaans Seminarie",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ROTSELAAR",
+    "Type": "",
+    "Adres": "Aarschotsesteenweg 39",
+    "lat": 50.9422581,
+    "lon": 4.7381799
+  },
+  {
+    "Record-ID": "6514840038",
+    "Naam onderneming": "Maris Stella Instituut - Malle",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MALLE",
+    "Type": "Ex-klant",
+    "Adres": "Antwerpsesteenweg 67",
+    "lat": 51.2983281,
+    "lon": 4.7192131
+  },
+  {
+    "Record-ID": "6514862578",
+    "Naam onderneming": "Margareta-Maria-Instituut - A.S.O.",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Kortemark",
+    "Type": "",
+    "Adres": "Handzamestraat 18",
+    "lat": 51.0296879,
+    "lon": 3.0384933
+  },
+  {
+    "Record-ID": "6514881723",
+    "Naam onderneming": "Leiepoort Deinze Campus Sint-Vincentius",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DEINZE",
+    "Type": "Klant",
+    "Adres": "Peter Benoitlaan 40",
+    "lat": 50.9872321,
+    "lon": 3.5266688
+  },
+  {
+    "Record-ID": "6514862780",
+    "Naam onderneming": "Leiepoort Deinze campus Sint-Hendrik, bovenbouw",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DEINZE",
+    "Type": "",
+    "Adres": "Guido Gezellelaan 105",
+    "lat": 50.9808899,
+    "lon": 3.5320297
+  },
+  {
+    "Record-ID": "6514778078",
+    "Naam onderneming": "Leonardo College Denderleeuw",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DENDERLEEUW",
+    "Type": "",
+    "Adres": "Middenstraat 10",
+    "lat": 50.88317,
+    "lon": 4.0782626
+  },
+  {
+    "Record-ID": "6514756852",
+    "Naam onderneming": "Leiepoort Deinze campus Sint- Theresia",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DEINZE",
+    "Type": "",
+    "Adres": "Gentpoortstraat 37",
+    "lat": 50.985168,
+    "lon": 3.5303551
+  },
+  {
+    "Record-ID": "6514862561",
+    "Naam onderneming": "kOsh 1 Campus Ieperstraat",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Herentals",
+    "Type": "",
+    "Adres": "Ieperstraat 5",
+    "lat": 51.1753454,
+    "lon": 4.8288094
+  },
+  {
+    "Record-ID": "6514840018",
+    "Naam onderneming": "Kunsthumaniora Sint-Lucas",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Oude Houtlei 44",
+    "lat": 51.0529627,
+    "lon": 3.7163544
+  },
+  {
+    "Record-ID": "6514797775",
+    "Naam onderneming": "KOHa Sint-Jozef",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HAMME",
+    "Type": "",
+    "Adres": "Jagerstraat 5",
+    "lat": 51.0994841,
+    "lon": 4.1360458
+  },
+  {
+    "Record-ID": "6514757069",
+    "Naam onderneming": "KOGEKA Sint Maria Geel (TSO/BSO)",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "GEEL",
+    "Type": "",
+    "Adres": "Pas 110",
+    "lat": 51.1579531,
+    "lon": 4.9891879
+  },
+  {
+    "Record-ID": "6514839780",
+    "Naam onderneming": "Mirho vzw \u00e2\u20ac\u201c Klein Seminarie Hoogstraten",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HOOGSTRATEN",
+    "Type": "Klant",
+    "Adres": "Vrijheid 234",
+    "lat": 51.3985907,
+    "lon": 4.7584123
+  },
+  {
+    "Record-ID": "6514839775",
+    "Naam onderneming": "KOBOS",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "KAPELLE-OP-DEN-BOS",
+    "Type": "Ex-klant",
+    "Adres": "Veldstraat 11",
+    "lat": 51.0063503,
+    "lon": 4.3572817
+  },
+  {
+    "Record-ID": "6514797815",
+    "Naam onderneming": "Klein Seminarie Sint-Michiel Roeselare",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ROESELARE",
+    "Type": "Klant",
+    "Adres": "Zuidstraat 27",
+    "lat": 50.9434325,
+    "lon": 3.1262601
+  },
+  {
+    "Record-ID": "7420747213",
+    "Naam onderneming": "Katholiek Secundair Onderwijs Ternat - Sint-Angela",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TERNAT",
+    "Type": "",
+    "Adres": "Statiestraat 35",
+    "lat": 50.8697733,
+    "lon": 4.1738839
+  },
+  {
+    "Record-ID": "6514881772",
+    "Naam onderneming": "Instituut Sancta Maria Aarschot - B",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "AARSCHOT",
+    "Type": "Klant",
+    "Adres": "Kard. Mercierstraat 10",
+    "lat": 50.9845364,
+    "lon": 4.8300344
+  },
+  {
+    "Record-ID": "6514862565",
+    "Naam onderneming": "Instituut Maris Stella - Sint-Agnes",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BORGERHOUT",
+    "Type": "",
+    "Adres": "Turnhoutsebaan 226",
+    "lat": 51.2137297,
+    "lon": 4.4375744
+  },
+  {
+    "Record-ID": "6514757065",
+    "Naam onderneming": "Instituut Sint-Vincentius a Paulo",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "GIJZEGEM",
+    "Type": "",
+    "Adres": "Pachthofstraat 3",
+    "lat": 50.9849878,
+    "lon": 4.0491347
+  },
+  {
+    "Record-ID": "114742483182",
+    "Naam onderneming": "MIA - Brugge",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-KRUIS",
+    "Type": "",
+    "Adres": "Boogschutterslaan 25",
+    "lat": 51.2154,
+    "lon": 3.2493149
+  },
+  {
+    "Record-ID": "6514862582",
+    "Naam onderneming": "OLVC Plus - Antwerpen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Louiza-Marialei 5",
+    "lat": 51.2131472,
+    "lon": 4.4120739
+  },
+  {
+    "Record-ID": "6514926269",
+    "Naam onderneming": "Stella Matutina Wuustwezel",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Wuustwezel",
+    "Type": "Klant",
+    "Adres": "kloosterstraat 7",
+    "lat": 51.3931309,
+    "lon": 4.5969574
+  },
+  {
+    "Record-ID": "6514903015",
+    "Naam onderneming": "Immaculata Ieper",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "IEPER",
+    "Type": "",
+    "Adres": "Rijselstraat 83",
+    "lat": 50.848157,
+    "lon": 2.888412
+  },
+  {
+    "Record-ID": "6514839764",
+    "Naam onderneming": "Immaculata Maria Instituut Roosdaal",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ROOSDAAL",
+    "Type": "Klant",
+    "Adres": "KAPELLEWEIDE 5",
+    "lat": 50.8426416,
+    "lon": 4.0852709
+  },
+  {
+    "Record-ID": "6514819296",
+    "Naam onderneming": "Immaculata Secundair Brugge",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-MICHIELS",
+    "Type": "Ex-klant",
+    "Adres": "Veldstraat 2",
+    "lat": 51.1891563,
+    "lon": 3.2085416
+  },
+  {
+    "Record-ID": "6514881761",
+    "Naam onderneming": "Hoger Instituut voor          Verpleegkunde Sint-Elisabeth",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TURNHOUT",
+    "Type": "",
+    "Adres": "Herentalsstraat 70",
+    "lat": 51.3194516,
+    "lon": 4.9492086
+  },
+  {
+    "Record-ID": "6514903019",
+    "Naam onderneming": "Hartencollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "NINOVE",
+    "Type": "",
+    "Adres": "Onderwijslaan 4",
+    "lat": 50.8329849,
+    "lon": 4.0216668
+  },
+  {
+    "Record-ID": "6514840030",
+    "Naam onderneming": "Heilige-Drievuldigheidscollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LEUVEN",
+    "Type": "",
+    "Adres": "Oude Markt 28",
+    "lat": 50.8772784,
+    "lon": 4.6989543
+  },
+  {
+    "Record-ID": "6514778052",
+    "Naam onderneming": "Heilige Familie Ieper",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "IEPER",
+    "Type": "Klant",
+    "Adres": "Eigenheerdstraat 8",
+    "lat": 50.8506652,
+    "lon": 2.8783535
+  },
+  {
+    "Record-ID": "6514926019",
+    "Naam onderneming": "Hast Katholiek Onderwijs Hasselt",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Hasselt",
+    "Type": "Prospect",
+    "Adres": "Kuringersteenweg 174",
+    "lat": 50.9350067,
+    "lon": 5.3180361
+  },
+  {
+    "Record-ID": "6514881731",
+    "Naam onderneming": "Heilig Hart van Maria Berlaar",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Berlaar",
+    "Type": "Prospect",
+    "Adres": "Sollevelden 3A",
+    "lat": 51.1175552,
+    "lon": 4.6635398
+  },
+  {
+    "Record-ID": "6514757067",
+    "Naam onderneming": "Hasp-O Stadsrand",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "3800 SINT-TRUIDEN",
+    "Type": "Klant",
+    "Adres": "Diestersteenweg 146",
+    "lat": 50.8325328,
+    "lon": 5.1864426
+  },
+  {
+    "Record-ID": "6514903228",
+    "Naam onderneming": "Hartencollege Campus Weggevoerdenstraat",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "NINOVE",
+    "Type": "Prospect",
+    "Adres": "Weggevoerdenstraat 55",
+    "lat": 50.8409234,
+    "lon": 4.0234912
+  },
+  {
+    "Record-ID": "6514862537",
+    "Naam onderneming": "GO! technisch atheneum Kapellen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "KAPELLEN",
+    "Type": "",
+    "Adres": "Pastoor Vandenhoudtstraat 8",
+    "lat": 51.3183483,
+    "lon": 4.432142
+  },
+  {
+    "Record-ID": "6514840025",
+    "Naam onderneming": "GO! technisch atheneum Brasschaat",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BRASSCHAAT",
+    "Type": "Klant",
+    "Adres": "Prins Kavellei 98",
+    "lat": 51.2975953,
+    "lon": 4.4953566
+  },
+  {
+    "Record-ID": "6514839998",
+    "Naam onderneming": "GO! campus Keerbergen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "KEERBERGEN",
+    "Type": "Klant",
+    "Adres": "Vlieghavenlaan 18",
+    "lat": 51.0029411,
+    "lon": 4.6587674
+  },
+  {
+    "Record-ID": "6514926291",
+    "Naam onderneming": "GO! Koninklijk Atheneum Antwerpen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Antwerpen",
+    "Type": "Klant",
+    "Adres": "Rooseveltplaats 11",
+    "lat": 51.2205817,
+    "lon": 4.4183455
+  },
+  {
+    "Record-ID": "6514840031",
+    "Naam onderneming": "GO! Koninklijk Atheneum Hoboken",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HOBOKEN",
+    "Type": "Prospect",
+    "Adres": "Hendriklei 67",
+    "lat": 51.1874071,
+    "lon": 4.3709666
+  },
+  {
+    "Record-ID": "6514797785",
+    "Naam onderneming": "GO! Koninklijk Lyceum Antwerpen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "Prospect",
+    "Adres": "Hertoginstraat 17",
+    "lat": 51.2082535,
+    "lon": 4.4103034
+  },
+  {
+    "Record-ID": "6514778312",
+    "Naam onderneming": "GO! lyceum Aalst",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "AALST",
+    "Type": "Prospect",
+    "Adres": "Pontstraat 51",
+    "lat": 50.9357721,
+    "lon": 4.042937
+  },
+  {
+    "Record-ID": "6514778049",
+    "Naam onderneming": "GO! Koninklijk Atheneum Berchem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BERCHEM",
+    "Type": "Prospect",
+    "Adres": "Uitbreidingstraat 246",
+    "lat": 51.1939649,
+    "lon": 4.4213543
+  },
+  {
+    "Record-ID": "6514819524",
+    "Naam onderneming": "GO! Ensorinstituut Oostende",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "OOSTENDE",
+    "Type": "",
+    "Adres": "Generaal Jungbluthlaan 4",
+    "lat": 51.2155924,
+    "lon": 2.9120631
+  },
+  {
+    "Record-ID": "6514903226",
+    "Naam onderneming": "GO! Busleyden Atheneum-campus Botaniek",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Mechelen",
+    "Type": "Prospect",
+    "Adres": "Augustijnenstraat 92",
+    "lat": 51.0237043,
+    "lon": 4.4867292
+  },
+  {
+    "Record-ID": "6514902777",
+    "Naam onderneming": "GO! Busleyden Atheneum-campus Pitzemburg",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MECHELEN",
+    "Type": "Prospect",
+    "Adres": "Bruul 129",
+    "lat": 51.0238075,
+    "lon": 4.4829959
+  },
+  {
+    "Record-ID": "6514797765",
+    "Naam onderneming": "GO! Busleyden Atheneum-campus Caputsteen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MECHELEN",
+    "Type": "",
+    "Adres": "Caputsteenstraat 51",
+    "lat": 51.0351668,
+    "lon": 4.4891974
+  },
+  {
+    "Record-ID": "6514926267",
+    "Naam onderneming": "GO! Atheneum Willebroek",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Willebroek",
+    "Type": "Prospect",
+    "Adres": "Herman Vosstraat 3",
+    "lat": 51.0633025,
+    "lon": 4.3587093
+  },
+  {
+    "Record-ID": "6514862786",
+    "Naam onderneming": "GO! atheneum Vilvoorde",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Vilvoorde",
+    "Type": "",
+    "Adres": "Van Helmontstraat 6",
+    "lat": 50.925691,
+    "lon": 4.4305084
+  },
+  {
+    "Record-ID": "6514819304",
+    "Naam onderneming": "GO! Kompaz Zaventem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Zaventem",
+    "Type": "Klant",
+    "Adres": "Parklaan 39",
+    "lat": 50.8799888,
+    "lon": 4.4739313
+  },
+  {
+    "Record-ID": "192320747731",
+    "Naam onderneming": "GO! atheneum Tervuren",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TERVUREN",
+    "Type": "",
+    "Adres": "Hippolyte Boulengerlaan 7",
+    "lat": 50.8214727,
+    "lon": 4.5006996
+  },
+  {
+    "Record-ID": "6514881525",
+    "Naam onderneming": "GO! Atheneum Ninove",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "NINOVE",
+    "Type": "Prospect",
+    "Adres": "Dreefstraat 31",
+    "lat": 50.8374252,
+    "lon": 4.0260497
+  },
+  {
+    "Record-ID": "6514862785",
+    "Naam onderneming": "GO! atheneum Mortsel",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MORTSEL",
+    "Type": "",
+    "Adres": "Mechelsesteenweg 194",
+    "lat": 51.1639774,
+    "lon": 4.4528681
+  },
+  {
+    "Record-ID": "6514797784",
+    "Naam onderneming": "GO! atheneum Sint-Truiden - Campus Speelhof",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-TRUIDEN",
+    "Type": "Ex-klant",
+    "Adres": "Speelhoflaan 9",
+    "lat": 50.8234922,
+    "lon": 5.1878187
+  },
+  {
+    "Record-ID": "6514778054",
+    "Naam onderneming": "GO! Atheneum Oostende (Athena)",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "OOSTENDE",
+    "Type": "",
+    "Adres": "Steensedijk 495",
+    "lat": 51.2081985,
+    "lon": 2.8944202
+  },
+  {
+    "Record-ID": "6514819300",
+    "Naam onderneming": "GO! Atheneum Martinus Bilzen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BILZEN",
+    "Type": "Klant",
+    "Adres": "Sint Martinusstraat 3",
+    "lat": 50.8712828,
+    "lon": 5.5113922
+  },
+  {
+    "Record-ID": "6514819260",
+    "Naam onderneming": "GO! atheneum Mariakerke",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MARIAKERKE",
+    "Type": "Ex-klant",
+    "Adres": "Amand Casier de ter Bekenlaan 26",
+    "lat": 51.074197,
+    "lon": 3.6717458
+  },
+  {
+    "Record-ID": "6514778082",
+    "Naam onderneming": "GO! atheneum Lokeren",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "LOKEREN",
+    "Type": "Klant",
+    "Adres": "Azalealaan 2",
+    "lat": 51.1746467,
+    "lon": 3.9261671
+  },
+  {
+    "Record-ID": "6514902994",
+    "Naam onderneming": "GO! Atheneum Fenix Grimbergen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Grimbergen",
+    "Type": "",
+    "Adres": "Lagesteenweg 77",
+    "lat": 50.9316672,
+    "lon": 4.366365
+  },
+  {
+    "Record-ID": "6514881759",
+    "Naam onderneming": "GO! Atheneum Heist",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HEIST-OP-DEN-BERG",
+    "Type": "",
+    "Adres": "Boudewijnlaan 61",
+    "lat": 51.0738781,
+    "lon": 4.717728
+  },
+  {
+    "Record-ID": "6514778083",
+    "Naam onderneming": "GO! Atheneum Campus Halle Bovenbouw",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "HALLE",
+    "Type": "Prospect",
+    "Adres": "Auguste Demaeghtlaan 40",
+    "lat": 50.739189,
+    "lon": 4.2353462
+  },
+  {
+    "Record-ID": "7743347644",
+    "Naam onderneming": "campus de tandem - Eeklo",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Eeklo",
+    "Type": "",
+    "Adres": "Eikelstraat 41",
+    "lat": 51.1898403,
+    "lon": 3.5603177
+  },
+  {
+    "Record-ID": "6514926042",
+    "Naam onderneming": "GO! atheneum Erasmus De Pinte",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DE PINTE",
+    "Type": "Klant",
+    "Adres": "Polderdreef 42",
+    "lat": 50.9912434,
+    "lon": 3.6571362
+  },
+  {
+    "Record-ID": "6514798012",
+    "Naam onderneming": "GO! atheneum Emanuel Hiel Schaarbeek-Evere",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SCHAARBEEK",
+    "Type": "",
+    "Adres": "Charles Gilisquetlaan 34",
+    "lat": 50.8638325,
+    "lon": 4.393169
+  },
+  {
+    "Record-ID": "6514778306",
+    "Naam onderneming": "GO! atheneum Anne Frank",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "DENDERLEEUW",
+    "Type": "",
+    "Adres": "Kouterbaan 20",
+    "lat": 50.8879216,
+    "lon": 4.070503
+  },
+  {
+    "Record-ID": "6514778081",
+    "Naam onderneming": "GO! atheneum Etterbeek",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Evere",
+    "Type": "",
+    "Adres": "Lindestraat 323",
+    "lat": 50.8777496,
+    "lon": 4.3912685
+  },
+  {
+    "Record-ID": "6514881528",
+    "Naam onderneming": "GO! athena-campus Drie Hofste den 2de/3de graad Kortrijk",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "KORTRIJK",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Minister De Taeyelaan 13",
+    "lat": 50.8231854,
+    "lon": 3.2869305
+  },
+  {
+    "Record-ID": "6514862329",
+    "Naam onderneming": "GO! Atheneum Aalst",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Graanmarkt 14",
+    "lat": 50.940307,
+    "lon": 4.0409482
+  },
+  {
+    "Record-ID": "6514926040",
+    "Naam onderneming": "githo nijlen",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "NIJLEN",
+    "Type": "",
+    "Adres": "Gemeentestraat 41",
+    "lat": 51.1616993,
+    "lon": 4.6751322
+  },
+  {
+    "Record-ID": "6514797810",
+    "Naam onderneming": "GI Brasschaat",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "BRASSCHAAT",
+    "Type": "",
+    "Adres": "Door Verstraetelei 50",
+    "lat": 51.2911794,
+    "lon": 4.4975704
+  },
+  {
+    "Record-ID": "6514862783",
+    "Naam onderneming": "DVM HTB - Aalst",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Onderwijsstraat 5",
+    "lat": 50.9386445,
+    "lon": 4.0425038
+  },
+  {
+    "Record-ID": "6514839778",
+    "Naam onderneming": "Einstein Atheneum, ASO Talen, Wetenschappen & Kunst",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "EVERGEM",
+    "Type": "",
+    "Adres": "Hofbilkstraat 21",
+    "lat": 51.1127457,
+    "lon": 3.7054901
+  },
+  {
+    "Record-ID": "6514819261",
+    "Naam onderneming": "EDUGO campus Glorieux         Technisch Instituut",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "OOSTAKKER",
+    "Type": "Klant",
+    "Adres": "Sint-Jozefstraat 7",
+    "lat": 51.0849508,
+    "lon": 3.7663796
+  },
+  {
+    "Record-ID": "6514778075",
+    "Naam onderneming": "de! Kunsthumaniora van het GO!",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Karel Oomsstraat 24",
+    "lat": 51.1966218,
+    "lon": 4.4090278
+  },
+  {
+    "Record-ID": "6514902754",
+    "Naam onderneming": "De Bron Tielt - Molenland",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "TIELT",
+    "Type": "Klant",
+    "Adres": "Hulstplein 32",
+    "lat": 50.9969672,
+    "lon": 3.3330152
+  },
+  {
+    "Record-ID": "6514881758",
+    "Naam onderneming": "College Hagelstein 2",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-KATELIJNE-WAVER",
+    "Type": "",
+    "Adres": "Berlaarbaan 229",
+    "lat": 51.0553404,
+    "lon": 4.5443596
+  },
+  {
+    "Record-ID": "6867299559",
+    "Naam onderneming": "Katholiek Onderwijs Ronse Campus Glorieux",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Ronse",
+    "Type": "",
+    "Adres": "Stefaan Modest Glorieuxlaan 30",
+    "lat": 50.7540013,
+    "lon": 3.6009266
+  },
+  {
+    "Record-ID": "6514839797",
+    "Naam onderneming": "Campus Max Middenschool - Tessenderlo",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Tessenderlo",
+    "Type": "Ex-klant",
+    "Adres": "Heilig Hartlaan 16",
+    "lat": 51.0663608,
+    "lon": 5.0939133
+  },
+  {
+    "Record-ID": "6514756837",
+    "Naam onderneming": "Broederschool Biotechnische en Sport",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "SINT-NIKLAAS",
+    "Type": "",
+    "Adres": "Weverstraat 23",
+    "lat": 51.1462217,
+    "lon": 4.1213143
+  },
+  {
+    "Record-ID": "6514903012",
+    "Naam onderneming": "Atheneum Wispelberg - Gent",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "GENT",
+    "Type": "Klant",
+    "Adres": "Botermarkt 1",
+    "lat": 51.0545266,
+    "lon": 3.7252744
+  },
+  {
+    "Record-ID": "6514902983",
+    "Naam onderneming": "Agnetencollege",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "PEER",
+    "Type": "",
+    "Adres": "Collegelaan 24",
+    "lat": 51.1348271,
+    "lon": 5.4609818
+  },
+  {
+    "Record-ID": "6514881988",
+    "Naam onderneming": "Annuntia-Instituut - Wijnegem",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "WIJNEGEM",
+    "Type": "Klant",
+    "Adres": "Turnhoutsebaan 430A",
+    "lat": 51.2292564,
+    "lon": 4.5229079
+  },
+  {
+    "Record-ID": "6514756838",
+    "Naam onderneming": "Annuntiata-Instituut",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "VEURNE",
+    "Type": "",
+    "Adres": "Vleeshouwersstraat 22",
+    "lat": 51.0713095,
+    "lon": 2.6593928
+  },
+  {
+    "Record-ID": "6508106228",
+    "Naam onderneming": "kOsh",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "Herentals",
+    "Type": "",
+    "Adres": "Scheppersstraat 9",
+    "lat": 51.172196,
+    "lon": 4.8304364
+  },
+  {
+    "Record-ID": "6506102246",
+    "Naam onderneming": "Campus De Helix",
+    "# lln grootorde": "600 - 900 lln",
+    "Plaats": "MAASMECHELEN",
+    "Type": "",
+    "Adres": "Rijksweg 357",
+    "lat": 50.9673777,
+    "lon": 5.697335
+  },
+  {
+    "Record-ID": "115039570110",
+    "Naam onderneming": "Prizma - Campus College",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Izegem",
+    "Type": "Klant",
+    "Adres": "Burgemeester Vandenbogaerdelaan 53",
+    "lat": 50.9135306,
+    "lon": 3.2115098
+  },
+  {
+    "Record-ID": "10456279489",
+    "Naam onderneming": "Katholiek Onderwijs Land van Waas",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Sint-Niklaas",
+    "Type": "",
+    "Adres": "Nieuwstraat 91",
+    "lat": 51.2210253,
+    "lon": 4.1303471
+  },
+  {
+    "Record-ID": "10456385985",
+    "Naam onderneming": "TSM Mechelen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Mechelen",
+    "Type": "",
+    "Adres": "Jef Denynplein 2",
+    "lat": 51.0300146,
+    "lon": 4.4754199
+  },
+  {
+    "Record-ID": "10115452388",
+    "Naam onderneming": "Freinetmiddenschool Gent",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Gent",
+    "Type": "Prospect",
+    "Adres": "Offerlaan 1",
+    "lat": 51.0454172,
+    "lon": 3.7107979
+  },
+  {
+    "Record-ID": "9825523956",
+    "Naam onderneming": "EDUGO Campus Lochristi",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Lochristi",
+    "Type": "Prospect",
+    "Adres": "Dorp-Oost 32",
+    "lat": 51.0968007,
+    "lon": 3.8362482
+  },
+  {
+    "Record-ID": "10456709100",
+    "Naam onderneming": "Campus Kompas",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Schaarbeek",
+    "Type": "",
+    "Adres": "Vanderlindenstraat 40",
+    "lat": 50.8672491,
+    "lon": 4.3671814
+  },
+  {
+    "Record-ID": "6613884610",
+    "Naam onderneming": "GO! Busleyden Atheneum Zandpoort - Mechelen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Mechelen",
+    "Type": "Prospect",
+    "Adres": "Zandpoortvest 9A",
+    "lat": 51.0262959,
+    "lon": 4.4886552
+  },
+  {
+    "Record-ID": "6514903229",
+    "Naam onderneming": "Wico Campus Mater Dei - 127837",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "PELT",
+    "Type": "",
+    "Adres": "Ursulinenstraat 17",
+    "lat": 51.2083034,
+    "lon": 5.4275572
+  },
+  {
+    "Record-ID": "6514757106",
+    "Naam onderneming": "WICO Hamont",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HAMONT-ACHEL",
+    "Type": "",
+    "Adres": "Collegestraat 25",
+    "lat": 51.2321411,
+    "lon": 5.5413997
+  },
+  {
+    "Record-ID": "152330377464",
+    "Naam onderneming": "VTI Lier",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LIER",
+    "Type": "",
+    "Adres": "Kruisbogenhofstraat 7",
+    "lat": 51.1347415,
+    "lon": 4.567273
+  },
+  {
+    "Record-ID": "6514926307",
+    "Naam onderneming": "VTI Ieper",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "IEPER",
+    "Type": "",
+    "Adres": "Augustijnenstraat 58",
+    "lat": 50.855388,
+    "lon": 2.8667255
+  },
+  {
+    "Record-ID": "6514903236",
+    "Naam onderneming": "Campus Engineering Veurne",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "VEURNE",
+    "Type": "Klant",
+    "Adres": "Ieperse Steenweg 90",
+    "lat": 51.0636969,
+    "lon": 2.6684981
+  },
+  {
+    "Record-ID": "6514881767",
+    "Naam onderneming": "BARNUM",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ROESELARE",
+    "Type": "Klant",
+    "Adres": "Stokerijstraat 9",
+    "lat": 50.9545902,
+    "lon": 3.1265395
+  },
+  {
+    "Record-ID": "6514881744",
+    "Naam onderneming": "VTS3 Sint-Niklaas",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Sint-Niklaas",
+    "Type": "",
+    "Adres": "",
+    "lat": 51.1646685,
+    "lon": 4.1395124
+  },
+  {
+    "Record-ID": "6514778313",
+    "Naam onderneming": "VZW Don Bosco afdeling Zwijnaarde",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Gent",
+    "Type": "Klant",
+    "Adres": "Grotesteenweg-Noord 113",
+    "lat": 51.0137047,
+    "lon": 3.7035301
+  },
+  {
+    "Record-ID": "6514778318",
+    "Naam onderneming": "Vrij Technisch Instituut Poperinge",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "POPERINGE",
+    "Type": "",
+    "Adres": "Boeschepestraat 44",
+    "lat": 50.8495878,
+    "lon": 2.7234159
+  },
+  {
+    "Record-ID": "6514778077",
+    "Naam onderneming": "Vrije Technische School Leuven",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LEUVEN",
+    "Type": "Ex-klant",
+    "Adres": "Dekenstraat 3",
+    "lat": 50.8743975,
+    "lon": 4.7092712
+  },
+  {
+    "Record-ID": "6514862555",
+    "Naam onderneming": "Vrij Technisch Instituut - 3",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Vakschoolstraat 41",
+    "lat": 50.9408647,
+    "lon": 4.0288064
+  },
+  {
+    "Record-ID": "6514819291",
+    "Naam onderneming": "Vrij Technisch Instituut - 2",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Sinte Annalaan 99_B",
+    "lat": 50.9414809,
+    "lon": 4.0288024
+  },
+  {
+    "Record-ID": "6514778314",
+    "Naam onderneming": "Sint-Rita Campus Technologie",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Kontich",
+    "Type": "Klant",
+    "Adres": "Edegemsesteenweg 129 ",
+    "lat": 51.1422543,
+    "lon": 4.4463132
+  },
+  {
+    "Record-ID": "6514778102",
+    "Naam onderneming": "Vrij Technisch Instituut Torhout",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TORHOUT",
+    "Type": "",
+    "Adres": "Papebrugstraat 8_A",
+    "lat": 51.0662717,
+    "lon": 3.1038963
+  },
+  {
+    "Record-ID": "6514778071",
+    "Naam onderneming": "Vrij Technisch Instituut - Tielt",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TIELT",
+    "Type": "Klant",
+    "Adres": "Grote Hulststraat 28",
+    "lat": 50.9964521,
+    "lon": 3.3290826
+  },
+  {
+    "Record-ID": "6514757096",
+    "Naam onderneming": "Vrij Technisch Instituut Roeselare",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ROESELARE",
+    "Type": "",
+    "Adres": "Leenstraat 32",
+    "lat": 50.9446945,
+    "lon": 3.1299242
+  },
+  {
+    "Record-ID": "6514778299",
+    "Naam onderneming": "Vlot! Sint-Lodewijk Lokeren",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LOKEREN",
+    "Type": "",
+    "Adres": "Markt 48",
+    "lat": 51.1030578,
+    "lon": 3.9922729
+  },
+  {
+    "Record-ID": "6514778101",
+    "Naam onderneming": "Vita et Pax College",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SCHOTEN",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Victor Frislei 18",
+    "lat": 51.2512241,
+    "lon": 4.5331521
+  },
+  {
+    "Record-ID": "6514862574",
+    "Naam onderneming": "Virgo Sapientiae Instituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MALDEGEM",
+    "Type": "",
+    "Adres": "Marktstraat 15",
+    "lat": 51.2074746,
+    "lon": 3.4454825
+  },
+  {
+    "Record-ID": "6514757050",
+    "Naam onderneming": "Visitatie Mariakerke",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MARIAKERKE",
+    "Type": "",
+    "Adres": "Zandloperstraat 8",
+    "lat": 51.0717827,
+    "lon": 3.6782267
+  },
+  {
+    "Record-ID": "6514902757",
+    "Naam onderneming": "TISM",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BREE",
+    "Type": "",
+    "Adres": "Baron de Taxislaan 4",
+    "lat": 51.1363915,
+    "lon": 5.5992922
+  },
+  {
+    "Record-ID": "6514862576",
+    "Naam onderneming": "Technisch Instituut Sint-Jozef",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BILZEN",
+    "Type": "Klant",
+    "Adres": "Wijerstraat 28",
+    "lat": 50.8738535,
+    "lon": 5.516092
+  },
+  {
+    "Record-ID": "6514840054",
+    "Naam onderneming": "Terra - Temse",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TEMSE",
+    "Type": "Klant",
+    "Adres": "Theo De Deckerlaan 2",
+    "lat": 51.1314043,
+    "lon": 4.2062707
+  },
+  {
+    "Record-ID": "6514778100",
+    "Naam onderneming": "TechnOV",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "VILVOORDE",
+    "Type": "",
+    "Adres": "Zennelaan 51_53",
+    "lat": 50.9294617,
+    "lon": 4.4158833
+  },
+  {
+    "Record-ID": "6514756854",
+    "Naam onderneming": "Tectura Groenkouter",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Sint-Amandsberg (Gent)",
+    "Type": "Ex-klant",
+    "Adres": "Sint- Baafskouterstraat 129",
+    "lat": 51.0542781,
+    "lon": 3.7559662
+  },
+  {
+    "Record-ID": "6514798015",
+    "Naam onderneming": "Technicum Noord-Antwerpen     Bovenbouwschool",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Londenstraat 43",
+    "lat": 51.231337,
+    "lon": 4.4119961
+  },
+  {
+    "Record-ID": "6514862557",
+    "Naam onderneming": "Stedelijke Academie voor      Schone Kunsten - KSO",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BRUGGE",
+    "Type": "",
+    "Adres": "Katelijnestraat 86",
+    "lat": 51.2014174,
+    "lon": 3.226396
+  },
+  {
+    "Record-ID": "6514819320",
+    "Naam onderneming": "Stedelijk Lyceum Zuid",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "August Leyweg 3",
+    "lat": 51.1943643,
+    "lon": 4.3762567
+  },
+  {
+    "Record-ID": "197906441416",
+    "Naam onderneming": "Merit",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Antwerpen",
+    "Type": "Prospect",
+    "Adres": "VIIde-Olympiadelaan 2",
+    "lat": 51.1848899,
+    "lon": 4.3899134
+  },
+  {
+    "Record-ID": "6514819319",
+    "Naam onderneming": "Campos Sport- en Handelsschool - Turnhout",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TURNHOUT",
+    "Type": "Ex-klant",
+    "Adres": "Parklaan 52",
+    "lat": 51.311893,
+    "lon": 4.9420236
+  },
+  {
+    "Record-ID": "6514882007",
+    "Naam onderneming": "Sint-Vincentius Anzegem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANZEGEM",
+    "Type": "",
+    "Adres": "Kerkstraat 86",
+    "lat": 50.8394885,
+    "lon": 3.4749464
+  },
+  {
+    "Record-ID": "6514862552",
+    "Naam onderneming": "Spectrumcollege Lummen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LUMMEN",
+    "Type": "",
+    "Adres": "Pastoor Frederickxstraat 9",
+    "lat": 50.9858353,
+    "lon": 5.1938332
+  },
+  {
+    "Record-ID": "6514840043",
+    "Naam onderneming": "Sint-Willebrord-H.Familie - Berchem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BERCHEM",
+    "Type": "Klant",
+    "Adres": "Jan Moorkensstraat 95",
+    "lat": 51.1879453,
+    "lon": 4.4322995
+  },
+  {
+    "Record-ID": "6514756857",
+    "Naam onderneming": "Sancta Maria Kasterlee \u00c2\u00b7 SMIK",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "KASTERLEE",
+    "Type": "",
+    "Adres": "Mgr. Heylenstraat 37",
+    "lat": 51.2368252,
+    "lon": 4.9641998
+  },
+  {
+    "Record-ID": "6514926023",
+    "Naam onderneming": "Sint-Victorinstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TURNHOUT",
+    "Type": "",
+    "Adres": "Kasteelplein 20",
+    "lat": 51.3256621,
+    "lon": 4.9460037
+  },
+  {
+    "Record-ID": "6514797812",
+    "Naam onderneming": "Sint-Pietersinstituut bovenbouw",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Koning Albertlaan 70",
+    "lat": 51.0394737,
+    "lon": 3.7129281
+  },
+  {
+    "Record-ID": "6514798022",
+    "Naam onderneming": "Sint-Martinusscholen TSO-BSO",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ASSE",
+    "Type": "",
+    "Adres": "Koensborre 1",
+    "lat": 50.9129807,
+    "lon": 4.1916742
+  },
+  {
+    "Record-ID": "6514797807",
+    "Naam onderneming": "Scheppers Anderlecht VZW",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Anderlecht",
+    "Type": "Klant",
+    "Adres": "Bergense Steenweg 1421",
+    "lat": 50.8085432,
+    "lon": 4.2890396
+  },
+  {
+    "Record-ID": "6514778062",
+    "Naam onderneming": "Sint-Paulusinstituut Gent",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "Klant",
+    "Adres": "Patijntjestraat 45",
+    "lat": 51.0402421,
+    "lon": 3.7073103
+  },
+  {
+    "Record-ID": "6514926276",
+    "Naam onderneming": "Sint-Martinusscholen - ASO",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ASSE",
+    "Type": "",
+    "Adres": "Petrus Ascanusplein 1",
+    "lat": 50.9019616,
+    "lon": 4.2168098
+  },
+  {
+    "Record-ID": "6514797799",
+    "Naam onderneming": "Sint-Maarteninstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Esplanadeplein 6",
+    "lat": 50.9414795,
+    "lon": 4.0352939
+  },
+  {
+    "Record-ID": "6514757076",
+    "Naam onderneming": "Sint-Martinusscholen - Middenschool",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ASSE",
+    "Type": "",
+    "Adres": "Parklaan 17",
+    "lat": 50.9071166,
+    "lon": 4.2043136
+  },
+  {
+    "Record-ID": "6514882011",
+    "Naam onderneming": "Sint-Lucas Kunstsecundair",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Sint-Jozefstraat 35",
+    "lat": 51.3041693,
+    "lon": 4.8835627
+  },
+  {
+    "Record-ID": "6514778096",
+    "Naam onderneming": "Sint-Lutgardis - Mol",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MOL",
+    "Type": "Ex-klant",
+    "Adres": "Gasthuisstraat 3",
+    "lat": 51.1866369,
+    "lon": 5.1127447
+  },
+  {
+    "Record-ID": "10456677613",
+    "Naam onderneming": "Sint-Lievenscollege Business",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Gent",
+    "Type": "Klant",
+    "Adres": "Gildestraat 17",
+    "lat": 51.055136,
+    "lon": 3.7307992
+  },
+  {
+    "Record-ID": "6514881784",
+    "Naam onderneming": "Sint-Lambertusinstituut Heist op den Berg",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HEIST-OP-DEN-BERG",
+    "Type": "",
+    "Adres": "Kerkplein 14",
+    "lat": 51.0763116,
+    "lon": 4.7280316
+  },
+  {
+    "Record-ID": "6514797771",
+    "Naam onderneming": "Sint-Lambertuscollege Bilzen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BILZEN",
+    "Type": "",
+    "Adres": "Sint Lambertuslaan 15",
+    "lat": 50.8738147,
+    "lon": 5.5115671
+  },
+  {
+    "Record-ID": "6514757097",
+    "Naam onderneming": "Sint-Jozefsinstituut Geraardsbergen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GERAARDSBERGEN",
+    "Type": "",
+    "Adres": "Karmelietenstraat 57",
+    "lat": 50.7757337,
+    "lon": 3.8783439
+  },
+  {
+    "Record-ID": "6514926051",
+    "Naam onderneming": "Sint-Jozefinstituut Wetteren",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "WETTEREN",
+    "Type": "",
+    "Adres": "Wegvoeringstraat 59A",
+    "lat": 51.0108461,
+    "lon": 3.9033505
+  },
+  {
+    "Record-ID": "6514819288",
+    "Naam onderneming": "Sint-Jozefscollege Woluwe",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-PIETERS-WOLUWE",
+    "Type": "",
+    "Adres": "Woluwelaan 20",
+    "lat": 50.8352511,
+    "lon": 4.4334589
+  },
+  {
+    "Record-ID": "6514777844",
+    "Naam onderneming": "Sint-Jozefinstituut Schoten",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SCHOTEN",
+    "Type": "",
+    "Adres": "Jozef Hendrickxstraat 153",
+    "lat": 51.248276,
+    "lon": 4.4875692
+  },
+  {
+    "Record-ID": "6514926021",
+    "Naam onderneming": "Sint-Jorisschool Menen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Menen",
+    "Type": "Klant",
+    "Adres": "Fabiolalaan 2",
+    "lat": 50.7936646,
+    "lon": 3.124098
+  },
+  {
+    "Record-ID": "6514840040",
+    "Naam onderneming": "Sint-Jozefinstituut ASO Essen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Essen",
+    "Type": "Ex-klant",
+    "Adres": "Hofstraat 56",
+    "lat": 51.4641816,
+    "lon": 4.4633668
+  },
+  {
+    "Record-ID": "10456086481",
+    "Naam onderneming": "KSOM - Campus Sint-Jan Berchmans",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Mol",
+    "Type": "",
+    "Adres": "Jakob Smitslaan 36",
+    "lat": 51.1863841,
+    "lon": 5.1089876
+  },
+  {
+    "Record-ID": "6514757102",
+    "Naam onderneming": "Sint-Jan Berchmansinstituut Puurs",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "PUURS-SINT-AMANDS",
+    "Type": "Klant",
+    "Adres": "Schuttershofstraat 17",
+    "lat": 51.0775982,
+    "lon": 4.278336
+  },
+  {
+    "Record-ID": "6514819527",
+    "Naam onderneming": "Sint-Jan Berchmanscollege Avelgem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "AVELGEM",
+    "Type": "Prospect",
+    "Adres": "Kasteelstraat 12",
+    "lat": 50.7756967,
+    "lon": 3.4478419
+  },
+  {
+    "Record-ID": "6514839793",
+    "Naam onderneming": "Sint-Gertrudiscollege Wetteren",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Wetteren",
+    "Type": "Ex-klant",
+    "Adres": "Wegvoeringstraat 21",
+    "lat": 51.0075756,
+    "lon": 3.8871973
+  },
+  {
+    "Record-ID": "6514882012",
+    "Naam onderneming": "Sint-Franciscusinstituut Melle",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MELLE",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Tuinstraat 105",
+    "lat": 51.0179111,
+    "lon": 3.7703251
+  },
+  {
+    "Record-ID": "6514862524",
+    "Naam onderneming": "Sint-Franciscusinstituut Brakel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BRAKEL",
+    "Type": "Ex-klant",
+    "Adres": "Kasteeldreef 2",
+    "lat": 50.8228122,
+    "lon": 3.7760468
+  },
+  {
+    "Record-ID": "6514839781",
+    "Naam onderneming": "KNMC Groenendaal + Joma 2",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MERKSEM",
+    "Type": "",
+    "Adres": "Stella Marisstraat 2",
+    "lat": 51.2423584,
+    "lon": 4.4369349
+  },
+  {
+    "Record-ID": "6514797776",
+    "Naam onderneming": "Sint-Donatusinstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MERCHTEM",
+    "Type": "",
+    "Adres": "Marktstraat 1",
+    "lat": 50.9593113,
+    "lon": 4.2310704
+  },
+  {
+    "Record-ID": "6514778323",
+    "Naam onderneming": "Sint-Franciscuscollege",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HEUSDEN-ZOLDER",
+    "Type": "",
+    "Adres": "Minderbroedersstraat 11",
+    "lat": 51.0438905,
+    "lon": 5.315612
+  },
+  {
+    "Record-ID": "6514926272",
+    "Naam onderneming": "Sint-Calasanzinstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "NIJLEN",
+    "Type": "Ex-klant",
+    "Adres": "Nonnenstraat 21",
+    "lat": 51.1621779,
+    "lon": 4.671381
+  },
+  {
+    "Record-ID": "6514903008",
+    "Naam onderneming": "Sint-Bernarduscollege Nieuwpoort",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "NIEUWPOORT",
+    "Type": "Klant",
+    "Adres": "Marktplein 5",
+    "lat": 51.1291117,
+    "lon": 2.753274
+  },
+  {
+    "Record-ID": "6514881522",
+    "Naam onderneming": "Sint-Catharinacollege",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GERAARDSBERGEN",
+    "Type": "",
+    "Adres": "Collegestraat 11",
+    "lat": 50.7725037,
+    "lon": 3.8767184
+  },
+  {
+    "Record-ID": "6514778065",
+    "Naam onderneming": "Sint-Barbaracollege - Gent",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "Ex-klant",
+    "Adres": "Savaanstraat 33",
+    "lat": 51.0490049,
+    "lon": 3.7252821
+  },
+  {
+    "Record-ID": "6514926305",
+    "Naam onderneming": "Sint-Annacollege",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Oscar De Gruyterlaan 4",
+    "lat": 51.2225976,
+    "lon": 4.3830127
+  },
+  {
+    "Record-ID": "6514881777",
+    "Naam onderneming": "Sint-Andreasinstituut Brugge",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BRUGGE",
+    "Type": "",
+    "Adres": "Garenmarkt 8",
+    "lat": 51.2048651,
+    "lon": 3.229563
+  },
+  {
+    "Record-ID": "6514840023",
+    "Naam onderneming": "Sint-Andreasinstituut Oostende",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "OOSTENDE",
+    "Type": "",
+    "Adres": "Steensedijk 151",
+    "lat": 51.2030788,
+    "lon": 2.9097798
+  },
+  {
+    "Record-ID": "6514819268",
+    "Naam onderneming": "Sint-Andreaslyceum",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-KRUIS",
+    "Type": "",
+    "Adres": "Fortuinstraat 29",
+    "lat": 51.2080065,
+    "lon": 3.2550877
+  },
+  {
+    "Record-ID": "6514797817",
+    "Naam onderneming": "Secundair Kunstinstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Ottogracht 4",
+    "lat": 51.0579284,
+    "lon": 3.7281783
+  },
+  {
+    "Record-ID": "6514778084",
+    "Naam onderneming": "Scheppersinstituut 1 Deurne & Antwerpen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Van Helmontstraat 29",
+    "lat": 51.225658,
+    "lon": 4.4358978
+  },
+  {
+    "Record-ID": "6514881991",
+    "Naam onderneming": "Scheppersinstituut Wetteren",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "WETTEREN",
+    "Type": "Ex-klant",
+    "Adres": "Cooppallaan 128",
+    "lat": 51.0086152,
+    "lon": 3.8661641
+  },
+  {
+    "Record-ID": "6514819278",
+    "Naam onderneming": "Sancta Mariainstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LEMBEEK",
+    "Type": "",
+    "Adres": "Heerweg 77",
+    "lat": 50.7172702,
+    "lon": 4.2230552
+  },
+  {
+    "Record-ID": "6514862579",
+    "Naam onderneming": "Richtpunt campus Hamme",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HAMME",
+    "Type": "Klant",
+    "Adres": "Meulenbroekstraat 15",
+    "lat": 51.100428,
+    "lon": 4.1358098
+  },
+  {
+    "Record-ID": "6514840046",
+    "Naam onderneming": "Richtpunt Campus Gent",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Abdisstraat 56",
+    "lat": 51.0428069,
+    "lon": 3.7144501
+  },
+  {
+    "Record-ID": "6514840011",
+    "Naam onderneming": "RHIZO Zwevegem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ZWEVEGEM",
+    "Type": "Klant",
+    "Adres": "Sint-Niklaasstraat 22",
+    "lat": 50.8147467,
+    "lon": 3.336168
+  },
+  {
+    "Record-ID": "6514881742",
+    "Naam onderneming": "PTS Maasmechelen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MAASMECHELEN",
+    "Type": "Prospect",
+    "Adres": "Europaplein 36",
+    "lat": 50.9877477,
+    "lon": 5.6873319
+  },
+  {
+    "Record-ID": "6514819313",
+    "Naam onderneming": "Regina-Caelilyceum - Dilbeek",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "DILBEEK",
+    "Type": "Ex-klant",
+    "Adres": "Rozenlaan 45",
+    "lat": 50.8418383,
+    "lon": 4.2787183
+  },
+  {
+    "Record-ID": "6514778103",
+    "Naam onderneming": "Pyxiscollege - 1ste graad",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LANAKEN",
+    "Type": "",
+    "Adres": "Koning Albertlaan 26",
+    "lat": 50.8901826,
+    "lon": 5.6539733
+  },
+  {
+    "Record-ID": "6514840009",
+    "Naam onderneming": "Provinciale Handelsschool Hasselt",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HASSELT",
+    "Type": "",
+    "Adres": "Gouverneur Verwilghensingel 1",
+    "lat": 50.9386533,
+    "lon": 5.3450894
+  },
+  {
+    "Record-ID": "6514819522",
+    "Naam onderneming": "Richtpunt campus Gent",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Godshuizenlaan 65-75",
+    "lat": 51.0435462,
+    "lon": 3.7155171
+  },
+  {
+    "Record-ID": "6514926300",
+    "Naam onderneming": "Provinciaal Handels- en       Taalinstituut - Volledig      Leerplan",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Henleykaai 83",
+    "lat": 51.0421518,
+    "lon": 3.7150244
+  },
+  {
+    "Record-ID": "6514840029",
+    "Naam onderneming": "Prizma - Campus VTI",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "IZEGEM",
+    "Type": "Klant",
+    "Adres": "Italianenlaan 30",
+    "lat": 50.9191909,
+    "lon": 3.231902
+  },
+  {
+    "Record-ID": "6514819526",
+    "Naam onderneming": "Provinciaal Instituut voor Biotechnisch Onderwijs",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TONGEREN",
+    "Type": "",
+    "Adres": "Sint-Truidersteenweg 323",
+    "lat": 50.8064755,
+    "lon": 5.2824779
+  },
+  {
+    "Record-ID": "6514903033",
+    "Naam onderneming": "Prizma - Campus IdP",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "IZEGEM",
+    "Type": "Klant",
+    "Adres": "Dirk Martenslaan 16",
+    "lat": 50.9181092,
+    "lon": 3.2174167
+  },
+  {
+    "Record-ID": "6514819299",
+    "Naam onderneming": "SJO Petrus & Paulus",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "OOSTENDE",
+    "Type": "",
+    "Adres": "Ieperstraat 9",
+    "lat": 51.2266703,
+    "lon": 2.9147346
+  },
+  {
+    "Record-ID": "6514756834",
+    "Naam onderneming": "Petrus & Paulus - College",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "OOSTENDE",
+    "Type": "",
+    "Adres": "Vindictivelaan 9",
+    "lat": 51.2279908,
+    "lon": 2.9194389
+  },
+  {
+    "Record-ID": "6514926274",
+    "Naam onderneming": "Onze-Lieve-Vrouwinstituut - Bovenbouw TSO-BSO",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BOOM",
+    "Type": "",
+    "Adres": "Bassinstraat 15",
+    "lat": 51.0846457,
+    "lon": 4.367259
+  },
+  {
+    "Record-ID": "6514840006",
+    "Naam onderneming": "Onze-Lieve-Vrouwecollege Assebroek",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ASSEBROEK",
+    "Type": "Klant",
+    "Adres": "Collegestraat 24",
+    "lat": 51.2034247,
+    "lon": 3.250862
+  },
+  {
+    "Record-ID": "6514902976",
+    "Naam onderneming": "Onze-Lieve-Vrouwe-instituut Poperinge",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "POPERINGE",
+    "Type": "",
+    "Adres": "Boeschepestraat 20",
+    "lat": 50.8520328,
+    "lon": 2.7234408
+  },
+  {
+    "Record-ID": "6514881984",
+    "Naam onderneming": "Onze-Lieve-Vrouwcollege Zottegem Grotenberge",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ZOTTEGEM",
+    "Type": "Ex-klant",
+    "Adres": "Parkstraat 2",
+    "lat": 50.8723886,
+    "lon": 3.8342154
+  },
+  {
+    "Record-ID": "6514797803",
+    "Naam onderneming": "Onze-Lieve-Vrouwe-Instituut Gent",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Tweebruggenstraat 55",
+    "lat": 51.0482643,
+    "lon": 3.7352462
+  },
+  {
+    "Record-ID": "6514756849",
+    "Naam onderneming": "Onze-Lieve-Vrouw-Hemelvaart Instituut - Brugge (OLVH)",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-ANDRIES (Brugge)",
+    "Type": "Ex-klant",
+    "Adres": "Doornstraat 3",
+    "lat": 51.1929735,
+    "lon": 3.1951559
+  },
+  {
+    "Record-ID": "6514926022",
+    "Naam onderneming": "OLVC Antwerpen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Frankrijklei 91",
+    "lat": 51.2140922,
+    "lon": 4.4127855
+  },
+  {
+    "Record-ID": "6514902980",
+    "Naam onderneming": "MUDA Atheneum voor Podiumkunsten",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "EVERGEM",
+    "Type": "",
+    "Adres": "Hofbilkstraat 21",
+    "lat": 51.1127457,
+    "lon": 3.7054901
+  },
+  {
+    "Record-ID": "6514881773",
+    "Naam onderneming": "OLVI-PIUS X Collegestraat",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ZELE",
+    "Type": "",
+    "Adres": "Collegestraat 1",
+    "lat": 51.0654653,
+    "lon": 4.0427014
+  },
+  {
+    "Record-ID": "6514881526",
+    "Naam onderneming": "De Broederschool",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ROESELARE",
+    "Type": "",
+    "Adres": "Mandellaan 170",
+    "lat": 50.9521267,
+    "lon": 3.1363561
+  },
+  {
+    "Record-ID": "6514902975",
+    "Naam onderneming": "Mosa-RT                       Technisch Instituut           Sint-Jansberg A",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MAASEIK",
+    "Type": "",
+    "Adres": "Sint-Jansberg 39",
+    "lat": 51.1132222,
+    "lon": 5.7862042
+  },
+  {
+    "Record-ID": "6514902971",
+    "Naam onderneming": "Miniemeninstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LEUVEN",
+    "Type": "",
+    "Adres": "Diestsestraat 163",
+    "lat": 50.8819178,
+    "lon": 4.7089418
+  },
+  {
+    "Record-ID": "6514862550",
+    "Naam onderneming": "Mosa-RT College Heilig Kruis - Sint-Ursula B",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MAASEIK",
+    "Type": "",
+    "Adres": "Weertersteenweg 135",
+    "lat": 51.1066258,
+    "lon": 5.7786853
+  },
+  {
+    "Record-ID": "6514797798",
+    "Naam onderneming": "Mosa-RT                       College Heilig Kruis - Sint-  Ursula A",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MAASEIK",
+    "Type": "",
+    "Adres": "Weertersteenweg 135",
+    "lat": 51.1066258,
+    "lon": 5.7786853
+  },
+  {
+    "Record-ID": "6514756836",
+    "Naam onderneming": "Moretus Bovenbouw",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "EKEREN",
+    "Type": "",
+    "Adres": "Kloosterstraat 82",
+    "lat": 51.2818846,
+    "lon": 4.4165183
+  },
+  {
+    "Record-ID": "6514819534",
+    "Naam onderneming": "Mater Dei Instituut Brasschaat",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BRASSCHAAT",
+    "Type": "Klant",
+    "Adres": "Bredabaan 394",
+    "lat": 51.2941868,
+    "lon": 4.4953741
+  },
+  {
+    "Record-ID": "6514778316",
+    "Naam onderneming": "Methodeschool van Veldeke",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Hasselt",
+    "Type": "Klant",
+    "Adres": "gazometerstraat 4",
+    "lat": 50.933767,
+    "lon": 5.334296
+  },
+  {
+    "Record-ID": "156777912516",
+    "Naam onderneming": "Maria Assumptalyceum A.S.O.-T.S.O.-B.S.O.",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LAKEN",
+    "Type": "",
+    "Adres": "Stalkruidlaan 1",
+    "lat": 50.8996263,
+    "lon": 4.3623552
+  },
+  {
+    "Record-ID": "6514902760",
+    "Naam onderneming": "Lutgardiscollege",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "OUDERGEM",
+    "Type": "",
+    "Adres": "de Wahalaan 11",
+    "lat": 50.8185652,
+    "lon": 4.4294268
+  },
+  {
+    "Record-ID": "6514881753",
+    "Naam onderneming": "Maria-Boodschaplyceum",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BRUSSEL",
+    "Type": "",
+    "Adres": "Moutstraat 22",
+    "lat": 50.8500814,
+    "lon": 4.344923
+  },
+  {
+    "Record-ID": "6514862784",
+    "Naam onderneming": "Mariagaard",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "WETTEREN",
+    "Type": "",
+    "Adres": "Oosterzelesteenweg 80",
+    "lat": 50.9779576,
+    "lon": 3.8336534
+  },
+  {
+    "Record-ID": "6514819310",
+    "Naam onderneming": "Lucernacollege Campus Quadrant (Houthalen)",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Houthalen-Helchteren",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Huidevettersstraat 5",
+    "lat": 51.0279097,
+    "lon": 5.4022719
+  },
+  {
+    "Record-ID": "226418043099",
+    "Naam onderneming": "Atheneum Linc Parc",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LANAKEN",
+    "Type": "Klant",
+    "Adres": "Koning Albertlaan 58",
+    "lat": 50.8909832,
+    "lon": 5.6561554
+  },
+  {
+    "Record-ID": "152330222829",
+    "Naam onderneming": "Tectura Gent Centrum",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Coupure 312",
+    "lat": 51.0516513,
+    "lon": 3.710727
+  },
+  {
+    "Record-ID": "7611991243",
+    "Naam onderneming": "LAB Gedreven Onderwijs Sint-Niklaas",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Sint-Niklaas",
+    "Type": "Prospect",
+    "Adres": "KLEIBEEKSTRAAT 138",
+    "lat": 51.1734958,
+    "lon": 4.120918
+  },
+  {
+    "Record-ID": "6514862782",
+    "Naam onderneming": "Land- en Tuinbouwinstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "OEDELEM",
+    "Type": "",
+    "Adres": "Bruggestraat 190",
+    "lat": 51.1871264,
+    "lon": 3.3006247
+  },
+  {
+    "Record-ID": "6514902767",
+    "Naam onderneming": "KOGEKA Sint Dimpna Geel (2de 3de graad secundair)",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GEEL",
+    "Type": "",
+    "Adres": "Gasthuisstraat 2",
+    "lat": 51.1615971,
+    "lon": 4.9996674
+  },
+  {
+    "Record-ID": "6514819266",
+    "Naam onderneming": "KOGEKA Sint-Jozef (secundair)",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GEEL",
+    "Type": "",
+    "Adres": "Technische-Schoolstraat 52",
+    "lat": 51.1671315,
+    "lon": 4.9832935
+  },
+  {
+    "Record-ID": "6514926043",
+    "Naam onderneming": "Kardinaal van Roey-Instituut ASO",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "VORSELAAR",
+    "Type": "",
+    "Adres": "Mgr. Donchelei 7",
+    "lat": 51.2017233,
+    "lon": 4.7697211
+  },
+  {
+    "Record-ID": "6514862556",
+    "Naam onderneming": "Onze-Lieve-Vrouw-van-Lourdescollege 2",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MORTSEL",
+    "Type": "",
+    "Adres": "Eduard Arsenstraat 40",
+    "lat": 51.1695294,
+    "lon": 4.4456211
+  },
+  {
+    "Record-ID": "6514797557",
+    "Naam onderneming": "KNMC JOMA",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MERKSEM",
+    "Type": "",
+    "Adres": "Maantjessteenweg 130",
+    "lat": 51.2544734,
+    "lon": 4.4416447
+  },
+  {
+    "Record-ID": "6514926289",
+    "Naam onderneming": "Jan-van-Ruusbroeckcollege - Laken",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LAKEN",
+    "Type": "",
+    "Adres": "Forumlaan 4",
+    "lat": 50.8970587,
+    "lon": 4.3545896
+  },
+  {
+    "Record-ID": "6514926286",
+    "Naam onderneming": "Instituut Zusters Maricolen - Middenschool",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MALDEGEM",
+    "Type": "",
+    "Adres": "Marktstraat 15",
+    "lat": 51.2074746,
+    "lon": 3.4454825
+  },
+  {
+    "Record-ID": "6514862572",
+    "Naam onderneming": "Instituut voor Katholiek Secundair Onderwijs",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HOESELT",
+    "Type": "",
+    "Adres": "Bruiloftstraat 10",
+    "lat": 50.8508921,
+    "lon": 5.4867178
+  },
+  {
+    "Record-ID": "6514819532",
+    "Naam onderneming": "Israelitisch Atheneum Jesode-Hatora-Beth-Jacob",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Steenbokstraat 14",
+    "lat": 51.2074719,
+    "lon": 4.4267067
+  },
+  {
+    "Record-ID": "6514902986",
+    "Naam onderneming": "Instituut Sint-Maria - Antwerpen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "Klant",
+    "Adres": "Lovelingstraat 8",
+    "lat": 51.220658,
+    "lon": 4.4317358
+  },
+  {
+    "Record-ID": "6514862539",
+    "Naam onderneming": "Instituut Sint-Lutgardis",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LIEVEGEM",
+    "Type": "",
+    "Adres": "Dreef 47",
+    "lat": 51.1201339,
+    "lon": 3.5646792
+  },
+  {
+    "Record-ID": "6514840034",
+    "Naam onderneming": "Mater Salvatorisinstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "KAPELLEN",
+    "Type": "",
+    "Adres": "Dorpsstraat 40",
+    "lat": 51.3162301,
+    "lon": 4.4288989
+  },
+  {
+    "Record-ID": "6514757082",
+    "Naam onderneming": "Instituut Stella Matutina",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BRAKEL",
+    "Type": "Ex-klant",
+    "Adres": "Groenstraat 15",
+    "lat": 50.8348442,
+    "lon": 3.764663
+  },
+  {
+    "Record-ID": "6514926035",
+    "Naam onderneming": "Instituut Heilige Familie Secundair - Sint Niklaas",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-NIKLAAS",
+    "Type": "Klant",
+    "Adres": "Hofstraat 15",
+    "lat": 51.1679635,
+    "lon": 4.1382521
+  },
+  {
+    "Record-ID": "6514840014",
+    "Naam onderneming": "Instituut Anneessens - Funck",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BRUSSEL",
+    "Type": "",
+    "Adres": "Groot Eiland 39",
+    "lat": 50.8460836,
+    "lon": 4.3460904
+  },
+  {
+    "Record-ID": "6514840004,\"Instituut Heilig Hart\t\",\"300 - 600 lln\",\"KALMTHOUT\",\"\",\"Kapellensteenweg 190\"",
+    "Naam onderneming": "",
+    "# lln grootorde": "",
+    "Plaats": "",
+    "Type": "",
+    "Adres": "",
+    "lat": 50.6402809,
+    "lon": 4.6667145
+  },
+  {
+    "Record-ID": "6514840015",
+    "Naam onderneming": "Inspirocollege",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HOUTHALEN-HELCHTEREN",
+    "Type": "",
+    "Adres": "Herebaan West 11",
+    "lat": 51.038827,
+    "lon": 5.3758647
+  },
+  {
+    "Record-ID": "6514778303",
+    "Naam onderneming": "Immaculata-instituut De Panne",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "DE PANNE",
+    "Type": "Klant",
+    "Adres": "Koninklijke Baan 28",
+    "lat": 51.0969414,
+    "lon": 2.5831006
+  },
+  {
+    "Record-ID": "6514840037",
+    "Naam onderneming": "Nieuwen Bosch secundair - Gent",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Lange Violettestraat 65",
+    "lat": 51.0472044,
+    "lon": 3.7343877
+  },
+  {
+    "Record-ID": "6514778069",
+    "Naam onderneming": "HT2O Vrije Technische Scholen van  Turnhout",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Turnhout",
+    "Type": "",
+    "Adres": "Kempenlaan 36",
+    "lat": 51.3073308,
+    "lon": 4.8564109
+  },
+  {
+    "Record-ID": "6514778063",
+    "Naam onderneming": "Hotelschool Ter Duinen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "KOKSIJDE",
+    "Type": "Klant",
+    "Adres": "Houtsaegerlaan 40",
+    "lat": 51.1061397,
+    "lon": 2.6533186
+  },
+  {
+    "Record-ID": "6514778042",
+    "Naam onderneming": "Immaculata Instituut Malle",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "OOSTMALLE",
+    "Type": "",
+    "Adres": "Hoogstraatsebaan 2",
+    "lat": 51.3025432,
+    "lon": 4.7359787
+  },
+  {
+    "Record-ID": "6514926295",
+    "Naam onderneming": "Hoofdstedelijk Atheneum Karel Buls",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LAKEN",
+    "Type": "Klant",
+    "Adres": "Bonekruidlaan 88",
+    "lat": 50.8957602,
+    "lon": 4.3702915
+  },
+  {
+    "Record-ID": "6514819283",
+    "Naam onderneming": "Hotelschool Gent",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Lange Violettestraat 12",
+    "lat": 51.0482602,
+    "lon": 3.7339169
+  },
+  {
+    "Record-ID": "6514797794",
+    "Naam onderneming": "Hoger Technisch Instituut Sint-Antonius",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Holstraat 66",
+    "lat": 51.0526023,
+    "lon": 3.7136726
+  },
+  {
+    "Record-ID": "6514926057",
+    "Naam onderneming": "Heilige Kindsheid Ardooie",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ARDOOIE",
+    "Type": "Klant",
+    "Adres": "Wezestraat 2",
+    "lat": 50.9757836,
+    "lon": 3.2035814
+  },
+  {
+    "Record-ID": "6514902998",
+    "Naam onderneming": "Heilig-Grafinstituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Bilzen",
+    "Type": "",
+    "Adres": "Jazz Bilzenplein",
+    "lat": 50.8708113,
+    "lon": 5.5197648
+  },
+  {
+    "Record-ID": "6514862530",
+    "Naam onderneming": "Heilig Hartinstituut Campus Kessel-Lo",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "KESSEL-LO",
+    "Type": "",
+    "Adres": "Jozef Pierrestraat 56",
+    "lat": 50.8848321,
+    "lon": 4.722524
+  },
+  {
+    "Record-ID": "6514797814",
+    "Naam onderneming": "Het College Vilvoorde",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "VILVOORDE",
+    "Type": "Klant",
+    "Adres": "Mechelsestraat 7",
+    "lat": 50.9298812,
+    "lon": 4.4218477
+  },
+  {
+    "Record-ID": "6514881981",
+    "Naam onderneming": "Pyxiscollege",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LANAKEN",
+    "Type": "",
+    "Adres": "Bessemerstraat 443",
+    "lat": 50.9021818,
+    "lon": 5.6304216
+  },
+  {
+    "Record-ID": "6514881519",
+    "Naam onderneming": "Heilig Hart van Maria-Instituut",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SCHILDE",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Oudaen 76_2",
+    "lat": 51.2640831,
+    "lon": 4.5536541
+  },
+  {
+    "Record-ID": "6514819287",
+    "Naam onderneming": "Heilig Hart Heist-op-den-berg",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HEIST-OP-DEN-BERG",
+    "Type": "Prospect",
+    "Adres": "Biekorfstraat 10",
+    "lat": 51.0735577,
+    "lon": 4.6973801
+  },
+  {
+    "Record-ID": "6514839994",
+    "Naam onderneming": "Hasp-O Centrum (Technicum)",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-TRUIDEN",
+    "Type": "Prospect",
+    "Adres": "Gildestraat 22",
+    "lat": 50.8197444,
+    "lon": 5.1841041
+  },
+  {
+    "Record-ID": "6514797760",
+    "Naam onderneming": "H.Pius X-instituut - Bovenbouw",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "VIIde-Olympiadelaan 25",
+    "lat": 51.1834931,
+    "lon": 4.3882612
+  },
+  {
+    "Record-ID": "6514756843",
+    "Naam onderneming": "Handelsinstituut Regina Pacis",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TIELT",
+    "Type": "Prospect",
+    "Adres": "Patersdreef 5",
+    "lat": 50.9991227,
+    "lon": 3.3244591
+  },
+  {
+    "Record-ID": "12118057191",
+    "Naam onderneming": "Tectura Tuinbouwschool Melle",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Melle",
+    "Type": "Klant",
+    "Adres": "Brusselsesteenweg 165",
+    "lat": 51.0148085,
+    "lon": 3.7880796
+  },
+  {
+    "Record-ID": "6514926302",
+    "Naam onderneming": "GTI Mortsel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MORTSEL",
+    "Type": "",
+    "Adres": "Dieseghemlei 60",
+    "lat": 51.1775728,
+    "lon": 4.4547832
+  },
+  {
+    "Record-ID": "6514926034",
+    "Naam onderneming": "Groenendaalcollege",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MERKSEM",
+    "Type": "",
+    "Adres": "Gagelveldenstraat 71",
+    "lat": 51.2437741,
+    "lon": 4.4357667
+  },
+  {
+    "Record-ID": "6514881763",
+    "Naam onderneming": "GO! 4 City",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Brussel (Sint-Jans-Molenbeek)",
+    "Type": "Ex-klant",
+    "Adres": "Picardstraat 172",
+    "lat": 50.8627599,
+    "lon": 4.3483087
+  },
+  {
+    "Record-ID": "6514840005",
+    "Naam onderneming": "GO! technisch atheneum Zavelenberg Sint-Agatha-Berchem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-AGATHA-BERCHEM",
+    "Type": "Prospect",
+    "Adres": "Oscar Ruelensplein 13",
+    "lat": 50.8671695,
+    "lon": 4.2981413
+  },
+  {
+    "Record-ID": "6514881989",
+    "Naam onderneming": "GO! technisch atheneum Lokeren",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LOKEREN",
+    "Type": "Klant",
+    "Adres": "Magnolialaan 21",
+    "lat": 51.1105097,
+    "lon": 3.9897005
+  },
+  {
+    "Record-ID": "6514926278",
+    "Naam onderneming": "GO! technisch atheneum Den Biezerd",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "NIEL",
+    "Type": "Prospect",
+    "Adres": "Wirixstraat 56",
+    "lat": 51.1117256,
+    "lon": 4.3217444
+  },
+  {
+    "Record-ID": "6514778050",
+    "Naam onderneming": "GO! Technisch Atheneum Keerbergen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Keerbergen",
+    "Type": "Prospect",
+    "Adres": "Vlieghavenlaan 18",
+    "lat": 51.0029411,
+    "lon": 4.6587674
+  },
+  {
+    "Record-ID": "6514903005",
+    "Naam onderneming": "GO! technisch atheneum Campus De Brug Vilvoorde",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "VILVOORDE",
+    "Type": "",
+    "Adres": "Vaartstraat 1",
+    "lat": 50.9448948,
+    "lon": 4.3992792
+  },
+  {
+    "Record-ID": "6514862568",
+    "Naam onderneming": "GO! Talentenschool Turnhout Campus Zenit",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TURNHOUT",
+    "Type": "Prospect",
+    "Adres": "de Merodelei 220",
+    "lat": 51.3212283,
+    "lon": 4.9285057
+  },
+  {
+    "Record-ID": "6514839777",
+    "Naam onderneming": "GO! technisch atheneum Da Vinci Edegem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "EDEGEM",
+    "Type": "Prospect",
+    "Adres": "Monseigneur Cardijnlaan 1",
+    "lat": 51.1523105,
+    "lon": 4.4459883
+  },
+  {
+    "Record-ID": "6514819315",
+    "Naam onderneming": "GO! technisch atheneum Campus Wemmel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "WEMMEL",
+    "Type": "",
+    "Adres": "Zijp 14",
+    "lat": 50.9182282,
+    "lon": 4.3235327
+  },
+  {
+    "Record-ID": "6514756828",
+    "Naam onderneming": "GO! Talentenschool Turnhout - Campus Boomgaard",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TURNHOUT",
+    "Type": "Prospect",
+    "Adres": "Boomgaardstraat 56",
+    "lat": 51.3236127,
+    "lon": 4.9614817
+  },
+  {
+    "Record-ID": "7706793696",
+    "Naam onderneming": "GO Next Het Atheneum - hasselt",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Hasselt",
+    "Type": "Klant",
+    "Adres": "Capucienenstraat 28",
+    "lat": 50.9287619,
+    "lon": 5.3413665
+  },
+  {
+    "Record-ID": "6514819529",
+    "Naam onderneming": "GO! MSKA Roeselare",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ROESELARE",
+    "Type": "Klant",
+    "Adres": "Hugo Verrieststraat 68",
+    "lat": 50.9515537,
+    "lon": 3.1244096
+  },
+  {
+    "Record-ID": "6514797795",
+    "Naam onderneming": "GO! Next Hotelschool",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HASSELT",
+    "Type": "Prospect",
+    "Adres": "Elfde-Liniestraat 22",
+    "lat": 50.9372155,
+    "lon": 5.3467218
+  },
+  {
+    "Record-ID": "6514902765",
+    "Naam onderneming": "GO! middenschool Den Brandt Boom",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BOOM",
+    "Type": "Prospect",
+    "Adres": "Hollezijp 11",
+    "lat": 51.0912349,
+    "lon": 4.3710194
+  },
+  {
+    "Record-ID": "6514819519",
+    "Naam onderneming": "GO! middenschool Geraardsbergen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GERAARDSBERGEN",
+    "Type": "",
+    "Adres": "Wegvoeringstraat 7",
+    "lat": 50.7723416,
+    "lon": 3.8788243
+  },
+  {
+    "Record-ID": "6514797793",
+    "Naam onderneming": "GO! Middenschool Ninove",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "NINOVE",
+    "Type": "Prospect",
+    "Adres": "Astridlaan 33",
+    "lat": 50.8391032,
+    "lon": 4.0290731
+  },
+  {
+    "Record-ID": "6514757090",
+    "Naam onderneming": "GO! middenschool Halle",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HALLE",
+    "Type": "Ex-klant",
+    "Adres": "Auguste Demaeghtlaan 40",
+    "lat": 50.739189,
+    "lon": 4.2353462
+  },
+  {
+    "Record-ID": "6514757086",
+    "Naam onderneming": "GO! middenschool Ieper",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "IEPER",
+    "Type": "Prospect",
+    "Adres": "Plumerlaan 24",
+    "lat": 50.8535976,
+    "lon": 2.8806255
+  },
+  {
+    "Record-ID": "6514902990",
+    "Naam onderneming": "GO! Koninklijk Atheneum Deurne",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "DEURNE",
+    "Type": "Prospect",
+    "Adres": "Frank Craeybeckxlaan 22",
+    "lat": 51.2216859,
+    "lon": 4.4606479
+  },
+  {
+    "Record-ID": "6514839765",
+    "Naam onderneming": "GO! Kunsthumaniora Brussel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LAKEN",
+    "Type": "",
+    "Adres": "Chrysantenstraat 26",
+    "lat": 50.8819292,
+    "lon": 4.3498093
+  },
+  {
+    "Record-ID": "6514778308",
+    "Naam onderneming": "GO! Koninklijk Atheneum MXM - Merksem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MERKSEM",
+    "Type": "Klant",
+    "Adres": "Melgesdreef 113",
+    "lat": 51.2553082,
+    "lon": 4.4555973
+  },
+  {
+    "Record-ID": "6514926271",
+    "Naam onderneming": "GO! De Handelsschool Aalst",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Keizersplein 19",
+    "lat": 50.9363113,
+    "lon": 4.033576
+  },
+  {
+    "Record-ID": "6514926025",
+    "Naam onderneming": "GO! Erasmusatheneum Deinze",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "DEINZE",
+    "Type": "Klant",
+    "Adres": "Volhardingslaan 11",
+    "lat": 50.9740292,
+    "lon": 3.5302842
+  },
+  {
+    "Record-ID": "6514839785",
+    "Naam onderneming": "GO! Erasmusatheneum Essen-Kalmthout",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Kalmthout",
+    "Type": "Prospect",
+    "Adres": "Ganzendries 14",
+    "lat": 51.3780265,
+    "lon": 4.4718316
+  },
+  {
+    "Record-ID": "6514819258",
+    "Naam onderneming": "GO! campus Genk Technisch Atheneum De Wijzer",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENK",
+    "Type": "Prospect",
+    "Adres": "Mosselerlaan 94",
+    "lat": 50.9749457,
+    "lon": 5.5119316
+  },
+  {
+    "Record-ID": "6514797811",
+    "Naam onderneming": "GO! De Prins Diest",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "DIEST",
+    "Type": "Klant",
+    "Adres": "Antwerpsestraat 36",
+    "lat": 50.9902167,
+    "lon": 5.0529391
+  },
+  {
+    "Record-ID": "6514757089",
+    "Naam onderneming": "GO! Daltonatheneum Het Leerlabo",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "WESTERLO",
+    "Type": "Prospect",
+    "Adres": "Spikdorenveld 22",
+    "lat": 51.0873337,
+    "lon": 4.9071587
+  },
+  {
+    "Record-ID": "6514819302",
+    "Naam onderneming": "GO! Atlas atheneum Gistel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GISTEL",
+    "Type": "Prospect",
+    "Adres": "Callaertswalledreef 8",
+    "lat": 51.1531946,
+    "lon": 2.9664859
+  },
+  {
+    "Record-ID": "6514926031",
+    "Naam onderneming": "GO! atheneum Russelberg Tessenderlo",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TESSENDERLO",
+    "Type": "",
+    "Adres": "Gerhagenstraat 58",
+    "lat": 51.0649288,
+    "lon": 5.0816629
+  },
+  {
+    "Record-ID": "6514862581",
+    "Naam onderneming": "GO! atheneum Sint-Pieters-Woluwe",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-PIETERS-WOLUWE",
+    "Type": "",
+    "Adres": "Grote Prijzenlaan 59",
+    "lat": 50.8330765,
+    "lon": 4.461824
+  },
+  {
+    "Record-ID": "6514839774",
+    "Naam onderneming": "GO! Atheneum Pottelberg Kortrijk",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "KORTRIJK",
+    "Type": "Klant",
+    "Adres": "Pottelberg 4",
+    "lat": 50.8197266,
+    "lon": 3.2556783
+  },
+  {
+    "Record-ID": "7447355334",
+    "Naam onderneming": "GO! atheneum Lier campus Louis Zimmer",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Lier",
+    "Type": "",
+    "Adres": "Predikherenlaan 18",
+    "lat": 51.1336351,
+    "lon": 4.5748216
+  },
+  {
+    "Record-ID": "6514862792",
+    "Naam onderneming": "GO! atheneum Lier campus Arthur Vanderpoorten",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LIER",
+    "Type": "",
+    "Adres": "Arthur Vanderpoortenlaan 35",
+    "lat": 51.1274372,
+    "lon": 4.5737457
+  },
+  {
+    "Record-ID": "6514840032",
+    "Naam onderneming": "GO! atheneum Lier campus      Anton Bergmann",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LIER",
+    "Type": "",
+    "Adres": "Anton Bergmannlaan 24",
+    "lat": 51.136246,
+    "lon": 4.570294
+  },
+  {
+    "Record-ID": "6514778055",
+    "Naam onderneming": "GO! Atheneum Merelbeke - Popelin",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MERELBEKE",
+    "Type": "Klant",
+    "Adres": "Gaversesteenweg 195",
+    "lat": 50.9983912,
+    "lon": 3.7446579
+  },
+  {
+    "Record-ID": "116472283367",
+    "Naam onderneming": "GO! atheneum Ieper",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "IEPER",
+    "Type": "Ex-klant",
+    "Adres": "Plumerlaan 26",
+    "lat": 50.8540576,
+    "lon": 2.8788666
+  },
+  {
+    "Record-ID": "6514902993",
+    "Naam onderneming": "GO! Atheneum Het Spoor - Mol",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Mol",
+    "Type": "Klant",
+    "Adres": "Begonialaan 34",
+    "lat": 51.1931062,
+    "lon": 5.1200147
+  },
+  {
+    "Record-ID": "6514757084",
+    "Naam onderneming": "GO! atheneum Gentbrugge",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENTBRUGGE",
+    "Type": "",
+    "Adres": "Ooievaarsnest 3",
+    "lat": 51.0357916,
+    "lon": 3.7692552
+  },
+  {
+    "Record-ID": "6514881764",
+    "Naam onderneming": "GO! atheneum Da Vinci Campus",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "RONSE",
+    "Type": "",
+    "Adres": "Gustave Royerslaan 39",
+    "lat": 50.7421928,
+    "lon": 3.5921485
+  },
+  {
+    "Record-ID": "6514839787",
+    "Naam onderneming": "GO! talent Dendermonde",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "DENDERMONDE",
+    "Type": "Klant",
+    "Adres": "Begijnhoflaan 1",
+    "lat": 51.0255911,
+    "lon": 4.0966541
+  },
+  {
+    "Record-ID": "6514797770",
+    "Naam onderneming": "GO! atheneum Geel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GEEL",
+    "Type": "Partner (Passief)",
+    "Adres": "Technische-Schoolstraat 15",
+    "lat": 51.1650382,
+    "lon": 4.9863565
+  },
+  {
+    "Record-ID": "6514903030",
+    "Naam onderneming": "GO! atheneum D'Hek Landen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LANDEN",
+    "Type": "",
+    "Adres": "Tiensestraat 57",
+    "lat": 50.7590041,
+    "lon": 5.0740082
+  },
+  {
+    "Record-ID": "6514839784",
+    "Naam onderneming": "GO! atheneum Brakel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BRAKEL",
+    "Type": "",
+    "Adres": "Kasteelstraat 32",
+    "lat": 50.8018013,
+    "lon": 3.7621698
+  },
+  {
+    "Record-ID": "6514797559",
+    "Naam onderneming": "GO! atheneum Campus De Reynaert Tielt",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TIELT",
+    "Type": "",
+    "Adres": "Stationstraat 67",
+    "lat": 50.9938646,
+    "lon": 3.3283417
+  },
+  {
+    "Record-ID": "6514778060",
+    "Naam onderneming": "GO! atheneum Campus Kompas Wetteren",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "WETTEREN",
+    "Type": "Klant",
+    "Adres": "Noordlaan 10",
+    "lat": 51.0031356,
+    "lon": 3.8756192
+  },
+  {
+    "Record-ID": "6514926294",
+    "Naam onderneming": "Go! Atheneum Avelgem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "AVELGEM",
+    "Type": "Ex-klant",
+    "Adres": "Oudenaardsesteenweg 20",
+    "lat": 50.7774852,
+    "lon": 3.4462977
+  },
+  {
+    "Record-ID": "6514839768",
+    "Naam onderneming": "GO! atheneum Anderlecht",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANDERLECHT",
+    "Type": "",
+    "Adres": "Sint-Guidostraat 73",
+    "lat": 50.8359377,
+    "lon": 4.3026849
+  },
+  {
+    "Record-ID": "6514926029",
+    "Naam onderneming": "GITOK",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "KALMTHOUT",
+    "Type": "",
+    "Adres": "Kapellensteenweg 501",
+    "lat": 51.3616417,
+    "lon": 4.466503
+  },
+  {
+    "Record-ID": "6514881735",
+    "Naam onderneming": "GO! athena campus Heule en campussen CLW",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "HEULE",
+    "Type": "",
+    "Adres": "Guido Gezellelaan 10",
+    "lat": 50.8328997,
+    "lon": 3.2409247
+  },
+  {
+    "Record-ID": "6514881982",
+    "Naam onderneming": "Gemeentelijk Technisch Instituut Londerzeel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LONDERZEEL",
+    "Type": "Klant",
+    "Adres": "Brusselsestraat 25",
+    "lat": 51.0004247,
+    "lon": 4.3018523
+  },
+  {
+    "Record-ID": "6514881529",
+    "Naam onderneming": "Gemeentelijke Technische en Beroepsschool Merchtem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MERCHTEM",
+    "Type": "Klant",
+    "Adres": "Stationsstraat 55",
+    "lat": 50.9569936,
+    "lon": 4.2270116
+  },
+  {
+    "Record-ID": "6514881518",
+    "Naam onderneming": "Gemeentelijk Technisch Instituut Duffel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "DUFFEL",
+    "Type": "",
+    "Adres": "Rooienberg 20",
+    "lat": 51.0952728,
+    "lon": 4.4984225
+  },
+  {
+    "Record-ID": "6514840000",
+    "Naam onderneming": "Gemeentelijk Instituut voor Technisch Onderwijs GITO",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Overijse",
+    "Type": "",
+    "Adres": "Stationsplein 4",
+    "lat": 50.7713138,
+    "lon": 4.5323074
+  },
+  {
+    "Record-ID": "6514797786",
+    "Naam onderneming": "Gemeentelijke Technische Tuinbouwschool Merchtem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MERCHTEM",
+    "Type": "",
+    "Adres": "Molenbaan 54",
+    "lat": 50.9825321,
+    "lon": 4.2356848
+  },
+  {
+    "Record-ID": "6514778045",
+    "Naam onderneming": "Gemeentelijk Instituut voor Technisch Onderwijs Tervuren",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TERVUREN",
+    "Type": "",
+    "Adres": "Pater Dupierreuxlaan 1",
+    "lat": 50.8332593,
+    "lon": 4.5278361
+  },
+  {
+    "Record-ID": "6514926068",
+    "Naam onderneming": "Freinetscholen Keerpunt",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Vorst",
+    "Type": "",
+    "Adres": "de Haveskerckelaan 25",
+    "lat": 50.8059625,
+    "lon": 4.3207367
+  },
+  {
+    "Record-ID": "6514926268",
+    "Naam onderneming": "EDUGO Campus De Brug 1",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "OOSTAKKER",
+    "Type": "Partner (Passief)",
+    "Adres": "Eksaardserijweg 24",
+    "lat": 51.0834797,
+    "lon": 3.7694045
+  },
+  {
+    "Record-ID": "6514797756",
+    "Naam onderneming": "DvM - Humaniora",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Onderwijsstraat 2",
+    "lat": 50.9384706,
+    "lon": 4.0416315
+  },
+  {
+    "Record-ID": "6514819065",
+    "Naam onderneming": "Don Bosco-Mariaberginstituut Essen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ESSEN",
+    "Type": "Klant",
+    "Adres": "Kloosterstraat 70",
+    "lat": 51.4688035,
+    "lon": 4.4619786
+  },
+  {
+    "Record-ID": "6514797555",
+    "Naam onderneming": "Don Bosco Technisch Instituut Sint-Pieters-Woluwe",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-PIETERS-WOLUWE",
+    "Type": "",
+    "Adres": "Guldendallaan 90",
+    "lat": 50.838312,
+    "lon": 4.4246114
+  },
+  {
+    "Record-ID": "6514757080",
+    "Naam onderneming": "Don Bosco Genk",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENK",
+    "Type": "Klant",
+    "Adres": "Berm 12",
+    "lat": 50.9713104,
+    "lon": 5.4459793
+  },
+  {
+    "Record-ID": "6514778047",
+    "Naam onderneming": "Bertinus Collectief Poperinge - Keiwijs onderwijs secundaire scholen",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Poperinge",
+    "Type": "",
+    "Adres": "Burg. Bertenplein 32",
+    "lat": 50.8534337,
+    "lon": 2.7251102
+  },
+  {
+    "Record-ID": "6514926024",
+    "Naam onderneming": "College der Paters Jozefieten",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MELLE",
+    "Type": "",
+    "Adres": "Brusselsesteenweg 459",
+    "lat": 50.9998908,
+    "lon": 3.8107027
+  },
+  {
+    "Record-ID": "6514862541",
+    "Naam onderneming": "College van het Eucharistisch Hart",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ESSEN",
+    "Type": "",
+    "Adres": "Rouwmoer 7B",
+    "lat": 51.4448677,
+    "lon": 4.426891
+  },
+  {
+    "Record-ID": "6514819316",
+    "Naam onderneming": "COOVI Secundair onderwijs",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ANDERLECHT",
+    "Type": "Ex-klant",
+    "Adres": "Emile Grysonlaan 1",
+    "lat": 50.8156538,
+    "lon": 4.2950991
+  },
+  {
+    "Record-ID": "6514819314",
+    "Naam onderneming": "College Veurne",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "VEURNE",
+    "Type": "Klant",
+    "Adres": "Karel Coggelaan 8",
+    "lat": 51.0713151,
+    "lon": 2.6653107
+  },
+  {
+    "Record-ID": "6514797754",
+    "Naam onderneming": "College O.L.V. Ten Doorn",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "EEKLO",
+    "Type": "",
+    "Adres": "Zuidmoerstraat 125",
+    "lat": 51.1791119,
+    "lon": 3.5663244
+  },
+  {
+    "Record-ID": "6514840027",
+    "Naam onderneming": "Burgerschool - Roeselare",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ROESELARE",
+    "Type": "Klant",
+    "Adres": "Kattenstraat 7",
+    "lat": 50.9464089,
+    "lon": 3.1209969
+  },
+  {
+    "Record-ID": "6514778058",
+    "Naam onderneming": "Middenschool Sint-Vincentiuscollege Campus Lievegem",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LIEVEGEM",
+    "Type": "",
+    "Adres": "Luitenant Dobbelaerestraat 16",
+    "lat": 51.1201612,
+    "lon": 3.5604371
+  },
+  {
+    "Record-ID": "6514902764",
+    "Naam onderneming": "Hotelschool en Slagerijschool Ter Groene Poorte",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-MICHIELS",
+    "Type": "",
+    "Adres": "Spoorwegstraat 14",
+    "lat": 51.1909518,
+    "lon": 3.2182534
+  },
+  {
+    "Record-ID": "6514797781",
+    "Naam onderneming": "Broederschool 1e graad",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Sint-Niklaas",
+    "Type": "Prospect",
+    "Adres": "Nieuwstraat 75",
+    "lat": 51.1624272,
+    "lon": 4.1367269
+  },
+  {
+    "Record-ID": "6514902776",
+    "Naam onderneming": "Berthoutinstituut-Klein Seminarie 2",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "MECHELEN",
+    "Type": "",
+    "Adres": "Bleekstraat 3",
+    "lat": 51.0280276,
+    "lon": 4.4881704
+  },
+  {
+    "Record-ID": "6514881987",
+    "Naam onderneming": "Biotechnicum",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "BOCHOLT",
+    "Type": "",
+    "Adres": "Kaulillerweg 3",
+    "lat": 51.1733769,
+    "lon": 5.5760479
+  },
+  {
+    "Record-ID": "6514797767",
+    "Naam onderneming": "Bovenbouw Sint-Michiel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LEOPOLDSBURG",
+    "Type": "",
+    "Adres": "Diestersteenweg 3",
+    "lat": 51.1155048,
+    "lon": 5.2573978
+  },
+  {
+    "Record-ID": "6514756825",
+    "Naam onderneming": "Bovenbouw Sint-Gertrudis",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "LANDEN",
+    "Type": "Ex-klant",
+    "Adres": "Molenbergstraat 25",
+    "lat": 50.7522614,
+    "lon": 5.0881788
+  },
+  {
+    "Record-ID": "6514840033",
+    "Naam onderneming": "Berkenboom Humaniora",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-NIKLAAS",
+    "Type": "",
+    "Adres": "Kleine Peperstraat 16",
+    "lat": 51.1642659,
+    "lon": 4.1451093
+  },
+  {
+    "Record-ID": "6514839773",
+    "Naam onderneming": "BenedictusPoort campus Maria Middelares",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Kortrijksesteenweg 1024",
+    "lat": 51.0240985,
+    "lon": 3.7055149
+  },
+  {
+    "Record-ID": "85204888789",
+    "Naam onderneming": "GO! Atheneum Tungrorum",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "TONGEREN",
+    "Type": "Prospect",
+    "Adres": "Keversstraat 26",
+    "lat": 50.7844719,
+    "lon": 5.4605246
+  },
+  {
+    "Record-ID": "6514819321",
+    "Naam onderneming": "avAnt Provinciale Middenschool",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "DEURNE",
+    "Type": "",
+    "Adres": "Turnhoutsebaan 250",
+    "lat": 51.2185344,
+    "lon": 4.4740798
+  },
+  {
+    "Record-ID": "6514926026",
+    "Naam onderneming": "Atheneum GO! 4 Business - Campus Toverfluit Brussel",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-JANS-MOLENBEEK",
+    "Type": "",
+    "Adres": "Toverfluitstraat 21",
+    "lat": 50.8507548,
+    "lon": 4.2959976
+  },
+  {
+    "Record-ID": "6514840022",
+    "Naam onderneming": "Abdijschool van Zevenkerken",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "SINT-ANDRIES",
+    "Type": "",
+    "Adres": "Zevenkerken 4",
+    "lat": 51.1597119,
+    "lon": 3.1592244
+  },
+  {
+    "Record-ID": "6514926283",
+    "Naam onderneming": "Sint-Victorinstituut - Bovenbouw",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "ALSEMBERG",
+    "Type": "",
+    "Adres": "Brusselsesteenweg 20",
+    "lat": 50.7426662,
+    "lon": 4.3335999
+  },
+  {
+    "Record-ID": "6507991005",
+    "Naam onderneming": "'t Saam Campus Aloysius",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Diksmuide",
+    "Type": "Ex-klant",
+    "Adres": "Wilgendijk 30",
+    "lat": 51.0341529,
+    "lon": 2.8617404
+  },
+  {
+    "Record-ID": "5918818775",
+    "Naam onderneming": "ASO SPIJKER",
+    "# lln grootorde": "300 - 600 lln",
+    "Plaats": "Hoogstraten",
+    "Type": "Klant",
+    "Adres": "Lindendreef 37",
+    "lat": 51.4014859,
+    "lon": 4.7680043
+  },
+  {
+    "Record-ID": "6514903020",
+    "Naam onderneming": "Instituut van het Heilig Graf - Patersstraat",
+    "# lln grootorde": "2000 - 3000 lln",
+    "Plaats": "Turnhout",
+    "Type": "Prospect",
+    "Adres": "Patersstraat 28",
+    "lat": 51.3250772,
+    "lon": 4.9519523
+  },
+  {
+    "Record-ID": "6514778086",
+    "Naam onderneming": "Hasp-O Centrum",
+    "# lln grootorde": "2000 - 3000 lln",
+    "Plaats": "SINT-TRUIDEN",
+    "Type": "Ex-klant",
+    "Adres": "Diesterstraat 1",
+    "lat": 50.8170345,
+    "lon": 5.1876744
+  },
+  {
+    "Record-ID": "44162230465",
+    "Naam onderneming": "RHIZO Zorgkrachtschool",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "Kortrijk",
+    "Type": "Prospect",
+    "Adres": "Beheerstraat 10",
+    "lat": 50.8266555,
+    "lon": 3.2585107
+  },
+  {
+    "Record-ID": "43680943312",
+    "Naam onderneming": "Middelbare Steinerschool Brussel Zonnedauw",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "Etterbeek",
+    "Type": "Prospect",
+    "Adres": "Etterbeeksesteenweg 182",
+    "lat": 50.8424005,
+    "lon": 4.3782579
+  },
+  {
+    "Record-ID": "200131898611",
+    "Naam onderneming": "VIIO Tongeren ",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "TONGEREN",
+    "Type": "",
+    "Adres": "Sint-Truidersteenweg 17",
+    "lat": 50.7983066,
+    "lon": 5.3548653
+  },
+  {
+    "Record-ID": "6514926064",
+    "Naam onderneming": "Technisch Instituut Sint-Carolus",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "Sint-Niklaas",
+    "Type": "Prospect",
+    "Adres": "Hospitaalstraat 2",
+    "lat": 51.162552,
+    "lon": 4.1494924
+  },
+  {
+    "Record-ID": "6514881736",
+    "Naam onderneming": "Sint-Ritacollege",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "KONTICH",
+    "Type": "",
+    "Adres": "Pierstraat 1",
+    "lat": 51.1293855,
+    "lon": 4.4340161
+  },
+  {
+    "Record-ID": "6514862536",
+    "Naam onderneming": "Middelbare Steinerschool Gent",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Kasteellaan 54",
+    "lat": 51.0490959,
+    "lon": 3.7405289
+  },
+  {
+    "Record-ID": "6514840041",
+    "Naam onderneming": "Middenschool Kindsheid Jesu",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "HASSELT",
+    "Type": "Partner (Passief)",
+    "Adres": "Kempische steenweg 400",
+    "lat": 50.9517646,
+    "lon": 5.3463538
+  },
+  {
+    "Record-ID": "6514862570",
+    "Naam onderneming": "Instituut voor Verpleegkunde (IVV) Sint-Vincentius",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Molenaarsstraat 30",
+    "lat": 51.0618814,
+    "lon": 3.7179838
+  },
+  {
+    "Record-ID": "6514882005",
+    "Naam onderneming": "Heilig Hartinstituut Lyceum",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "HEVERLEE",
+    "Type": "Partner (Passief)",
+    "Adres": "Naamsesteenweg 355",
+    "lat": 50.8582763,
+    "lon": 4.6986679
+  },
+  {
+    "Record-ID": "6514778068",
+    "Naam onderneming": "Heilig-Hart&College campus parklaan",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "HALLE",
+    "Type": "",
+    "Adres": "Parklaan 7",
+    "lat": 50.8810632,
+    "lon": 4.4749542
+  },
+  {
+    "Record-ID": "6514902755",
+    "Naam onderneming": "GO! technisch atheneum Brugge",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "SINT-MICHIELS",
+    "Type": "Prospect",
+    "Adres": "Rijselstraat 7",
+    "lat": 51.1910133,
+    "lon": 3.2144174
+  },
+  {
+    "Record-ID": "6514778309",
+    "Naam onderneming": "GO! Spectrumschool",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "DEURNE",
+    "Type": "Prospect",
+    "Adres": "Ruggeveldlaan 496",
+    "lat": 51.2191242,
+    "lon": 4.4813748
+  },
+  {
+    "Record-ID": "6514757055",
+    "Naam onderneming": "Don Bosco Technisch Instituut Halle",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "HALLE",
+    "Type": "Partner (Passief)",
+    "Adres": "Lenniksesteenweg 2",
+    "lat": 50.7439603,
+    "lon": 4.2264334
+  },
+  {
+    "Record-ID": "227095380184",
+    "Naam onderneming": "VZW Zaventems Vrij Onderwijs",
+    "# lln grootorde": "1500 - 2000 lln",
+    "Plaats": "Zaventem",
+    "Type": "Klant",
+    "Adres": "Hoogstraat 3",
+    "lat": 50.8832592,
+    "lon": 4.4781055
+  },
+  {
+    "Record-ID": "6514757094",
+    "Naam onderneming": "Technisch Instituut Heilige Familie Brugge",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "BRUGGE",
+    "Type": "Prospect",
+    "Adres": "Oude Zak 38",
+    "lat": 51.2109348,
+    "lon": 3.2192375
+  },
+  {
+    "Record-ID": "6514881748",
+    "Naam onderneming": "Kunstkaai - Antwerpen",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "Klant",
+    "Adres": "Cadixstraat 2",
+    "lat": 51.2325643,
+    "lon": 4.4131778
+  },
+  {
+    "Record-ID": "6514926304",
+    "Naam onderneming": "Sint-Norbertusinstituut Antwerpen",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "Prospect",
+    "Adres": "Amerikalei 47",
+    "lat": 51.2072735,
+    "lon": 4.4006568
+  },
+  {
+    "Record-ID": "192951402727",
+    "Naam onderneming": "Sint-Lodewijkscollege Brugge",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "SINT-ANDRIES",
+    "Type": "Klant",
+    "Adres": "Magdalenastraat 30",
+    "lat": 51.2008872,
+    "lon": 3.2101053
+  },
+  {
+    "Record-ID": "6514840053",
+    "Naam onderneming": "Sint-Jozefinstituut Kontich",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "KONTICH",
+    "Type": "Prospect",
+    "Adres": "Gemeenteplein 8",
+    "lat": 51.1346329,
+    "lon": 4.4438161
+  },
+  {
+    "Record-ID": "6514839796",
+    "Naam onderneming": "Scholen Da Vinci",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "SINT-NIKLAAS",
+    "Type": "Partner (Passief)",
+    "Adres": "Parklaan 89",
+    "lat": 51.158758,
+    "lon": 4.1500774
+  },
+  {
+    "Record-ID": "6514926308",
+    "Naam onderneming": "PTS, Provinciale Scholen voor Tuinbouw en Techniek, Campus Mechelen",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "Mechelen",
+    "Type": "Prospect",
+    "Adres": "Antwerpsesteenweg 145",
+    "lat": 51.0444768,
+    "lon": 4.4681855
+  },
+  {
+    "Record-ID": "6514840007",
+    "Naam onderneming": "PITO Stabroek",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "STABROEK",
+    "Type": "Prospect",
+    "Adres": "Laageind 19",
+    "lat": 51.3291172,
+    "lon": 4.3613013
+  },
+  {
+    "Record-ID": "6514797759",
+    "Naam onderneming": "GO! technisch atheneum Vesaliusinstituut Oostende",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "OOSTENDE",
+    "Type": "Prospect",
+    "Adres": "Leffingestraat 1",
+    "lat": 51.2218158,
+    "lon": 2.9154551
+  },
+  {
+    "Record-ID": "6514902773",
+    "Naam onderneming": "GO! atheneum Oudenaarde",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "Oudenaarde",
+    "Type": "Klant",
+    "Adres": "47 Fortstraat",
+    "lat": 50.8480061,
+    "lon": 3.6128103
+  },
+  {
+    "Record-ID": "6514778057",
+    "Naam onderneming": "GO! atheneum Beveren-Waas",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "BEVEREN",
+    "Type": "Prospect",
+    "Adres": "Donkvijverstraat 30",
+    "lat": 51.2149296,
+    "lon": 4.2525194
+  },
+  {
+    "Record-ID": "6514881781",
+    "Naam onderneming": "EDUGO campus De Toren",
+    "# lln grootorde": "1200 - 1500 lln",
+    "Plaats": "OOSTAKKER",
+    "Type": "",
+    "Adres": "Sint-Jozefstraat 10",
+    "lat": 51.0841927,
+    "lon": 3.7677143
+  },
+  {
+    "Record-ID": "13103940555",
+    "Naam onderneming": "GO! technisch atheneum -Campus Stabroek",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Stabroek",
+    "Type": "Prospect",
+    "Adres": "Sint Catharinastraat 10",
+    "lat": 51.3318852,
+    "lon": 4.3726966
+  },
+  {
+    "Record-ID": "13100734442",
+    "Naam onderneming": "GO! Atheneum Merelbeke - Tectura",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Merelbeke",
+    "Type": "Prospect",
+    "Adres": "Potaardeberg 59",
+    "lat": 50.9912893,
+    "lon": 3.7402187
+  },
+  {
+    "Record-ID": "12453291976",
+    "Naam onderneming": "GO! Atheneum Diksmuide",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Diksmuide",
+    "Type": "Klant",
+    "Adres": "Kaaskerkestraat 22",
+    "lat": 51.0323688,
+    "lon": 2.8503301
+  },
+  {
+    "Record-ID": "7139575764",
+    "Naam onderneming": "GO! Middenschool Campus Kalevoet",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Ukkel",
+    "Type": "",
+    "Adres": "Nekkersgatlaan 17",
+    "lat": 50.791937,
+    "lon": 4.3274756
+  },
+  {
+    "Record-ID": "6514882009",
+    "Naam onderneming": "WICO Junior",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "PELT",
+    "Type": "",
+    "Adres": "Stationsstraat 25",
+    "lat": 51.2267684,
+    "lon": 5.4370167
+  },
+  {
+    "Record-ID": "6514819525",
+    "Naam onderneming": "Zeelyceum",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "De Haan",
+    "Type": "",
+    "Adres": "Koninklijke Baan 5",
+    "lat": 51.2729405,
+    "lon": 3.0198721
+  },
+  {
+    "Record-ID": "6514757081",
+    "Naam onderneming": "X plus",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "LOMMEL",
+    "Type": "Ex-klant",
+    "Adres": "Mudakkers 25",
+    "lat": 51.2316613,
+    "lon": 5.3140598
+  },
+  {
+    "Record-ID": "6514819293",
+    "Naam onderneming": "Vrije Middenschool Zonhoven",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ZONHOVEN",
+    "Type": "",
+    "Adres": "Engstegenseweg 1",
+    "lat": 50.9935736,
+    "lon": 5.3646132
+  },
+  {
+    "Record-ID": "6514862551",
+    "Naam onderneming": "Vrij Land- en Tuinbouwinstituut",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "TORHOUT",
+    "Type": "",
+    "Adres": "Conscienceplein 12",
+    "lat": 51.0649444,
+    "lon": 3.1036065
+  },
+  {
+    "Record-ID": "6514797808",
+    "Naam onderneming": "Vrij Technisch Instituut - Brugge Middenschool",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Brugge",
+    "Type": "",
+    "Adres": "Vaartdijkstraat 3",
+    "lat": 51.192592,
+    "lon": 3.2277475
+  },
+  {
+    "Record-ID": "6514882000",
+    "Naam onderneming": "VLOT! Sint-Teresia",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "EKSAARDE",
+    "Type": "",
+    "Adres": "Eksaarde-dorp 1_A",
+    "lat": 51.1458816,
+    "lon": 3.9556428
+  },
+  {
+    "Record-ID": "6514797779",
+    "Naam onderneming": "Vrij Instituut voor Secundair Onderwijs Cor Mariae",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BRAKEL",
+    "Type": "Ex-klant",
+    "Adres": "Kasteelstraat 44",
+    "lat": 50.8014896,
+    "lon": 3.7606938
+  },
+  {
+    "Record-ID": "6514862805",
+    "Naam onderneming": "viio - Borgloon",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BORGLOON",
+    "Type": "",
+    "Adres": "Grootloonstraat 1",
+    "lat": 50.7991179,
+    "lon": 5.3572538
+  },
+  {
+    "Record-ID": "6514778321",
+    "Naam onderneming": "Virgo",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "VILVOORDE",
+    "Type": "",
+    "Adres": "Rooseveltlaan (Franklin) 98",
+    "lat": 50.9318476,
+    "lon": 4.4266734
+  },
+  {
+    "Record-ID": "6514819279",
+    "Naam onderneming": "V.T.I. Zeebrugge",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ZEEBRUGGE",
+    "Type": "Klant",
+    "Adres": "Ploegstraat 38",
+    "lat": 51.3289558,
+    "lon": 3.208353
+  },
+  {
+    "Record-ID": "306170460406",
+    "Naam onderneming": "Tachkemoni",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Antwerpen",
+    "Type": "Klant",
+    "Adres": "Lange Leemstraat 313",
+    "lat": 51.204496,
+    "lon": 4.422386
+  },
+  {
+    "Record-ID": "6514926306",
+    "Naam onderneming": "KSOM Campus Sint-Paulus",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MOL",
+    "Type": "Ex-klant",
+    "Adres": "Kruisven 25",
+    "lat": 51.1763634,
+    "lon": 5.1257924
+  },
+  {
+    "Record-ID": "6514757052",
+    "Naam onderneming": "TechniGO!  Aalst",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Ledebaan 101",
+    "lat": 50.9468377,
+    "lon": 4.0283832
+  },
+  {
+    "Record-ID": "6514840016",
+    "Naam onderneming": "Stedelijke Academie voor      Beeldende Kunsten (kunstsecundair)",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "AALST",
+    "Type": "",
+    "Adres": "Capucienenlaan 8",
+    "lat": 50.9365462,
+    "lon": 4.0284502
+  },
+  {
+    "Record-ID": "6514778105",
+    "Naam onderneming": "Styrka Secundair Onderwijs",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Gent",
+    "Type": "",
+    "Adres": "",
+    "lat": 51.0538286,
+    "lon": 3.7250121
+  },
+  {
+    "Record-ID": "6514926048",
+    "Naam onderneming": "Stedelijk Lyceum Onyx",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Lange Beeldekensstraat 264",
+    "lat": 51.2219161,
+    "lon": 4.4346926
+  },
+  {
+    "Record-ID": "6514778099",
+    "Naam onderneming": "Perspectief",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "Partner (Passief)",
+    "Adres": "Jan De Voslei 6",
+    "lat": 51.1858668,
+    "lon": 4.390803
+  },
+  {
+    "Record-ID": "6514926277",
+    "Naam onderneming": "Stamina (GO)",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ASSEBROEK",
+    "Type": "",
+    "Adres": "Daverlostraat 132",
+    "lat": 51.1957189,
+    "lon": 3.2439965
+  },
+  {
+    "Record-ID": "6514881992",
+    "Naam onderneming": "Sportschool Meulebeke",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Meulebeke",
+    "Type": "",
+    "Adres": "Ingelmunstersteenweg 1_A",
+    "lat": 50.9461273,
+    "lon": 3.2778463
+  },
+  {
+    "Record-ID": "6514903032",
+    "Naam onderneming": "Spes Nostra Instituut Zedelgem",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ZEDELGEM",
+    "Type": "",
+    "Adres": "Pastoor Staelensstraat 4",
+    "lat": 51.1271071,
+    "lon": 3.1573141
+  },
+  {
+    "Record-ID": "6514903009",
+    "Naam onderneming": "Spectrumcollege Middenschool  OLVI",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "PAAL",
+    "Type": "",
+    "Adres": "Schaffensesteenweg 2",
+    "lat": 51.0389489,
+    "lon": 5.16833
+  },
+  {
+    "Record-ID": "118543103206",
+    "Naam onderneming": "SLHD Sint Leo Hemelsdaele Brugge (Secundaire school - Bovenbouw)",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Brugge",
+    "Type": "Klant",
+    "Adres": "Potterierei 11",
+    "lat": 51.2202127,
+    "lon": 3.2324554
+  },
+  {
+    "Record-ID": "6514926298",
+    "Naam onderneming": "Sint-Willebrord-H.Familie 1e  graad",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BERCHEM",
+    "Type": "",
+    "Adres": "Jan Moorkensstraat 95",
+    "lat": 51.1879453,
+    "lon": 4.4322995
+  },
+  {
+    "Record-ID": "6514926054",
+    "Naam onderneming": "Sint-Tarcisiusinstituut",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ZOUTLEEUW",
+    "Type": "",
+    "Adres": "Predikherenstraat 1",
+    "lat": 50.8326794,
+    "lon": 5.1019795
+  },
+  {
+    "Record-ID": "6514862573",
+    "Naam onderneming": "Sint-Michiel Middenschool",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "LEOPOLDSBURG",
+    "Type": "",
+    "Adres": "Diestersteenweg 11",
+    "lat": 51.1152634,
+    "lon": 5.255188
+  },
+  {
+    "Record-ID": "6514881775",
+    "Naam onderneming": "Sint-Lutgartinstituut",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BEERNEM",
+    "Type": "",
+    "Adres": "Rollebaanstraat 10",
+    "lat": 51.1410773,
+    "lon": 3.3412702
+  },
+  {
+    "Record-ID": "6514819528",
+    "Naam onderneming": "Sint-Ludgardis Belpaire",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Antwerpen",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Haantjeslei 50-52",
+    "lat": 51.2027158,
+    "lon": 4.3987687
+  },
+  {
+    "Record-ID": "6514819308",
+    "Naam onderneming": "Sint-Lukas Kunsthumaniora",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "SCHAARBEEK",
+    "Type": "",
+    "Adres": "Groenstraat 156",
+    "lat": 50.8609202,
+    "lon": 4.3658517
+  },
+  {
+    "Record-ID": "6514797813",
+    "Naam onderneming": "Sint-Leonardusinstituut",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ZOUTLEEUW",
+    "Type": "",
+    "Adres": "Bethaniastraat 1_A",
+    "lat": 50.8299586,
+    "lon": 5.1012346
+  },
+  {
+    "Record-ID": "6514757095",
+    "Naam onderneming": "Sint-Lievenscollege           Middenschool - Antwerpen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Amerikalei 32",
+    "lat": 51.2086377,
+    "lon": 4.4003555
+  },
+  {
+    "Record-ID": "6514881737",
+    "Naam onderneming": "Sint-Jozefsinstituut Lyceum",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "KNOKKE-HEIST",
+    "Type": "",
+    "Adres": "Van Rysselberghestraat 12",
+    "lat": 51.3443047,
+    "lon": 3.2865764
+  },
+  {
+    "Record-ID": "7743302377",
+    "Naam onderneming": "sint-jozefscollege - Wervik",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Wervik",
+    "Type": "",
+    "Adres": "Koestraat 26 / 42",
+    "lat": 50.776691,
+    "lon": 3.0381964
+  },
+  {
+    "Record-ID": "6514902973",
+    "Naam onderneming": "Sint-Jozefscollege Bekaflaan Aarschot",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "AARSCHOT",
+    "Type": "Klant",
+    "Adres": "Bekaflaan 65",
+    "lat": 50.9857193,
+    "lon": 4.8465724
+  },
+  {
+    "Record-ID": "6514756856",
+    "Naam onderneming": "Sint-Jozefsinstituut -        Middenschool - Betekom",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Betekom",
+    "Type": "Klant",
+    "Adres": "Pastoor Pitetlaan 28",
+    "lat": 50.9870177,
+    "lon": 4.7837553
+  },
+  {
+    "Record-ID": "6514862797",
+    "Naam onderneming": "kOsh 2&3 collegestraat",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HERENTALS",
+    "Type": "",
+    "Adres": "Collegestraat 46",
+    "lat": 51.1752793,
+    "lon": 4.8338066
+  },
+  {
+    "Record-ID": "6514819309",
+    "Naam onderneming": "Sint-Jozef Sint-Pieter",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BLANKENBERGE",
+    "Type": "",
+    "Adres": "Weststraat 86",
+    "lat": 51.3136842,
+    "lon": 3.1291643
+  },
+  {
+    "Record-ID": "6514902771",
+    "Naam onderneming": "Sint-Franciscusinstituut voor Verpleegkunde",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Leuven",
+    "Type": "",
+    "Adres": "Herestraat 49",
+    "lat": 50.8800166,
+    "lon": 4.6701753
+  },
+  {
+    "Record-ID": "6514862800",
+    "Naam onderneming": "Sint-Annacollege -Middenschool",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Willem Gijsselsstraat 1",
+    "lat": 51.2230033,
+    "lon": 4.3767179
+  },
+  {
+    "Record-ID": "6514840019",
+    "Naam onderneming": "Sint-Bernardusinstituut",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "KNOKKE",
+    "Type": "",
+    "Adres": "Sportlaan 4",
+    "lat": 51.3433729,
+    "lon": 3.2828587
+  },
+  {
+    "Record-ID": "6514840003",
+    "Naam onderneming": "Sint-Agnesinstituut Middenschool",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HOBOKEN",
+    "Type": "",
+    "Adres": "Dokter Coenstraat 24",
+    "lat": 51.1766145,
+    "lon": 4.3528492
+  },
+  {
+    "Record-ID": "6514926032",
+    "Naam onderneming": "Scheppersinstituut 3 Deurne & Antwerpen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Van Helmontstraat 27",
+    "lat": 51.2255028,
+    "lon": 4.4356365
+  },
+  {
+    "Record-ID": "6514902768",
+    "Naam onderneming": "Secundair Onderwijs voor Schoonheidszorgen Denise Gr\u00c3\u00a9siac",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BERCHEM",
+    "Type": "",
+    "Adres": "Koninklijkelaan 9",
+    "lat": 51.1893886,
+    "lon": 4.4242121
+  },
+  {
+    "Record-ID": "6514757083",
+    "Naam onderneming": "Provinciale Secundaire School te Voeren",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "'S GRAVENVOEREN",
+    "Type": "",
+    "Adres": "Hoeneveldje 2",
+    "lat": 50.7541838,
+    "lon": 5.7547475
+  },
+  {
+    "Record-ID": "6514902770",
+    "Naam onderneming": "Provinciale Secundaire School Bilzen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MUNSTERBILZEN",
+    "Type": "",
+    "Adres": "Appelboomgaardstraat 2",
+    "lat": 50.8877626,
+    "lon": 5.5224903
+  },
+  {
+    "Record-ID": "6514881527",
+    "Naam onderneming": "Prizma - Middenschool         Ingelmunster",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "INGELMUNSTER",
+    "Type": "Klant",
+    "Adres": "Schoolstraat 8",
+    "lat": 50.9212861,
+    "lon": 3.2564993
+  },
+  {
+    "Record-ID": "6514862795",
+    "Naam onderneming": "Provinciaal Instituut Vlaamse Ardennen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "OUDENAARDE",
+    "Type": "",
+    "Adres": "Minderbroedersstraat 6",
+    "lat": 50.840852,
+    "lon": 3.5990751
+  },
+  {
+    "Record-ID": "6514798014",
+    "Naam onderneming": "Prizma - Middenschool Izegem kasteelstraat",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "IZEGEM",
+    "Type": "Klant",
+    "Adres": "Kasteelstraat 28",
+    "lat": 50.9188384,
+    "lon": 3.2176544
+  },
+  {
+    "Record-ID": "6514757057",
+    "Naam onderneming": "Prizma - Middenschool         Lendelede",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "LENDELEDE",
+    "Type": "Klant",
+    "Adres": "Dorpsplein 2",
+    "lat": 50.8856046,
+    "lon": 3.2387186
+  },
+  {
+    "Record-ID": "6514819514",
+    "Naam onderneming": "Pius X - College",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "TESSENDERLO",
+    "Type": "",
+    "Adres": "Stationsstraat 125",
+    "lat": 51.0675927,
+    "lon": 5.0992643
+  },
+  {
+    "Record-ID": "6514881745",
+    "Naam onderneming": "Onze-Lieve-Vrouwecollege Plus",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Antwerpen",
+    "Type": "",
+    "Adres": "Frankrijklei 91",
+    "lat": 51.2140922,
+    "lon": 4.4127855
+  },
+  {
+    "Record-ID": "6514839791",
+    "Naam onderneming": "Onze-Lieve-Vrouwinstituut - Middenschool Boom",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BOOM",
+    "Type": "Ex-klant",
+    "Adres": "Brandstraat 44",
+    "lat": 51.0881984,
+    "lon": 4.3688254
+  },
+  {
+    "Record-ID": "6514903031",
+    "Naam onderneming": "Sint-Rembert Middenschool Torhout",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Torhout",
+    "Type": "",
+    "Adres": "Bruggestraat 23",
+    "lat": 51.0689969,
+    "lon": 3.1043085
+  },
+  {
+    "Record-ID": "6514881738",
+    "Naam onderneming": "Middenschool Sint-Pieter",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "OOSTKAMP",
+    "Type": "",
+    "Adres": "Kortrijksestraat 47",
+    "lat": 51.1523023,
+    "lon": 3.2361786
+  },
+  {
+    "Record-ID": "6514862781",
+    "Naam onderneming": "Moretus middenschool",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "EKEREN",
+    "Type": "",
+    "Adres": "Oorderseweg 8",
+    "lat": 51.2785453,
+    "lon": 4.4167097
+  },
+  {
+    "Record-ID": "6514862560",
+    "Naam onderneming": "Mosa-RT E.G.S.1",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MAASEIK",
+    "Type": "",
+    "Adres": "Pelserstraat 33",
+    "lat": 51.0962202,
+    "lon": 5.7890678
+  },
+  {
+    "Record-ID": "6514902766",
+    "Naam onderneming": "Mater Dei-Instituut - Sint-Pieters-Woluwe",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "SInt-Pieters-Woluwe",
+    "Type": "Partner (Actief)",
+    "Adres": "Luchtvaartlaan 70",
+    "lat": 50.8326848,
+    "lon": 4.4598132
+  },
+  {
+    "Record-ID": "6514902761",
+    "Naam onderneming": "Middenschool Heilig Hartinstituut",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BREE",
+    "Type": "",
+    "Adres": "Sint-Jacobstraat 10",
+    "lat": 51.1352828,
+    "lon": 5.6028402
+  },
+  {
+    "Record-ID": "6514756850",
+    "Naam onderneming": "Middenschool Sint-Gertrudis",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "LANDEN",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Groenendael 2_A",
+    "lat": 50.7539751,
+    "lon": 5.077803
+  },
+  {
+    "Record-ID": "6514757051",
+    "Naam onderneming": "Lyceum Ieper eerste graad",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "IEPER",
+    "Type": "",
+    "Adres": "Maloulaan 2",
+    "lat": 50.8498704,
+    "lon": 2.8776879
+  },
+  {
+    "Record-ID": "147034881216",
+    "Naam onderneming": "Lemmensinstituut Secundair    Onderwijs",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "LEUVEN",
+    "Type": "",
+    "Adres": "Lemmensberg 3",
+    "lat": 50.8818712,
+    "lon": 4.6810655
+  },
+  {
+    "Record-ID": "6514756827",
+    "Naam onderneming": "Lucerna Gent",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Gent",
+    "Type": "Ex-klant",
+    "Adres": "Ganzendries 149",
+    "lat": 51.0329512,
+    "lon": 3.7105336
+  },
+  {
+    "Record-ID": "6514862523",
+    "Naam onderneming": "Koninklijke Balletschool      Antwerpen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Maria Pijpelincxstraat 1",
+    "lat": 51.2156427,
+    "lon": 4.409273
+  },
+  {
+    "Record-ID": "6514797774",
+    "Naam onderneming": "Koninklijk Werk IBIS",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BREDENE",
+    "Type": "Klant",
+    "Adres": "Prinses Elisabethlaan 1",
+    "lat": 51.2235081,
+    "lon": 2.9464415
+  },
+  {
+    "Record-ID": "6514797800",
+    "Naam onderneming": "KOHa Heilig Hart",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HAMME",
+    "Type": "Ex-klant",
+    "Adres": "Slangstraat 12",
+    "lat": 51.0962313,
+    "lon": 4.1344184
+  },
+  {
+    "Record-ID": "6514902972",
+    "Naam onderneming": "KOGEKA Eerste graad",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "GEEL",
+    "Type": "",
+    "Adres": "Schuttershof 2_B",
+    "lat": 51.1589166,
+    "lon": 4.9932651
+  },
+  {
+    "Record-ID": "6514926053",
+    "Naam onderneming": "IVG-School - Gent",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "GENT",
+    "Type": "",
+    "Adres": "Nederkouter 112",
+    "lat": 51.0471213,
+    "lon": 3.7213617
+  },
+  {
+    "Record-ID": "6514797773",
+    "Naam onderneming": "Instituut Sint-Martinus",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "KOEKELARE",
+    "Type": "",
+    "Adres": "Ichtegemstraat 14_2",
+    "lat": 51.0909651,
+    "lon": 2.9931824
+  },
+  {
+    "Record-ID": "6514777849",
+    "Naam onderneming": "Instituut Maria Koningin",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "DILSEN-STOKKEM",
+    "Type": "",
+    "Adres": "Rijksweg 168",
+    "lat": 51.0200368,
+    "lon": 5.7259607
+  },
+  {
+    "Record-ID": "6514757068",
+    "Naam onderneming": "GO! Methodeschool het Kompas - campus Tichelrij",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Sint-Truiden",
+    "Type": "",
+    "Adres": "Tichelrijlaan 1",
+    "lat": 50.8142554,
+    "lon": 5.191
+  },
+  {
+    "Record-ID": "6514902774",
+    "Naam onderneming": "Hotel- en Toerismeschool Spermalie",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BRUGGE",
+    "Type": "",
+    "Adres": "Snaggaardstraat 15",
+    "lat": 51.2158673,
+    "lon": 3.2328989
+  },
+  {
+    "Record-ID": "6514862569",
+    "Naam onderneming": "Hiberniaschool Middelbare Steinerschool Antwerpen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Volkstraat 40",
+    "lat": 51.2111157,
+    "lon": 4.3952224
+  },
+  {
+    "Record-ID": "6514902752",
+    "Naam onderneming": "Hasp-o Zepperen - Sint-Truiden",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Sint-Truiden",
+    "Type": "Prospect",
+    "Adres": "kasteelstraat 53",
+    "lat": 50.8319234,
+    "lon": 5.2413717
+  },
+  {
+    "Record-ID": "6514839798",
+    "Naam onderneming": "GO!Da Vinci Atheneum Koekelare",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "KOEKELARE",
+    "Type": "Prospect",
+    "Adres": "Moerestraat 20",
+    "lat": 51.0933644,
+    "lon": 2.9809491
+  },
+  {
+    "Record-ID": "6514756833",
+    "Naam onderneming": "GO!De Scheepvaartschool-Cenflumarin",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Gloriantlaan 75",
+    "lat": 51.2255189,
+    "lon": 4.3868012
+  },
+  {
+    "Record-ID": "6514839769",
+    "Naam onderneming": "GO! technisch atheneum Victor Hortaschool Evere",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "EVERE",
+    "Type": "",
+    "Adres": "Oud-Strijderslaan 200",
+    "lat": 50.8661178,
+    "lon": 4.4094358
+  },
+  {
+    "Record-ID": "6514926072",
+    "Naam onderneming": "GO! Technisch Atheneum Campus Van Eyck Maaseik",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MAASEIK",
+    "Type": "Prospect",
+    "Adres": "Burgemeester Philipslaan 19_B",
+    "lat": 51.0978187,
+    "lon": 5.7904528
+  },
+  {
+    "Record-ID": "6514862529",
+    "Naam onderneming": "GO! school De Nova",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "KESSEL-LO",
+    "Type": "Prospect",
+    "Adres": "Rerum Novarumlaan 1",
+    "lat": 50.8843638,
+    "lon": 4.7373741
+  },
+  {
+    "Record-ID": "6514840039",
+    "Naam onderneming": "GO! Secundaire School De Beuk Aalter",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "AALTER",
+    "Type": "Klant",
+    "Adres": "Stationsstraat 128",
+    "lat": 51.0882285,
+    "lon": 3.4483851
+  },
+  {
+    "Record-ID": "6514778298",
+    "Naam onderneming": "GO! Nikola Tesla middenschool",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MAASMECHELEN",
+    "Type": "Ex-klant",
+    "Adres": "Daalstraat 4",
+    "lat": 50.9842644,
+    "lon": 5.7111386
+  },
+  {
+    "Record-ID": "6514777842",
+    "Naam onderneming": "GO! secundair onderwijs Groenhove CAT",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "WAREGEM",
+    "Type": "Prospect",
+    "Adres": "Westerlaan 69",
+    "lat": 50.8878229,
+    "lon": 3.4218671
+  },
+  {
+    "Record-ID": "6514862802",
+    "Naam onderneming": "GO! Next sportschool middenschool",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HASSELT",
+    "Type": "Prospect",
+    "Adres": "Vrijwilligersplein 3",
+    "lat": 50.9338467,
+    "lon": 5.3323804
+  },
+  {
+    "Record-ID": "6514819275",
+    "Naam onderneming": "GO! Next Level X",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HASSELT",
+    "Type": "",
+    "Adres": "Vildersstraat 28",
+    "lat": 50.9369135,
+    "lon": 5.3436745
+  },
+  {
+    "Record-ID": "10175109851",
+    "Naam onderneming": "GO! MIRA",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HAMME",
+    "Type": "Klant",
+    "Adres": "Loystraat 70",
+    "lat": 51.0904656,
+    "lon": 4.1413369
+  },
+  {
+    "Record-ID": "6514840002",
+    "Naam onderneming": "GO! middenschool Lennik Campus Spronk",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "LENNIK",
+    "Type": "",
+    "Adres": "Karel Keymolenstraat 35",
+    "lat": 50.8078217,
+    "lon": 4.1516444
+  },
+  {
+    "Record-ID": "6514819521",
+    "Naam onderneming": "GO! middenschool Geel",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "GEEL",
+    "Type": "Partner (Actief)",
+    "Adres": "Technische-Schoolstraat 15",
+    "lat": 51.1650382,
+    "lon": 4.9863565
+  },
+  {
+    "Record-ID": "6514881998",
+    "Naam onderneming": "GO! middenschool Brugge-centrum",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Brugge",
+    "Type": "Prospect",
+    "Adres": "Sint-Clarastraat 46A",
+    "lat": 51.2163302,
+    "lon": 3.2232098
+  },
+  {
+    "Record-ID": "6514881995",
+    "Naam onderneming": "GO! Maritiem Instituut Mercator Oostende",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "OOSTENDE",
+    "Type": "Prospect",
+    "Adres": "Mercatorlaan 15",
+    "lat": 51.2237137,
+    "lon": 2.9201822
+  },
+  {
+    "Record-ID": "6514881730",
+    "Naam onderneming": "GO! Middenschool Campus Van Eyck Maaseik",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MAASEIK",
+    "Type": "Prospect",
+    "Adres": "Burgemeester Philipslaan 20",
+    "lat": 51.0967305,
+    "lon": 5.7901732
+  },
+  {
+    "Record-ID": "6514862543",
+    "Naam onderneming": "GO! campus nexus Nieuwpoort",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "NIEUWPOORT",
+    "Type": "Prospect",
+    "Adres": "Arsenaalstraat 20",
+    "lat": 51.1308675,
+    "lon": 2.7546609
+  },
+  {
+    "Record-ID": "6514862542",
+    "Naam onderneming": "GO! middenschool De Moerbei",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Moerbeke-Waas",
+    "Type": "Klant",
+    "Adres": "Hospicestraat 16",
+    "lat": 51.1751097,
+    "lon": 3.9454437
+  },
+  {
+    "Record-ID": "6514862533",
+    "Naam onderneming": "GO! lyceum Gent",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "GENT",
+    "Type": "Prospect",
+    "Adres": "Kortrijksesteenweg 32",
+    "lat": 51.0413419,
+    "lon": 3.7179809
+  },
+  {
+    "Record-ID": "6514778048",
+    "Naam onderneming": "GO! Maxwell - Maasmechelen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MAASMECHELEN",
+    "Type": "Ex-klant",
+    "Adres": "Onderwijsstraat 11",
+    "lat": 50.9843668,
+    "lon": 5.7102665
+  },
+  {
+    "Record-ID": "6514757091",
+    "Naam onderneming": "GO! Middenschool Athenea Dendermonde Latijn Wetenschappen sport",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Dendermonde",
+    "Type": "Partner (Passief)",
+    "Adres": "Nieuw Kwartier 2",
+    "lat": 51.0252998,
+    "lon": 4.0951358
+  },
+  {
+    "Record-ID": "6514756841",
+    "Naam onderneming": "GO! Futura - Secundair onderwijs 2de en 3de graad",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Menen",
+    "Type": "Prospect",
+    "Adres": "Vander Merschplein 54",
+    "lat": 50.7994787,
+    "lon": 3.1197477
+  },
+  {
+    "Record-ID": "6514839999",
+    "Naam onderneming": "GO! Campus De Vesten",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HERENTALS",
+    "Type": "Klant",
+    "Adres": "Augustijnenlaan 32",
+    "lat": 51.1766856,
+    "lon": 4.8419947
+  },
+  {
+    "Record-ID": "6514778046",
+    "Naam onderneming": "Makz Secundair",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "KNOKKE-HEIST",
+    "Type": "Prospect",
+    "Adres": "Alfred Verweeplein 25",
+    "lat": 51.3443889,
+    "lon": 3.2898541
+  },
+  {
+    "Record-ID": "6514862583",
+    "Naam onderneming": "GO! atheneum Veurne Centrum",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "VEURNE",
+    "Type": "Prospect",
+    "Adres": "Smissestraat 3",
+    "lat": 51.0742944,
+    "lon": 2.6633191
+  },
+  {
+    "Record-ID": "6514777848",
+    "Naam onderneming": "GO! atheneum VOX Pelt",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "PELT",
+    "Type": "Prospect",
+    "Adres": "Leopoldlaan 45",
+    "lat": 51.2206842,
+    "lon": 5.4248013
+  },
+  {
+    "Record-ID": "6514777847",
+    "Naam onderneming": "GO! Kalevoet Ukkel",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "UKKEL",
+    "Type": "Prospect",
+    "Adres": "Nekkersgatlaan 17",
+    "lat": 50.791937,
+    "lon": 4.3274756
+  },
+  {
+    "Record-ID": "6514819270",
+    "Naam onderneming": "GO! atheneum Tongeren",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Borgloon",
+    "Type": "",
+    "Adres": "Moerenstraat 4",
+    "lat": 50.7810746,
+    "lon": 5.469995
+  },
+  {
+    "Record-ID": "6514902982",
+    "Naam onderneming": "GO! Atheneum Liedekerke",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "LIEDEKERKE",
+    "Type": "",
+    "Adres": "Kleemputtenstraat 20",
+    "lat": 50.8714299,
+    "lon": 4.092796
+  },
+  {
+    "Record-ID": "6514797789",
+    "Naam onderneming": "GO! atheneum Maerlant Blankenberge",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BLANKENBERGE",
+    "Type": "",
+    "Adres": "Van Maerlantstraat 1",
+    "lat": 51.3107933,
+    "lon": 3.1259786
+  },
+  {
+    "Record-ID": "6514797766",
+    "Naam onderneming": "GO! atheneum Malle",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MALLE",
+    "Type": "",
+    "Adres": "Herentalsebaan 56",
+    "lat": 51.2951705,
+    "lon": 4.7380555
+  },
+  {
+    "Record-ID": "6514881754",
+    "Naam onderneming": "GO! Atheneum Klein-Brabant",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BORNEM",
+    "Type": "Ex-klant",
+    "Adres": "Lindestraat 123",
+    "lat": 51.0956862,
+    "lon": 4.2435908
+  },
+  {
+    "Record-ID": "6514797768",
+    "Naam onderneming": "GO! atheneum Irishof Kapellen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "KAPELLEN",
+    "Type": "",
+    "Adres": "Streepstraat 16",
+    "lat": 51.3194515,
+    "lon": 4.4224602
+  },
+  {
+    "Record-ID": "6514881760",
+    "Naam onderneming": "GO! Atheneum Eureka",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "TORHOUT",
+    "Type": "",
+    "Adres": "Rijselstraat 110",
+    "lat": 51.0586539,
+    "lon": 3.104847
+  },
+  {
+    "Record-ID": "6514839761",
+    "Naam onderneming": "GO! atheneum Ekeren",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "EKEREN",
+    "Type": "",
+    "Adres": "Pastoor De Vosstraat 19",
+    "lat": 51.2759097,
+    "lon": 4.4226316
+  },
+  {
+    "Record-ID": "6514926290",
+    "Naam onderneming": "GO! atheneum Brasschaat",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BRASSCHAAT",
+    "Type": "Klant",
+    "Adres": "Augustijnslei 54",
+    "lat": 51.2935169,
+    "lon": 4.4902638
+  },
+  {
+    "Record-ID": "6514902988",
+    "Naam onderneming": "GO! atheneum campus Vijverbeek Asse",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Asse",
+    "Type": "",
+    "Adres": "Nieuwstraat 124B",
+    "lat": 50.9110112,
+    "lon": 4.1950026
+  },
+  {
+    "Record-ID": "6514778056",
+    "Naam onderneming": "GO! atheneum Borgloon",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BORGLOON",
+    "Type": "Ex-klant",
+    "Adres": "Stationsstraat 32",
+    "lat": 50.8061399,
+    "lon": 5.3450053
+  },
+  {
+    "Record-ID": "6514757093",
+    "Naam onderneming": "GO! atheneum Courtmanslaan Maldegem",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MALDEGEM",
+    "Type": "",
+    "Adres": "Mevrouw Courtmanslaan 80",
+    "lat": 51.2087913,
+    "lon": 3.4514351
+  },
+  {
+    "Record-ID": "6514757088",
+    "Naam onderneming": "Go! Atheneum Bree",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Holsbeek",
+    "Type": "Ex-klant",
+    "Adres": "Leuvensebaan 18",
+    "lat": 50.9193278,
+    "lon": 4.75093
+  },
+  {
+    "Record-ID": "6514757059",
+    "Naam onderneming": "GO! Atheneum Campus Van Eyck Maaseik",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MAASEIK",
+    "Type": "Prospect",
+    "Adres": "Burgemeester Philipslaan 19 A",
+    "lat": 51.0985209,
+    "lon": 5.7914771
+  },
+  {
+    "Record-ID": "6514757058",
+    "Naam onderneming": "GO! Atheneum Calmeyn De Panne",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "DE PANNE",
+    "Type": "",
+    "Adres": "St.-Elisabethlaan 4",
+    "lat": 51.0934705,
+    "lon": 2.5938767
+  },
+  {
+    "Record-ID": "6514926045",
+    "Naam onderneming": "GO! Atheneum 1 centrum Brugge",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "BRUGGE",
+    "Type": "",
+    "Adres": "Sint-Clarastraat 46",
+    "lat": 51.216086,
+    "lon": 3.2242996
+  },
+  {
+    "Record-ID": "6514881732",
+    "Naam onderneming": "GO! Atheneum Bellevue Izegem",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "IZEGEM",
+    "Type": "",
+    "Adres": "Bellevuestraat 28",
+    "lat": 50.9181701,
+    "lon": 3.2034293
+  },
+  {
+    "Record-ID": "6514882001",
+    "Naam onderneming": "GISO Machelen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Machelen Diegem",
+    "Type": "",
+    "Adres": "Watermolenstraat 33",
+    "lat": 50.8967707,
+    "lon": 4.4358596
+  },
+  {
+    "Record-ID": "6514862535",
+    "Naam onderneming": "Emma\u00c3\u00bcsinstituut",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "AALTER",
+    "Type": "Partner (Passief)",
+    "Adres": "Sint-Gerolflaan 20",
+    "lat": 51.0847637,
+    "lon": 3.447034
+  },
+  {
+    "Record-ID": "6514797816",
+    "Naam onderneming": "EDUGO Campus De Brug 2",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "OOSTAKKER",
+    "Type": "Partner (Passief)",
+    "Adres": "Eksaardserijweg 24",
+    "lat": 51.0834797,
+    "lon": 3.7694045
+  },
+  {
+    "Record-ID": "6514902991",
+    "Naam onderneming": "Don Bosco Technisch Instituut Sint-Denijs",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "SINT-DENIJS-WESTREM",
+    "Type": "Gerelateerd aan klant",
+    "Adres": "Kortrijksesteenweg 1025",
+    "lat": 51.0226242,
+    "lon": 3.699473
+  },
+  {
+    "Record-ID": "6514902753",
+    "Naam onderneming": "Don Bosco Technisch Instituut Helchteren",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HELCHTEREN",
+    "Type": "Klant",
+    "Adres": "Don Boscostraat 6",
+    "lat": 51.0540959,
+    "lon": 5.3794928
+  },
+  {
+    "Record-ID": "6514862787",
+    "Naam onderneming": "Don Bosco Groenveld",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HEVERLEE",
+    "Type": "",
+    "Adres": "Groenveldstraat 44",
+    "lat": 50.8751216,
+    "lon": 4.6831779
+  },
+  {
+    "Record-ID": "6514839762",
+    "Naam onderneming": "Don Bosco College Hechtel",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "HECHTEL",
+    "Type": "",
+    "Adres": "Don Boscostraat 72",
+    "lat": 51.1153039,
+    "lon": 5.3639779
+  },
+  {
+    "Record-ID": "6514881517",
+    "Naam onderneming": "Damiaaninstituut Aarschot",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "AARSCHOT",
+    "Type": "Klant",
+    "Adres": "Pastoor Dergentlaan 220",
+    "lat": 50.9921299,
+    "lon": 4.8377188
+  },
+  {
+    "Record-ID": "6514903029",
+    "Naam onderneming": "COLOMAplus secundair - Mechelen",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "MECHELEN",
+    "Type": "Klant",
+    "Adres": "Tervuursesteenweg 2",
+    "lat": 51.0057345,
+    "lon": 4.4872404
+  },
+  {
+    "Record-ID": "6514903022",
+    "Naam onderneming": "Campus FLX",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "LEOPOLDSBURG",
+    "Type": "",
+    "Adres": "Atheneumstraat 2",
+    "lat": 51.1211094,
+    "lon": 5.253611
+  },
+  {
+    "Record-ID": "6514757079",
+    "Naam onderneming": "Broederschool Stekene",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "Stekene",
+    "Type": "Klant",
+    "Adres": "Nieuwstraat 17",
+    "lat": 51.2086427,
+    "lon": 4.0460758
+  },
+  {
+    "Record-ID": "5918944718",
+    "Naam onderneming": "VTI Aalst (puytenput)",
+    "# lln grootorde": "0 - 300 lln",
+    "Plaats": "AALST",
+    "Type": "Prospect",
+    "Adres": "Sinte Annalaan 198",
+    "lat": 50.9432058,
+    "lon": 4.0278133
+  },
+  {
+    "Record-ID": "204799474907",
+    "Naam onderneming": "Talent-is campus College Veurne",
+    "# lln grootorde": "",
+    "Plaats": "Veurne",
+    "Type": "Prospect",
+    "Adres": "Karel Coggelaan 8",
+    "lat": 51.0713151,
+    "lon": 2.6653107
+  },
+  {
+    "Record-ID": "28202651844",
+    "Naam onderneming": "GO! Atheneum Dendermonde",
+    "# lln grootorde": "",
+    "Plaats": "Dendermonde",
+    "Type": "Partner (Actief)",
+    "Adres": "Nieuw Kwartier 2",
+    "lat": 51.0252998,
+    "lon": 4.0951358
+  },
+  {
+    "Record-ID": "15263253471",
+    "Naam onderneming": "Gemeentelijk Instituut Brasschaat",
+    "# lln grootorde": "",
+    "Plaats": "Brasschaat",
+    "Type": "Prospect",
+    "Adres": "",
+    "lat": 51.2900693,
+    "lon": 4.4917295
+  },
+  {
+    "Record-ID": "13519179966",
+    "Naam onderneming": "Hartencollege Campus Onderwijslaan",
+    "# lln grootorde": "",
+    "Plaats": "Ninove",
+    "Type": "Klant",
+    "Adres": "Onderwijslaan 4",
+    "lat": 50.8329849,
+    "lon": 4.0216668
+  },
+  {
+    "Record-ID": "226285017286",
+    "Naam onderneming": "Koninklijk instituut Woluwe",
+    "# lln grootorde": "",
+    "Plaats": "Sint-Lambrechts-Woluwe",
+    "Type": "Klant",
+    "Adres": "Georges Henrilaan 278",
+    "lat": 50.843795,
+    "lon": 4.4116472
+  },
+  {
+    "Record-ID": "7050372311",
+    "Naam onderneming": "Ba Nekkerspoel",
+    "# lln grootorde": "",
+    "Plaats": "Mechelen",
+    "Type": "Overige",
+    "Adres": "Nekkerspoelstraat 74",
+    "lat": 51.0307554,
+    "lon": 4.493458
+  },
+  {
+    "Record-ID": "6514903004",
+    "Naam onderneming": "Xaveriuscollege - Borgerhout",
+    "# lln grootorde": "",
+    "Plaats": "BORGERHOUT",
+    "Type": "",
+    "Adres": "Collegelaan 36",
+    "lat": 51.2127431,
+    "lon": 4.4520965
+  },
+  {
+    "Record-ID": "6514819292",
+    "Naam onderneming": "WICO Overpelt",
+    "# lln grootorde": "",
+    "Plaats": "PELT",
+    "Type": "",
+    "Adres": "Ursulinenstraat 13",
+    "lat": 51.2094787,
+    "lon": 5.4285665
+  },
+  {
+    "Record-ID": "6514926046",
+    "Naam onderneming": "Via - Tienen",
+    "# lln grootorde": "",
+    "Plaats": "TIENEN",
+    "Type": "",
+    "Adres": "Waaibergstraat 43",
+    "lat": 50.8112173,
+    "lon": 4.9400887
+  },
+  {
+    "Record-ID": "6514819290",
+    "Naam onderneming": "Tienerschool - Brussel",
+    "# lln grootorde": "",
+    "Plaats": "Brussel (Anderlecht)",
+    "Type": "Ex-klant",
+    "Adres": "Ninoofsesteenweg 369",
+    "lat": 50.8482517,
+    "lon": 4.311597
+  },
+  {
+    "Record-ID": "6514881774",
+    "Naam onderneming": "Villa Cresco",
+    "# lln grootorde": "",
+    "Plaats": "Antwerpen",
+    "Type": "Ex-klant",
+    "Adres": "Vuurkruisenlaan 16",
+    "lat": 51.2445769,
+    "lon": 4.4396944
+  },
+  {
+    "Record-ID": "6514819289",
+    "Naam onderneming": "Spectrumcollege Bovenbouw Sinte-Lutgart",
+    "# lln grootorde": "",
+    "Plaats": "BERINGEN",
+    "Type": "",
+    "Adres": "Bogaarsveldstraat 13",
+    "lat": 51.0523509,
+    "lon": 5.2208259
+  },
+  {
+    "Record-ID": "6514819285",
+    "Naam onderneming": "Spectrumcollege Campus Beringen Bovenbouw",
+    "# lln grootorde": "",
+    "Plaats": "BERINGEN",
+    "Type": "",
+    "Adres": "Bogaarsveldstraat 13",
+    "lat": 51.0523509,
+    "lon": 5.2208259
+  },
+  {
+    "Record-ID": "6514778072",
+    "Naam onderneming": "KOBOS",
+    "# lln grootorde": "",
+    "Plaats": "KAPELLE-OP-DEN-BOS",
+    "Type": "",
+    "Adres": "Veldstraat 11",
+    "lat": 51.0063503,
+    "lon": 4.3572817
+  },
+  {
+    "Record-ID": "6514903231",
+    "Naam onderneming": "Sint-Janscollege Poperinge",
+    "# lln grootorde": "",
+    "Plaats": "POPERINGE",
+    "Type": "",
+    "Adres": "Burgemeester Bertenplein 32",
+    "lat": 50.8534337,
+    "lon": 2.7251102
+  },
+  {
+    "Record-ID": "6514778076",
+    "Naam onderneming": "Sint-Ignatius",
+    "# lln grootorde": "",
+    "Plaats": "OVERIJSE",
+    "Type": "",
+    "Adres": "Terhulpensesteenweg 708",
+    "lat": 50.7379135,
+    "lon": 4.5031819
+  },
+  {
+    "Record-ID": "6514778067",
+    "Naam onderneming": "Sint-Donatusinstituut -       Middenschool",
+    "# lln grootorde": "",
+    "Plaats": "MERCHTEM",
+    "Type": "",
+    "Adres": "Dendermondestraat 26",
+    "lat": 50.9621817,
+    "lon": 4.2285549
+  },
+  {
+    "Record-ID": "146778955982",
+    "Naam onderneming": "Sint-Angela Tildonk",
+    "# lln grootorde": "",
+    "Plaats": "TILDONK",
+    "Type": "",
+    "Adres": "Kruineikestraat 5",
+    "lat": 50.9438579,
+    "lon": 4.6452635
+  },
+  {
+    "Record-ID": "6514839779",
+    "Naam onderneming": "Sint-Agnesinstituut",
+    "# lln grootorde": "",
+    "Plaats": "HOBOKEN",
+    "Type": "Partner (Passief)",
+    "Adres": "Kloosterstraat 72",
+    "lat": 51.1760049,
+    "lon": 4.3567992
+  },
+  {
+    "Record-ID": "6514798016",
+    "Naam onderneming": "Selam College Genk (aanvraag tot erkenning lopende)",
+    "# lln grootorde": "",
+    "Plaats": "GENK",
+    "Type": "",
+    "Adres": "Kerkstraat 1",
+    "lat": 50.9731163,
+    "lon": 5.4822691
+  },
+  {
+    "Record-ID": "6514756842",
+    "Naam onderneming": "Safe college Mechelen",
+    "# lln grootorde": "",
+    "Plaats": "MECHELEN",
+    "Type": "Prospect",
+    "Adres": "Frederik de Merodestraat 18",
+    "lat": 51.0290859,
+    "lon": 4.4809604
+  },
+  {
+    "Record-ID": "6514757074",
+    "Naam onderneming": "Richtpunt Ninove",
+    "# lln grootorde": "",
+    "Plaats": "NINOVE",
+    "Type": "",
+    "Adres": "Centrumlaan 160",
+    "lat": 50.831718,
+    "lon": 4.0151696
+  },
+  {
+    "Record-ID": "6514926281",
+    "Naam onderneming": "Provinciale Middenschool      Hasselt",
+    "# lln grootorde": "",
+    "Plaats": "HASSELT",
+    "Type": "",
+    "Adres": "Gouverneur Verwilghensingel 1_A",
+    "lat": 50.9379649,
+    "lon": 5.3461577
+  },
+  {
+    "Record-ID": "6514926067",
+    "Naam onderneming": "Pius X Middenschool",
+    "# lln grootorde": "",
+    "Plaats": "TESSENDERLO",
+    "Type": "",
+    "Adres": "Kerkstraat 4_A",
+    "lat": 51.0832776,
+    "lon": 5.1050483
+  },
+  {
+    "Record-ID": "6514862790",
+    "Naam onderneming": "OLVC Zottegem",
+    "# lln grootorde": "",
+    "Plaats": "Zottegem",
+    "Type": "",
+    "Adres": "Parkstraat 2",
+    "lat": 50.8723886,
+    "lon": 3.8342154
+  },
+  {
+    "Record-ID": "6514903023",
+    "Naam onderneming": "Middenschool Lichtervelde",
+    "# lln grootorde": "",
+    "Plaats": "Lichtervelde",
+    "Type": "",
+    "Adres": "Statiestraat 34",
+    "lat": 51.0263138,
+    "lon": 3.1386137
+  },
+  {
+    "Record-ID": "6514862564",
+    "Naam onderneming": "Lodewijk Makeblijde College Poperinge",
+    "# lln grootorde": "",
+    "Plaats": "Poperinge",
+    "Type": "",
+    "Adres": "Boeschepestraat 20",
+    "lat": 50.8520328,
+    "lon": 2.7234408
+  },
+  {
+    "Record-ID": "6514797801",
+    "Naam onderneming": "KOGEKA Sint aloysius Geel",
+    "# lln grootorde": "",
+    "Plaats": "GEEL",
+    "Type": "",
+    "Adres": "Schuttershof 2_B",
+    "lat": 51.1589166,
+    "lon": 4.9932651
+  },
+  {
+    "Record-ID": "6514839789",
+    "Naam onderneming": "Israelitische Middenschool    Jesode-Hatora-Beth-Jacob",
+    "# lln grootorde": "",
+    "Plaats": "ANTWERPEN",
+    "Type": "",
+    "Adres": "Lange Van Ruusbroecstraat 12",
+    "lat": 51.2075734,
+    "lon": 4.425938
+  },
+  {
+    "Record-ID": "6514839763",
+    "Naam onderneming": "Instituut Sancta Maria",
+    "# lln grootorde": "",
+    "Plaats": "RUISELEDE",
+    "Type": "",
+    "Adres": "Pensionaatstraat 10",
+    "lat": 51.0419149,
+    "lon": 3.3942995
+  },
+  {
+    "Record-ID": "6514819262",
+    "Naam onderneming": "kOsh 2&3 Scheppersstraat",
+    "# lln grootorde": "",
+    "Plaats": "HERENTALS",
+    "Type": "",
+    "Adres": "Scheppersstraat 9",
+    "lat": 51.172196,
+    "lon": 4.8304364
+  },
+  {
+    "Record-ID": "6514756831",
+    "Naam onderneming": "De Studio! - Oostende",
+    "# lln grootorde": "",
+    "Plaats": "Oostende",
+    "Type": "",
+    "Adres": "Haverstraat 9a",
+    "lat": 51.2198828,
+    "lon": 2.9152569
+  },
+  {
+    "Record-ID": "6514797783",
+    "Naam onderneming": "d'Academie Sint-Niklaas",
+    "# lln grootorde": "",
+    "Plaats": "Sint-Niklaas",
+    "Type": "",
+    "Adres": "",
+    "lat": 51.1646685,
+    "lon": 4.1395124
+  },
+  {
+    "Record-ID": "156266387670",
+    "Naam onderneming": "Atheneum Schilde",
+    "# lln grootorde": "",
+    "Plaats": "Schilde",
+    "Type": "",
+    "Adres": "Hoevedreef 9",
+    "lat": 51.231461,
+    "lon": 4.5761985
+  },
+  {
+    "Record-ID": "6514926293",
+    "Naam onderneming": "GO! A-Maze Beringen",
+    "# lln grootorde": "",
+    "Plaats": "Beringen",
+    "Type": "Klant",
+    "Adres": "Laarbemdeweg 17",
+    "lat": 51.0861845,
+    "lon": 5.2212732
+  }
+];
